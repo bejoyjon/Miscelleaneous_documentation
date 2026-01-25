@@ -54,6 +54,9 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="AMS/Operations Management" vertex="1">
           <mxGeometry height="60" width="100" x="230" y="590" as="geometry" />
         </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-51" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="QhrPQXTWVD8O5CfgrepX-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Cost Management" vertex="1">
           <mxGeometry height="60" width="100" x="310" y="404" as="geometry" />
         </mxCell>
@@ -87,7 +90,7 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-31" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QhrPQXTWVD8O5CfgrepX-30" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QhrPQXTWVD8O5CfgrepX-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Request on email or chat" vertex="1">
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Receive request on email or chat" vertex="1">
           <mxGeometry height="60" width="120" x="1350" y="304" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-33" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;" target="QhrPQXTWVD8O5CfgrepX-32" value="">
@@ -117,7 +120,7 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-38" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Follow up" vertex="1">
           <mxGeometry height="60" width="120" x="2150" y="344" as="geometry" />
         </mxCell>
-        <UserObject label="Connector AA" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;: {&quot;cells&quot;: [&quot;QhrPQXTWVD8O5CfgrepX-44&quot;]}}]}" id="QhrPQXTWVD8O5CfgrepX-42">
+        <UserObject label="Connector AA" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;: {&quot;cells&quot;: [&quot;QhrPQXTWVD8O5CfgrepX-44&quot;]}},{&quot;highlight&quot;: {&quot;cells&quot;: [&quot;QhrPQXTWVD8O5CfgrepX-44&quot;],,&quot;opacity&quot;:100, &quot;color&quot;: &quot;blue&quot; }}]}" id="QhrPQXTWVD8O5CfgrepX-42">
           <mxCell parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1">
             <mxGeometry height="60" width="60" x="340" y="70" as="geometry" />
           </mxCell>
@@ -131,10 +134,16 @@
           </mxCell>
         </object>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-47" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="Outlook" vertex="1">
-          <mxGeometry height="60" width="60" x="1330" y="160" as="geometry" />
+          <mxGeometry height="60" width="60" x="1310" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="QhrPQXTWVD8O5CfgrepX-48" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="Outlook" vertex="1">
-          <mxGeometry height="60" width="60" x="1440" y="160" as="geometry" />
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-48" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="Teams call transcription" vertex="1">
+          <mxGeometry height="60" width="90" x="1450" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-50" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Project billing reporting" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-52" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Email with text that has a request" vertex="1">
+          <mxGeometry height="60" width="120" x="1280" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
