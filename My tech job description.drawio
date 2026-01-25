@@ -59,6 +59,9 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;" value="Reporting" vertex="1">
           <mxGeometry height="60" width="100" x="390" y="420" as="geometry" />
         </mxCell>
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-2" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o7gWsOm8NzBhY5U0P4Dy-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Process advice" vertex="1">
           <mxGeometry height="60" width="100" x="230" y="610" as="geometry" />
         </mxCell>
@@ -87,16 +90,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-18" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Tech landscape" vertex="1">
-          <mxGeometry height="60" width="120" x="525" y="660" as="geometry" />
+          <mxGeometry height="40" width="120" x="525" y="680" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Org landscaping" vertex="1">
-          <mxGeometry height="60" width="120" x="440" y="760" as="geometry" />
+          <mxGeometry height="40" width="120" x="440" y="780" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="AI landscaping" vertex="1">
-          <mxGeometry height="60" width="120" x="740" y="680" as="geometry" />
+          <mxGeometry height="30" width="120" x="730" y="700" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-26" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Other apps and infra landscaping" vertex="1">
-          <mxGeometry height="60" width="120" x="740" y="610" as="geometry" />
+          <mxGeometry height="40" width="120" x="740" y="630" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-31" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="QhrPQXTWVD8O5CfgrepX-30" value="">
           <mxGeometry relative="1" as="geometry">
@@ -217,6 +220,9 @@
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-95" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Long_shadow_web_icons-2008/python-943.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="" vertex="1">
           <mxGeometry height="50" width="50" x="1245.2200000000005" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Process documentation" vertex="1">
+          <mxGeometry height="40" width="120" x="430" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
