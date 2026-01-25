@@ -1,11 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Page-1" id="W_qpBnaw5XWSPKzUuWEO">
-    <mxGraphModel dx="1308" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1539" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QhrPQXTWVD8O5CfgrepX-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="" vertex="1">
-          <mxGeometry height="100" width="100" x="40" y="280" as="geometry" />
+          <mxGeometry height="100" width="100" x="20" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="IT Project management" vertex="1">
+          <mxGeometry height="100" width="100" x="160" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Demand management" vertex="1">
+          <mxGeometry height="100" width="100" x="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="IT Portfolio management" vertex="1">
+          <mxGeometry height="100" width="100" x="160" y="313.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Reporting" vertex="1">
+          <mxGeometry height="100" width="100" x="160" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Process advice" vertex="1">
+          <mxGeometry height="100" width="100" x="160" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="AMS escalation" vertex="1">
+          <mxGeometry height="100" width="100" x="160" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
