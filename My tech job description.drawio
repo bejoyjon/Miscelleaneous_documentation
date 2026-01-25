@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Page-1" id="W_qpBnaw5XWSPKzUuWEO">
-    <mxGraphModel dx="1539" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,13 +34,18 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="IT Project management" vertex="1">
           <mxGeometry height="60" width="100" x="230" y="150" as="geometry" />
         </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-29" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QhrPQXTWVD8O5CfgrepX-42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Demand management" vertex="1">
           <mxGeometry height="60" width="100" x="160" y="70" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="IT Portfolio management" vertex="1">
           <mxGeometry height="60" width="100" x="280" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="QhrPQXTWVD8O5CfgrepX-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Reporting" vertex="1">
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;" value="Reporting" vertex="1">
           <mxGeometry height="60" width="100" x="350" y="310" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Process advice" vertex="1">
@@ -79,6 +84,52 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-26" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Other apps and infra landscaping" vertex="1">
           <mxGeometry height="60" width="120" x="740" y="610" as="geometry" />
         </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-31" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QhrPQXTWVD8O5CfgrepX-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Request on email or chat" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-33" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;" target="QhrPQXTWVD8O5CfgrepX-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-30" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Understand and document scope" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-35" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;curved=1;" target="QhrPQXTWVD8O5CfgrepX-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-32" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get benefit assessment" vertex="1">
+          <mxGeometry height="60" width="120" x="890" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-37" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QhrPQXTWVD8O5CfgrepX-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-34" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Find tech people who can assess feasibility" vertex="1">
+          <mxGeometry height="60" width="120" x="930" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-39" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QhrPQXTWVD8O5CfgrepX-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-36" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Request assessment&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="1130" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-38" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Follow up" vertex="1">
+          <mxGeometry height="60" width="120" x="1300" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-41" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="580" y="380" as="geometry" />
+        </mxCell>
+        <UserObject label="Connector AA" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;anchor&quot;:&quot;QhrPQXTWVD8O5CfgrepX-44&quot;}}]}" id="QhrPQXTWVD8O5CfgrepX-42">
+          <mxCell parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1">
+            <mxGeometry height="60" width="60" x="340" y="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <object label="Connector AA" Connector_AA_destination="" id="QhrPQXTWVD8O5CfgrepX-44">
+          <mxCell parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;noLabel=0;labelPadding=0;textShadow=1;snapToPoint=0;" vertex="1">
+            <mxGeometry height="60" width="60" x="3390" y="400" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
