@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Page-1" id="W_qpBnaw5XWSPKzUuWEO">
-    <mxGraphModel dx="1539" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
           <mxGeometry height="60" width="100" x="280" y="500" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="AMS/Operations Management" vertex="1">
-          <mxGeometry height="60" width="100" x="230" y="590" as="geometry" />
+          <mxGeometry height="60" width="100" x="230" y="610" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Cost Management" vertex="1">
           <mxGeometry height="60" width="100" x="160" y="720" as="geometry" />
@@ -64,6 +64,9 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-22" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="QhrPQXTWVD8O5CfgrepX-21" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dUA3MTNhFwG5tSHr1ku5-3" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="dUA3MTNhFwG5tSHr1ku5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-18" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Tech landscape" vertex="1">
           <mxGeometry height="60" width="120" x="550" y="390" as="geometry" />
         </mxCell>
@@ -72,6 +75,9 @@
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="AI landscaping" vertex="1">
           <mxGeometry height="60" width="120" x="770" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dUA3MTNhFwG5tSHr1ku5-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="App and Service landscaping" vertex="1">
+          <mxGeometry height="60" width="120" x="780" y="414" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
