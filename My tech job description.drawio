@@ -263,7 +263,7 @@
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-11" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-86" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="QhrPQXTWVD8O5CfgrepX-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-15" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get context and&amp;nbsp;&lt;div&gt;stakeholders&lt;/div&gt;" vertex="1">
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-15" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get relevant&amp;nbsp;&lt;div&gt;context and&amp;nbsp;&lt;div&gt;stakeholders&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0165" y="3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -274,7 +274,7 @@
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-12" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-91" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="QhrPQXTWVD8O5CfgrepX-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-16" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get context and&amp;nbsp;&lt;div&gt;stakeholders&lt;/div&gt;" vertex="1">
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-16" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get relevant&amp;nbsp;&lt;div&gt;context and&amp;nbsp;&lt;div&gt;stakeholders&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0341" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -303,7 +303,7 @@
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-14" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Long_shadow_web_icons-2008/python-943.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="Get context and stakeholders" vertex="1">
           <mxGeometry height="50" width="50" x="1800.0000000000005" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-19" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.email;" value="" vertex="1">
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-19" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.email;" value="Open Fwd, Reply&amp;nbsp;&lt;div&gt;or Reply All&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="45.22" x="1804.7799999999997" y="165" as="geometry" />
         </mxCell>
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-20" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Business_and_Finance-2712/vector_65_13-1298.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="" vertex="1">
