@@ -282,7 +282,7 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-91" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Document_icons-2697/647702-excel-1195.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="Teams.xlsx" vertex="1">
           <mxGeometry height="50" width="50" x="1355" y="414" as="geometry" />
         </mxCell>
-        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-13" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-95" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="QhrPQXTWVD8O5CfgrepX-30">
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-13" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-95" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="QhrPQXTWVD8O5CfgrepX-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-95" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Long_shadow_web_icons-2008/python-943.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="Python data" vertex="1">
@@ -307,7 +307,7 @@
           <mxGeometry height="40" width="45.22" x="1804.7799999999997" y="165" as="geometry" />
         </mxCell>
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-20" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Business_and_Finance-2712/vector_65_13-1298.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="" vertex="1">
-          <mxGeometry height="40" width="40" x="1900" y="170" as="geometry" />
+          <mxGeometry height="40" width="40" x="1920" y="170" as="geometry" />
         </mxCell>
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Non-labor approvals" vertex="1">
           <mxGeometry height="25" width="120" x="650" y="200" as="geometry" />
@@ -317,6 +317,17 @@
         </mxCell>
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-25" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Mandatory PMO processes" vertex="1">
           <mxGeometry height="22.5" width="160" x="330" y="227.5" as="geometry" />
+        </mxCell>
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-29" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=#ffffff;fillColor=default;" value="vector database" vertex="1">
+          <mxGeometry height="80" width="60" x="1215" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-30" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-95" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=#ffffff;endArrow=classic;startArrow=classic;startFill=1;" target="o7gWsOm8NzBhY5U0P4Dy-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-32" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=#ffffff;fillColor=default;" value="store context&lt;div&gt;and text, and get response&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1714" y="1" as="geometry">
+            <mxPoint x="-1" y="17" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
