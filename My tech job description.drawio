@@ -127,9 +127,9 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-89" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="QhrPQXTWVD8O5CfgrepX-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-6" connectable="0" parent="QhrPQXTWVD8O5CfgrepX-89" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Record and transcribe calls" vertex="1">
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-6" connectable="0" parent="QhrPQXTWVD8O5CfgrepX-89" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Record and&amp;nbsp;&lt;div&gt;transcribe calls&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.4525" y="-3" as="geometry">
-            <mxPoint x="40" as="offset" />
+            <mxPoint x="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Receive request on email or chat" vertex="1">
@@ -193,9 +193,9 @@
             <mxPoint x="1210" y="210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-18" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get semantic meaning" vertex="1">
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-18" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get semantic&amp;nbsp;&lt;div&gt;meaning&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0293" y="5" as="geometry">
-            <mxPoint x="22" y="-18" as="offset" />
+            <mxPoint x="15" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-57" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.email;" value="" vertex="1">
@@ -252,18 +252,18 @@
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-11" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-86" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="QhrPQXTWVD8O5CfgrepX-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-15" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get context and stakeholders" vertex="1">
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-15" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get context and&amp;nbsp;&lt;div&gt;stakeholders&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0165" y="3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QhrPQXTWVD8O5CfgrepX-86" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Document_icons-2697/647702-excel-1195.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="" vertex="1">
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-86" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Document_icons-2697/647702-excel-1195.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="Emails.xlsx" vertex="1">
           <mxGeometry height="50" width="50" x="1260" y="280" as="geometry" />
         </mxCell>
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-12" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-91" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="QhrPQXTWVD8O5CfgrepX-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-16" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get context and stakeholders" vertex="1">
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-16" connectable="0" parent="o7gWsOm8NzBhY5U0P4Dy-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Get context and&amp;nbsp;&lt;div&gt;stakeholders&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0341" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -271,7 +271,7 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-91" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Document_icons-2697/647702-excel-1195.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="" vertex="1">
           <mxGeometry height="50" width="50" x="1355" y="414" as="geometry" />
         </mxCell>
-        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-13" edge="1" parent="1" source="o7gWsOm8NzBhY5U0P4Dy-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="QhrPQXTWVD8O5CfgrepX-30">
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-13" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-95" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="QhrPQXTWVD8O5CfgrepX-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-95" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Long_shadow_web_icons-2008/python-943.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="Python data" vertex="1">
