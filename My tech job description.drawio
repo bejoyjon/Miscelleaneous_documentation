@@ -48,14 +48,16 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="IT Project management" vertex="1">
           <mxGeometry height="30" width="100" x="230" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="QhrPQXTWVD8O5CfgrepX-29" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QhrPQXTWVD8O5CfgrepX-42" value="">
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-29" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="100" as="targetPoint" />
+            <mxPoint x="290" y="75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QhrPQXTWVD8O5CfgrepX-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Demand management" vertex="1">
-          <mxGeometry height="30" width="100" x="150" y="60" as="geometry" />
-        </mxCell>
+        <UserObject label="Demand management" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;: {&quot;cells&quot;: [&quot;QhrPQXTWVD8O5CfgrepX-44&quot;]}},{&quot;highlight&quot;: {&quot;cells&quot;: [&quot;QhrPQXTWVD8O5CfgrepX-44&quot;],&quot;opacity&quot;:100, &quot;color&quot;: &quot;blue&quot; }}]}" id="QhrPQXTWVD8O5CfgrepX-3">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1">
+            <mxGeometry height="30" width="100" x="150" y="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="IT Portfolio management" vertex="1">
           <mxGeometry height="30" width="100" x="300" y="280" as="geometry" />
         </mxCell>
@@ -93,10 +95,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-18" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Tech landscape" vertex="1">
-          <mxGeometry height="40" width="120" x="525" y="680" as="geometry" />
+          <mxGeometry height="20" width="120" x="525" y="700" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Org landscaping" vertex="1">
-          <mxGeometry height="40" width="120" x="440" y="780" as="geometry" />
+          <mxGeometry height="20" width="120" x="440" y="800" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="AI landscaping" vertex="1">
           <mxGeometry height="30" width="120" x="730" y="700" as="geometry" />
@@ -165,18 +167,13 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-38" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Follow up" vertex="1">
           <mxGeometry height="60" width="120" x="2760" y="105" as="geometry" />
         </mxCell>
-        <UserObject label="Connector AA" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;: {&quot;cells&quot;: [&quot;QhrPQXTWVD8O5CfgrepX-44&quot;]}},{&quot;highlight&quot;: {&quot;cells&quot;: [&quot;QhrPQXTWVD8O5CfgrepX-44&quot;],&quot;opacity&quot;:100, &quot;color&quot;: &quot;blue&quot; }}]}" id="QhrPQXTWVD8O5CfgrepX-42">
-          <mxCell parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1">
-            <mxGeometry height="60" width="60" x="290" y="45" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-46" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="QhrPQXTWVD8O5CfgrepX-28">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1259.9999999999995" y="90" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QhrPQXTWVD8O5CfgrepX-50" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Project billing reporting" vertex="1">
-          <mxGeometry height="40" width="120" x="570" y="310" as="geometry" />
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-50" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Project billing&amp;nbsp;" vertex="1">
+          <mxGeometry height="20" width="120" x="500" y="330" as="geometry" />
         </mxCell>
         <UserObject label="Connector AA" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;: {&quot;cells&quot;: [&quot;QhrPQXTWVD8O5CfgrepX-3&quot;]}},{&quot;highlight&quot;: {&quot;cells&quot;: [&quot;QhrPQXTWVD8O5CfgrepX-3&quot;],&quot;opacity&quot;:100, &quot;color&quot;: &quot;blue&quot; }}]}" id="QhrPQXTWVD8O5CfgrepX-54">
           <mxCell parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1">
@@ -230,6 +227,11 @@
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-68" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Communications" vertex="1">
           <mxGeometry height="30" width="120" x="450" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="o7gWsOm8NzBhY5U0P4Dy-27" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-70" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="30" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-70" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Project core (scope, timelines, critical dependencies, invoices...)" vertex="1">
           <mxGeometry height="40" width="180" x="790" y="10" as="geometry" />
@@ -314,7 +316,7 @@
           <mxGeometry height="25" width="120" x="630" y="165" as="geometry" />
         </mxCell>
         <mxCell id="o7gWsOm8NzBhY5U0P4Dy-25" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Mandatory PMO processes" vertex="1">
-          <mxGeometry height="22.5" width="160" x="320" y="210" as="geometry" />
+          <mxGeometry height="22.5" width="160" x="330" y="227.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
