@@ -225,7 +225,7 @@
             <mxPoint x="280" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PmP0td1tDH7MCJVt9a-S-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get context emails, chats and background info" vertex="1">
+        <mxCell id="PmP0td1tDH7MCJVt9a-S-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get subset of emails based on received or sent timestamp" vertex="1">
           <mxGeometry height="60" width="120" x="270" y="240" as="geometry" />
         </mxCell>
         <mxCell id="PmP0td1tDH7MCJVt9a-S-7" edge="1" parent="1" source="PmP0td1tDH7MCJVt9a-S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PmP0td1tDH7MCJVt9a-S-6" value="">
@@ -234,8 +234,8 @@
         <mxCell id="PmP0td1tDH7MCJVt9a-S-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get semantic meaning of email" vertex="1">
           <mxGeometry height="60" width="120" x="110" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="PmP0td1tDH7MCJVt9a-S-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="110" y="354" as="geometry" />
+        <mxCell id="PmP0td1tDH7MCJVt9a-S-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get context emails based on first semantic meaning and subject" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="390" as="geometry" />
         </mxCell>
         <mxCell id="PmP0td1tDH7MCJVt9a-S-8" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/CapSocial_Square_Flat-2505/Outlook-1008.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="640" y="240" as="geometry" />
@@ -259,7 +259,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PmP0td1tDH7MCJVt9a-S-13" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Phosphor_Thin_Vol_3-1982/notepad-thin-1314.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;imageBackground=light-dark(#7A7A7A,#FFFFFF);" value="Notes.txt" vertex="1">
-          <mxGeometry height="40" width="40" x="440" y="364" as="geometry" />
+          <mxGeometry height="40" width="40" x="440" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
