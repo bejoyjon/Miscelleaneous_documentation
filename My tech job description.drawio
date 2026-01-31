@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="2">
   <diagram name="Page-1" id="W_qpBnaw5XWSPKzUuWEO">
-    <mxGraphModel dx="2595" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,8 +28,8 @@
         <mxCell id="QhrPQXTWVD8O5CfgrepX-24" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="QhrPQXTWVD8O5CfgrepX-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QhrPQXTWVD8O5CfgrepX-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="" vertex="1">
-          <mxGeometry height="40" width="40" x="270" y="419" as="geometry" />
+        <mxCell id="QhrPQXTWVD8O5CfgrepX-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Classification" vertex="1">
+          <mxGeometry height="80" width="80" x="270" y="419" as="geometry" />
         </mxCell>
         <mxCell id="QhrPQXTWVD8O5CfgrepX-61" edge="1" parent="1" source="QhrPQXTWVD8O5CfgrepX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="QhrPQXTWVD8O5CfgrepX-60" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -184,22 +184,29 @@
             <mxPoint x="40" y="110" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gugQTrENGyCvRBGl3U8v-6" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gugQTrENGyCvRBGl3U8v-7" value="">
+        <mxCell id="gugQTrENGyCvRBGl3U8v-6" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="gugQTrENGyCvRBGl3U8v-7" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="180" as="targetPoint" />
+            <mxPoint x="-496" y="525" as="sourcePoint" />
+            <mxPoint x="264" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get subset of emails based on received or sent timestamp" vertex="1">
-          <mxGeometry height="60" width="120" x="-520" y="495" as="geometry" />
+          <mxGeometry height="60" width="120" x="-456" y="495" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-8" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="gugQTrENGyCvRBGl3U8v-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-4" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-3" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get semantic meaning of email" vertex="1">
           <mxGeometry height="30" width="190" x="-750" y="510" as="geometry" />
         </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-2" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Filter subset of emails semantic meaning and subject" vertex="1">
-          <mxGeometry height="60" width="120" x="-350" y="495" as="geometry" />
+          <mxGeometry height="60" width="120" x="-300" y="495" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-11" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/CapSocial_Square_Flat-2505/Outlook-1008.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="560" y="220" as="geometry" />
@@ -211,10 +218,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-14" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Document_icons-2697/647702-excel-1195.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="Emails.xlsx" vertex="1">
-          <mxGeometry height="50" width="50" x="-583.9999999999995" y="389" as="geometry" />
+          <mxGeometry height="50" width="50" x="-519.9999999999995" y="389" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-16" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Document_icons-2697/647702-excel-1195.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="Teams.xlsx" vertex="1">
-          <mxGeometry height="50" width="50" x="-519.9999999999995" y="339" as="geometry" />
+          <mxGeometry height="50" width="50" x="-369.99999999999955" y="324" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-18" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Phosphor_Thin_Vol_3-1982/notepad-thin-1314.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;imageBackground=light-dark(#7A7A7A,#FFFFFF);" value="Notes.txt" vertex="1">
           <mxGeometry height="40" width="40" x="-180" y="374" as="geometry" />
@@ -224,6 +231,18 @@
             <mxGeometry height="40" width="40" x="-1060" y="398.5" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Search for&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="-100" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-6" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="30" width="190" x="-750" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Store in vector database" vertex="1">
+          <mxGeometry height="30" width="190" x="-750" y="730" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
