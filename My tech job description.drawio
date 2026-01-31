@@ -190,7 +190,7 @@
             <mxPoint x="254" y="97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gugQTrENGyCvRBGl3U8v-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get subset of emails based on received or sent timestamp" vertex="1">
+        <mxCell id="gugQTrENGyCvRBGl3U8v-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get subset of emails based on Subject. Finer filter- within past 18 months" vertex="1">
           <mxGeometry height="60" width="120" x="-450" y="408.5" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-8" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="gugQTrENGyCvRBGl3U8v-10" value="">
@@ -221,14 +221,10 @@
         <mxCell id="gugQTrENGyCvRBGl3U8v-12" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=light-dark(#000000,#3333FF);fillColor=light-dark(#DF8C42,#3333FF);labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeWidth=12;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="560" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="gugQTrENGyCvRBGl3U8v-13" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="gugQTrENGyCvRBGl3U8v-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gugQTrENGyCvRBGl3U8v-14" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Document_icons-2697/647702-excel-1195.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="Emails.xlsx" vertex="1">
-          <mxGeometry height="50" width="50" x="-529.9999999999995" y="306" as="geometry" />
-        </mxCell>
-        <mxCell id="gugQTrENGyCvRBGl3U8v-16" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Document_icons-2697/647702-excel-1195.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="Teams.xlsx" vertex="1">
-          <mxGeometry height="50" width="50" x="-379.99999999999955" y="241" as="geometry" />
+        <mxCell id="gugQTrENGyCvRBGl3U8v-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="gugQTrENGyCvRBGl3U8v-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-479.99999999999955" y="331" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-18" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Phosphor_Thin_Vol_3-1982/notepad-thin-1314.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;imageBackground=light-dark(#7A7A7A,#FFFFFF);" value="Notes.txt" vertex="1">
           <mxGeometry height="40" width="40" x="-190" y="291" as="geometry" />
@@ -242,7 +238,7 @@
           <mxGeometry height="60" width="120" x="-30" y="409" as="geometry" />
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Separate From, To, CC, Subject and Datetime from email" vertex="1">
-          <mxGeometry height="30" width="190" x="-920" y="302.5" as="geometry" />
+          <mxGeometry height="30" width="190" x="-917.5" y="302.5" as="geometry" />
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-21" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" target="iww_GMyUS6iRg10DcVI5-5" value="">
           <mxGeometry relative="1" as="geometry">
