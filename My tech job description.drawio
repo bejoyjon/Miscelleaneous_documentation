@@ -240,7 +240,7 @@
         <mxCell id="iww_GMyUS6iRg10DcVI5-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Separate From, To, CC, Subject and Datetime from email" vertex="1">
           <mxGeometry height="30" width="190" x="-1165" y="242.5" as="geometry" />
         </mxCell>
-        <mxCell id="iww_GMyUS6iRg10DcVI5-21" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" target="iww_GMyUS6iRg10DcVI5-5" value="">
+        <mxCell id="iww_GMyUS6iRg10DcVI5-21" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryPerimeter=0;" target="iww_GMyUS6iRg10DcVI5-30" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-740" y="640" as="sourcePoint" />
           </mxGeometry>
@@ -272,7 +272,7 @@
         <mxCell id="iww_GMyUS6iRg10DcVI5-7" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;align=center;verticalAlign=middle;arcSize=14;absoluteArcSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Are there previous emails&amp;nbsp;&lt;div&gt;of the same subject&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="195" x="-922.5" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="iww_GMyUS6iRg10DcVI5-14" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classicThin;endFill=1;startArrow=none;startFill=0;" target="iww_GMyUS6iRg10DcVI5-7">
+        <mxCell id="iww_GMyUS6iRg10DcVI5-14" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classicThin;endFill=1;startArrow=none;startFill=0;" target="iww_GMyUS6iRg10DcVI5-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-19" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-18" value="">
@@ -396,6 +396,15 @@
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-66" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" target="iww_GMyUS6iRg10DcVI5-34">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-68" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classicThin;endFill=1;startArrow=none;startFill=0;" target="iww_GMyUS6iRg10DcVI5-67" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1010" y="429" as="sourcePoint" />
+            <mxPoint x="-825" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-67" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" value="Search vector database Email.db for past emails of similar subject" vertex="1">
+          <mxGeometry height="60" width="120" x="-885" y="449" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
