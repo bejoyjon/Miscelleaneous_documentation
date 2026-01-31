@@ -179,7 +179,7 @@
         <mxCell id="gugQTrENGyCvRBGl3U8v-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Email in inbox" vertex="1">
           <mxGeometry height="30" width="160" x="-1120" y="302.5" as="geometry" />
         </mxCell>
-        <mxCell id="gugQTrENGyCvRBGl3U8v-5" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" target="gugQTrENGyCvRBGl3U8v-3">
+        <mxCell id="gugQTrENGyCvRBGl3U8v-5" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="gugQTrENGyCvRBGl3U8v-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="30" y="-68.5" as="sourcePoint" />
           </mxGeometry>
@@ -191,7 +191,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get subset of emails based on Subject. Finer filter- within past 18 months" vertex="1">
-          <mxGeometry height="60" width="120" x="-500" y="408.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="-540" y="408.5" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-8" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="gugQTrENGyCvRBGl3U8v-10" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -207,13 +207,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get semantic meaning of email" vertex="1">
-          <mxGeometry height="60" width="130" x="-700" y="409" as="geometry" />
+          <mxGeometry height="60" width="130" x="-714.5" y="409" as="geometry" />
         </mxCell>
-        <mxCell id="iww_GMyUS6iRg10DcVI5-2" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-1" value="">
+        <mxCell id="iww_GMyUS6iRg10DcVI5-2" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="iww_GMyUS6iRg10DcVI5-29" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get subset of chats if any, in the past 12 months&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="120" x="-290" y="408.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="-380" y="408.5" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-11" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/CapSocial_Square_Flat-2505/Outlook-1008.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="560" y="220" as="geometry" />
@@ -221,16 +221,13 @@
         <mxCell id="gugQTrENGyCvRBGl3U8v-12" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=light-dark(#000000,#3333FF);fillColor=light-dark(#DF8C42,#3333FF);labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeWidth=12;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="560" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="gugQTrENGyCvRBGl3U8v-18" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Phosphor_Thin_Vol_3-1982/notepad-thin-1314.svg;fontFamily=Helvetica;fontSize=11;fontColor=default;imageBackground=light-dark(#7A7A7A,#FFFFFF);" value="Notes.txt" vertex="1">
-          <mxGeometry height="40" width="40" x="-190" y="291" as="geometry" />
-        </mxCell>
         <UserObject label="" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;QhrPQXTWVD8O5CfgrepX-44&quot;]}},{&quot;highlight&quot;:{&quot;cells&quot;:[&quot;QhrPQXTWVD8O5CfgrepX-44&quot;],&quot;opacity&quot;:100,&quot;color&quot;:&quot;blue&quot;}}]}" id="gugQTrENGyCvRBGl3U8v-19">
           <mxCell parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1">
-            <mxGeometry height="40" width="40" x="-1070" y="220" as="geometry" />
+            <mxGeometry height="40" width="40" x="-1160" y="224" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="iww_GMyUS6iRg10DcVI5-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Craft the response" vertex="1">
-          <mxGeometry height="60" width="120" x="-30" y="409" as="geometry" />
+          <mxGeometry height="60" width="120" x="-150" y="439" as="geometry" />
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Separate From, To, CC, Subject and Datetime from email" vertex="1">
           <mxGeometry height="30" width="190" x="-920" y="302.5" as="geometry" />
@@ -299,6 +296,33 @@
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-27" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="-840" y="794" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-33" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-29" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Search for emails of same subject in vector db &quot;Learning&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="-380" y="272.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-30" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="Emails.db" vertex="1">
+          <mxGeometry height="60" width="60" x="-584" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-31" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;dashed=1;dashPattern=1 1;" target="iww_GMyUS6iRg10DcVI5-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-37" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-32" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get emails that agent wrote vs what the final response, where cosine distance between both is less than 0.95" vertex="1">
+          <mxGeometry height="60" width="170" x="-405" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-34" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="Learning.db" vertex="1">
+          <mxGeometry height="57.5" width="80" x="-540" y="273.75" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-35" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;" target="iww_GMyUS6iRg10DcVI5-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-36" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Create prompt content combining past emails, past chats, past email responses that differed from actual sent email as well as notes.&amp;nbsp;" vertex="1">
+          <mxGeometry height="97.5" width="170" x="-190" y="212.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
