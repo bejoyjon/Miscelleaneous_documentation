@@ -196,8 +196,10 @@
         <mxCell id="gugQTrENGyCvRBGl3U8v-8" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="gugQTrENGyCvRBGl3U8v-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iww_GMyUS6iRg10DcVI5-4" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="iww_GMyUS6iRg10DcVI5-5" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="iww_GMyUS6iRg10DcVI5-4" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="iww_GMyUS6iRg10DcVI5-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1020" y="570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-12" connectable="0" parent="iww_GMyUS6iRg10DcVI5-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
           <mxGeometry relative="1" x="0.4" y="1" as="geometry">
@@ -256,8 +258,8 @@
         <mxCell id="iww_GMyUS6iRg10DcVI5-15" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="iww_GMyUS6iRg10DcVI5-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iww_GMyUS6iRg10DcVI5-9" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Remove all previous emails content" vertex="1">
-          <mxGeometry height="60" width="120" x="-625" y="540" as="geometry" />
+        <mxCell id="iww_GMyUS6iRg10DcVI5-9" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" value="Remove all previous emails content" vertex="1">
+          <mxGeometry height="60" width="120" x="-670" y="540" as="geometry" />
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-13" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iww_GMyUS6iRg10DcVI5-3" value="">
           <mxGeometry relative="1" as="geometry">
@@ -270,6 +272,18 @@
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-14" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="iww_GMyUS6iRg10DcVI5-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-19" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-16" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" value="Split previous emails into multiple emails" vertex="1">
+          <mxGeometry height="60" width="120" x="-1110" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-20" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iww_GMyUS6iRg10DcVI5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-18" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;" value="Recursively get a list of Subject, From, To, CC and datetime metadata + bodies" vertex="1">
+          <mxGeometry height="60" width="120" x="-1110" y="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
