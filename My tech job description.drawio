@@ -176,7 +176,7 @@
         <mxCell id="gugQTrENGyCvRBGl3U8v-2" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gugQTrENGyCvRBGl3U8v-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gugQTrENGyCvRBGl3U8v-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Receive request on email" vertex="1">
+        <mxCell id="gugQTrENGyCvRBGl3U8v-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Email in inbox" vertex="1">
           <mxGeometry height="30" width="160" x="-960" y="510" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-5" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" target="gugQTrENGyCvRBGl3U8v-3">
@@ -196,7 +196,7 @@
         <mxCell id="gugQTrENGyCvRBGl3U8v-8" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="gugQTrENGyCvRBGl3U8v-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iww_GMyUS6iRg10DcVI5-4" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-3" value="">
+        <mxCell id="iww_GMyUS6iRg10DcVI5-4" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-3" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gugQTrENGyCvRBGl3U8v-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get semantic meaning of email" vertex="1">
@@ -238,10 +238,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="30" width="190" x="-750" y="620" as="geometry" />
+          <mxGeometry height="30" width="190" x="-750" y="669" as="geometry" />
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Store in vector database" vertex="1">
           <mxGeometry height="30" width="190" x="-750" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-8" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iww_GMyUS6iRg10DcVI5-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-655" y="540" as="sourcePoint" />
+            <mxPoint x="-655" y="669" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iww_GMyUS6iRg10DcVI5-7" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Are there previous emails&amp;nbsp;&lt;div&gt;of the same subject&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="195" x="-752.5" y="559" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
