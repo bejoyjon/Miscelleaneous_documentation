@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="2">
   <diagram name="Create responses to Emails and chats" id="W_qpBnaw5XWSPKzUuWEO">
-    <mxGraphModel dx="2595" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2847" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,10 +164,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-38" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get semantically similar notes from Notes.db" vertex="1">
-          <mxGeometry height="60" width="120" x="-295" y="272.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="-295" y="182.5" as="geometry" />
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-41" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="Chats.db" vertex="1">
-          <mxGeometry height="57.5" width="70" x="-955" y="89" as="geometry" />
+          <mxGeometry height="57.5" width="70" x="-955" y="90.25" as="geometry" />
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-42" edge="1" parent="1" source="gugQTrENGyCvRBGl3U8v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="iww_GMyUS6iRg10DcVI5-41">
           <mxGeometry relative="1" as="geometry">
@@ -175,9 +175,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iww_GMyUS6iRg10DcVI5-43" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="Notes.db" vertex="1">
-          <mxGeometry height="57.5" width="80" x="-140" y="189" as="geometry" />
+          <mxGeometry height="57.5" width="80" x="-120" y="183.75" as="geometry" />
         </mxCell>
-        <mxCell id="iww_GMyUS6iRg10DcVI5-44" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="iww_GMyUS6iRg10DcVI5-43">
+        <mxCell id="iww_GMyUS6iRg10DcVI5-44" edge="1" parent="1" source="iww_GMyUS6iRg10DcVI5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="iww_GMyUS6iRg10DcVI5-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="240.75" as="sourcePoint" />
           </mxGeometry>
