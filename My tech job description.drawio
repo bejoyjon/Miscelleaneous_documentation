@@ -425,7 +425,7 @@
         <mxCell id="hHVywetAXHG4j9t-JejX-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Email database" vertex="1">
           <mxGeometry height="120" width="100" x="370" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="hHVywetAXHG4j9t-JejX-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Email database" vertex="1">
+        <mxCell id="hHVywetAXHG4j9t-JejX-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="My notes database" vertex="1">
           <mxGeometry height="120" width="100" x="535" y="420" as="geometry" />
         </mxCell>
         <mxCell id="hHVywetAXHG4j9t-JejX-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Teams call database" vertex="1">
