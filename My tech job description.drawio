@@ -568,7 +568,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-42" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
-          <mxGeometry height="46" width="60" x="230" y="413.5" as="geometry" />
+          <mxGeometry height="46" width="60" x="243" y="320" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-50" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dFcsrxOUtVuKVHk7bPVZ-42">
           <mxGeometry relative="1" as="geometry" />
@@ -580,7 +580,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="User manager" vertex="1">
-          <mxGeometry height="40" width="120" x="143" y="540" as="geometry" />
+          <mxGeometry height="40" width="120" x="136" y="450" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-58" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="dFcsrxOUtVuKVHk7bPVZ-48">
           <mxGeometry relative="1" as="geometry" />
@@ -602,8 +602,11 @@
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-64" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="dFcsrxOUtVuKVHk7bPVZ-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-68" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dFcsrxOUtVuKVHk7bPVZ-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-60" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/WHCompare_Isometric_Web_Hosting___Servers-2190/root-access-594.svg" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="178" y="725" as="geometry" />
+          <mxGeometry height="50" width="50" x="171" y="540" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-65" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dFcsrxOUtVuKVHk7bPVZ-42">
           <mxGeometry relative="1" as="geometry" />
@@ -612,10 +615,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Artefacts manager" vertex="1">
-          <mxGeometry height="40" width="120" x="23" y="416.5" as="geometry" />
+          <mxGeometry height="40" width="120" x="23" y="379" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-63" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Create Artefacts.py" vertex="1">
-          <mxGeometry height="80" width="80" x="43" y="290" as="geometry" />
+          <mxGeometry height="80" width="80" x="43" y="252.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-70" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dFcsrxOUtVuKVHk7bPVZ-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Web actions manager" vertex="1">
+          <mxGeometry height="40" width="120" x="16" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-69" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Web management.py" vertex="1">
+          <mxGeometry height="80" width="80" x="36" y="707" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
