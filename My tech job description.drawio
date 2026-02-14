@@ -432,7 +432,7 @@
           <mxGeometry height="80" width="100" x="890" y="30" as="geometry" />
         </mxCell>
         <mxCell id="hHVywetAXHG4j9t-JejX-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Teams chat database" vertex="1">
-          <mxGeometry height="80" width="100" x="1020" y="240" as="geometry" />
+          <mxGeometry height="80" width="100" x="1050" y="240" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-3" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dFcsrxOUtVuKVHk7bPVZ-2" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -444,7 +444,7 @@
           <mxGeometry height="40" width="120" x="360" y="60" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Clean up email and store script.py" vertex="1">
-          <mxGeometry height="80" width="80" x="680" y="10" as="geometry" />
+          <mxGeometry height="80" width="80" x="630" y="4" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-4" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="hHVywetAXHG4j9t-JejX-4">
           <mxGeometry relative="1" as="geometry" />
@@ -467,7 +467,7 @@
           <mxGeometry height="80" width="100" x="1050" y="550" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Get relevant emails.py" vertex="1">
-          <mxGeometry height="80" width="80" x="680" y="100" as="geometry" />
+          <mxGeometry height="80" width="80" x="630" y="94" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-11" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="hHVywetAXHG4j9t-JejX-4">
           <mxGeometry relative="1" as="geometry" />
@@ -493,10 +493,10 @@
           <mxGeometry height="40" width="120" x="360" y="404" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Record and transcribe calls.py" vertex="1">
-          <mxGeometry height="80" width="80" x="600" y="340" as="geometry" />
+          <mxGeometry height="80" width="80" x="630" y="339" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Get relevant transcripts.py" vertex="1">
-          <mxGeometry height="80" width="80" x="600" y="430" as="geometry" />
+          <mxGeometry height="80" width="80" x="630" y="429" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-21" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="hHVywetAXHG4j9t-JejX-1">
           <mxGeometry relative="1" as="geometry" />
@@ -541,10 +541,10 @@
           <mxGeometry height="40" width="120" x="360" y="740" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="notes storage.py" vertex="1">
-          <mxGeometry height="80" width="80" x="655" y="660" as="geometry" />
+          <mxGeometry height="80" width="80" x="630" y="660" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Get relevant notes.py" vertex="1">
-          <mxGeometry height="80" width="80" x="655" y="747" as="geometry" />
+          <mxGeometry height="80" width="80" x="630" y="747" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-40" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="hHVywetAXHG4j9t-JejX-2">
           <mxGeometry relative="1" as="geometry" />
