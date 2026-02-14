@@ -537,7 +537,7 @@
             <mxPoint x="630" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Notes agent" vertex="1">
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="User Notes agent" vertex="1">
           <mxGeometry height="60" width="120" x="360" y="740" as="geometry" />
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="notes storage.py" vertex="1">
@@ -581,6 +581,26 @@
         </mxCell>
         <mxCell id="dFcsrxOUtVuKVHk7bPVZ-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="User manager" vertex="1">
           <mxGeometry height="60" width="120" x="110" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-58" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dFcsrxOUtVuKVHk7bPVZ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-55" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Logos_Microsoft_Office_365-2232/Microsoft_Office-07-1169.svg" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="70" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-59" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dFcsrxOUtVuKVHk7bPVZ-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-57" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="223" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-61" edge="1" parent="1" source="dFcsrxOUtVuKVHk7bPVZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="dFcsrxOUtVuKVHk7bPVZ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFcsrxOUtVuKVHk7bPVZ-60" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/WHCompare_Isometric_Web_Hosting___Servers-2190/root-access-594.svg" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="145" y="725" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
