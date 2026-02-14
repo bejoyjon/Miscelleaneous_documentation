@@ -655,7 +655,7 @@
         <mxCell id="-IlbXv0k9bBXwDLyNutW-7" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-IlbXv0k9bBXwDLyNutW-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-8" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Email agent" vertex="1">
+        <mxCell id="-IlbXv0k9bBXwDLyNutW-8" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ticketing System Architect" vertex="1">
           <mxGeometry height="40" width="120" x="360" y="60" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-9" parent="-IlbXv0k9bBXwDLyNutW-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Clean up email and store script.py" vertex="1">
@@ -672,7 +672,7 @@
             <mxPoint x="660" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-13" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Teams&amp;nbsp; chat agent" vertex="1">
+        <mxCell id="-IlbXv0k9bBXwDLyNutW-13" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ticket Knowledge Base Gatherer" vertex="1">
           <mxGeometry height="40" width="120" x="360" y="260" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-14" parent="-IlbXv0k9bBXwDLyNutW-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Extract chat and store.py" vertex="1">
@@ -704,7 +704,7 @@
             <mxPoint x="520" y="534" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-23" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Teams&amp;nbsp; call agent" vertex="1">
+        <mxCell id="-IlbXv0k9bBXwDLyNutW-23" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ticket Classifier and Mapping Manager" vertex="1">
           <mxGeometry height="40" width="120" x="360" y="404" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-24" parent="-IlbXv0k9bBXwDLyNutW-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Record and transcribe calls.py" vertex="1">
@@ -727,7 +727,7 @@
             <mxPoint x="570" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-30" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Web search and index agent" vertex="1">
+        <mxCell id="-IlbXv0k9bBXwDLyNutW-30" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ticket Database Manager" vertex="1">
           <mxGeometry height="40" width="120" x="360" y="570" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-31" parent="-IlbXv0k9bBXwDLyNutW-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="search web, search docs, index.py" vertex="1">
@@ -752,7 +752,7 @@
             <mxPoint x="630" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-37" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="User Notes agent" vertex="1">
+        <mxCell id="-IlbXv0k9bBXwDLyNutW-37" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ticket Reporting Manager" vertex="1">
           <mxGeometry height="40" width="120" x="360" y="740" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-38" parent="-IlbXv0k9bBXwDLyNutW-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="notes storage.py" vertex="1">
@@ -783,66 +783,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-47" parent="-IlbXv0k9bBXwDLyNutW-1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
-          <mxGeometry height="46" width="60" x="243" y="320" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-48" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-IlbXv0k9bBXwDLyNutW-47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-49" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Coms manager" vertex="1">
-          <mxGeometry height="40" width="120" x="143" y="174" as="geometry" />
+          <mxGeometry height="46" width="60" x="243" y="401" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-50" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-IlbXv0k9bBXwDLyNutW-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-51" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="User manager" vertex="1">
-          <mxGeometry height="40" width="120" x="136" y="450" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-52" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="-IlbXv0k9bBXwDLyNutW-49">
+        <mxCell id="hwmU_jZpqrmX4hAkzCcz-1" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="-IlbXv0k9bBXwDLyNutW-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-53" parent="-IlbXv0k9bBXwDLyNutW-1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Logos_Microsoft_Office_365-2232/Microsoft_Office-07-1169.svg" value="" vertex="1">
-          <mxGeometry height="40" width="40" x="103" y="30" as="geometry" />
+        <mxCell id="-IlbXv0k9bBXwDLyNutW-51" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ticket Triage Manager" vertex="1">
+          <mxGeometry height="40" width="120" x="70" y="404" as="geometry" />
         </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-54" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="-IlbXv0k9bBXwDLyNutW-49">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="203" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-55" parent="-IlbXv0k9bBXwDLyNutW-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;" value="" vertex="1">
-          <mxGeometry height="34" width="34" x="256" y="33" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-56" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="-IlbXv0k9bBXwDLyNutW-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-57" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-IlbXv0k9bBXwDLyNutW-62">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-58" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-IlbXv0k9bBXwDLyNutW-65">
+        <mxCell id="-IlbXv0k9bBXwDLyNutW-56" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="-IlbXv0k9bBXwDLyNutW-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-59" parent="-IlbXv0k9bBXwDLyNutW-1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/WHCompare_Isometric_Web_Hosting___Servers-2190/root-access-594.svg" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="171" y="540" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-60" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-IlbXv0k9bBXwDLyNutW-47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-61" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-IlbXv0k9bBXwDLyNutW-63">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-62" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Artefacts manager" vertex="1">
-          <mxGeometry height="40" width="120" x="23" y="379" as="geometry" />
-        </mxCell>
-        <mxCell id="-IlbXv0k9bBXwDLyNutW-63" parent="-IlbXv0k9bBXwDLyNutW-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Create Artefacts.py" vertex="1">
-          <mxGeometry height="80" width="80" x="43" y="252.5" as="geometry" />
+          <mxGeometry height="50" width="50" x="105" y="270" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-64" edge="1" parent="-IlbXv0k9bBXwDLyNutW-1" source="-IlbXv0k9bBXwDLyNutW-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-IlbXv0k9bBXwDLyNutW-66" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-65" parent="-IlbXv0k9bBXwDLyNutW-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Web actions manager" vertex="1">
-          <mxGeometry height="40" width="120" x="16" y="620" as="geometry" />
+          <mxGeometry height="40" width="120" x="70" y="500" as="geometry" />
         </mxCell>
         <mxCell id="-IlbXv0k9bBXwDLyNutW-66" parent="-IlbXv0k9bBXwDLyNutW-1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="Web management.py" vertex="1">
-          <mxGeometry height="80" width="80" x="36" y="707" as="geometry" />
+          <mxGeometry height="80" width="80" x="90" y="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
