@@ -819,7 +819,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i4Maidu7qwTanAazkQTe" name="IT Purchase process">
-    <mxGraphModel dx="1123" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -937,7 +937,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-42" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-41" value="">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-42" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" target="_vQLLKlDcXTz4eFmmRZb-41" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-32" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CSSP person" vertex="1">
@@ -961,6 +961,11 @@
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-63" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-62" value="">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-72" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sends&amp;nbsp;&lt;div&gt;invoice to&lt;/div&gt;&lt;div&gt;Cargill&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3689" y="3" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-40" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Vendor" vertex="1">
           <mxGeometry height="60" width="30" x="195" y="450" as="geometry" />
@@ -995,14 +1000,40 @@
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-59" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-60" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-77" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Recieves&amp;nbsp;&lt;div&gt;confirmation&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1333" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-53" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=middle;" value="Delivery confirmation (email)" vertex="1">
           <mxGeometry height="60" width="120" x="350" y="710" as="geometry" />
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-58" parent="1" style="whiteSpace=wrap;html=1;" value="Delivery confirmation (SAP)" vertex="1">
-          <mxGeometry height="60" width="120" x="660" y="710" as="geometry" />
-        </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-61" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_vQLLKlDcXTz4eFmmRZb-58">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-67" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-64">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-74" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Checked by" vertex="1">
+          <mxGeometry relative="1" x="-0.419" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-58" parent="1" style="whiteSpace=wrap;html=1;" value="Delivery confirmation (SAP)" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-61" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="_vQLLKlDcXTz4eFmmRZb-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-78" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Marks as&lt;/span&gt;&lt;/div&gt;&lt;div&gt;delivered&lt;/div&gt;&lt;div&gt;in SAP&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0952" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-71" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-70" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-76" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Marks Purchase&lt;div&gt;ticket closed&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3159" y="3" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-60" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CSSP Person" vertex="1">
           <mxGeometry height="60" width="30" x="555" y="710" as="geometry" />
@@ -1010,11 +1041,30 @@
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-62" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;" value="Invoice" vertex="1">
           <mxGeometry height="60" width="120" x="340" y="450" as="geometry" />
         </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-69" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-75" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Initiates vendor&lt;div&gt;payment&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0493" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-64" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Payment person" vertex="1">
-          <mxGeometry height="60" width="30" x="760" y="450" as="geometry" />
+          <mxGeometry height="60" width="30" x="555" y="450" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-65" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-64">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-73" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Picked up by" vertex="1">
+          <mxGeometry relative="1" x="-0.2234" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-68" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;" value="Payment to vendor" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-70" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;" value="Closed Purchase ticket (mytech.cargill.com)" vertex="1">
+          <mxGeometry height="60" width="120" x="730" y="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
