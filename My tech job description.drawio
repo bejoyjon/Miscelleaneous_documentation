@@ -819,7 +819,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i4Maidu7qwTanAazkQTe" name="IT Purchase process">
-    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -937,6 +937,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-42" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-32" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CSSP person" vertex="1">
           <mxGeometry height="60" width="30" x="390" y="300" as="geometry" />
         </mxCell>
@@ -949,7 +952,16 @@
           <mxGeometry height="60" width="120" x="150" y="300" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-40" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Vendor" vertex="1">
-          <mxGeometry height="60" width="30" x="195" y="430" as="geometry" />
+          <mxGeometry height="60" width="30" x="195" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-44" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-41" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Store manager" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="Inventory of required material" vertex="1">
+          <mxGeometry height="60" width="120" x="25" y="590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
