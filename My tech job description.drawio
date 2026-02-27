@@ -915,6 +915,9 @@
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-24" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cost center owner / approver" vertex="1">
           <mxGeometry height="60" width="30" x="790" y="300" as="geometry" />
         </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-34" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-27" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=middle;" value="Approved PR&amp;nbsp;&lt;div&gt;(SAP)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="540" y="300" as="geometry" />
         </mxCell>
@@ -925,6 +928,28 @@
           <mxGeometry relative="1" x="-0.0614" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-36" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-37" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Issues&amp;nbsp;&lt;div&gt;creation&lt;/div&gt;&lt;div&gt;of PO&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1667" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-32" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CSSP person" vertex="1">
+          <mxGeometry height="60" width="30" x="390" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-39" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-40" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-35" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=middle;" value="Purchase Order&lt;div&gt;(SAP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-40" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Vendor" vertex="1">
+          <mxGeometry height="60" width="30" x="195" y="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
