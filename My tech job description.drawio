@@ -843,7 +843,7 @@
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-17" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-16" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-18" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Approval" vertex="1">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-18" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Approval&lt;div&gt;of&amp;nbsp;&lt;div&gt;ticket&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0923" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
