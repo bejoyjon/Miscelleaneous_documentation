@@ -952,7 +952,7 @@
           <mxGeometry height="60" width="120" x="150" y="300" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-40" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Vendor" vertex="1">
-          <mxGeometry height="60" width="30" x="195" y="480" as="geometry" />
+          <mxGeometry height="60" width="30" x="195" y="450" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-44" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-43" value="">
           <mxGeometry relative="1" as="geometry" />
