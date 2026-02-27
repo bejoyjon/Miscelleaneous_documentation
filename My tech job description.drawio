@@ -818,11 +818,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="i4Maidu7qwTanAazkQTe" name="Page-5">
+  <diagram id="i4Maidu7qwTanAazkQTe" name="IT Purchase process">
     <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="End customer" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
