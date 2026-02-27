@@ -819,7 +819,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i4Maidu7qwTanAazkQTe" name="IT Purchase process">
-    <mxGraphModel dx="786" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1429" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -940,12 +940,22 @@
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-42" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" target="_vQLLKlDcXTz4eFmmRZb-41" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-91" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Requests for&lt;div&gt;inventory check&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5256" y="8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-32" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CSSP person" vertex="1">
           <mxGeometry height="60" width="30" x="390" y="300" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-39" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-40" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-93" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="PO sent to vendor" vertex="1">
+          <mxGeometry relative="1" x="-0.1205" y="5" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-35" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=middle;" value="Purchase Order&lt;div&gt;(SAP)&lt;/div&gt;" vertex="1">
@@ -983,6 +993,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-92" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-66" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Delivered to end&amp;nbsp;&lt;div&gt;customer address&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1425" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" value="Inventory of required material" vertex="1">
           <mxGeometry height="60" width="120" x="25" y="590" as="geometry" />
         </mxCell>
@@ -994,7 +1009,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-51" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="End customer" vertex="1">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-51" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="End customer" vertex="1">
           <mxGeometry height="60" width="30" x="180" y="710" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-59" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-60" value="">
@@ -1065,6 +1080,36 @@
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-70" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;" value="Closed Purchase ticket (mytech.cargill.com)" vertex="1">
           <mxGeometry height="60" width="120" x="730" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-82" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fa6800;strokeColor=#C73500;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="140" as="sourcePoint" />
+            <mxPoint x="470" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-86" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fa6800;strokeColor=#C73500;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="290" as="sourcePoint" />
+            <mxPoint x="720" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-88" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fa6800;strokeColor=#C73500;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="900" y="440" as="sourcePoint" />
+            <mxPoint x="860" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-90" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fa6800;strokeColor=#C73500;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="800" as="sourcePoint" />
+            <mxPoint x="300" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-94" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fa6800;strokeColor=#C73500;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="270" as="sourcePoint" />
+            <mxPoint x="530" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
