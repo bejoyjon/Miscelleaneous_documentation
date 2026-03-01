@@ -870,7 +870,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Employee cost center / IT purchase cost center" vertex="1">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=#000000;" value="Employee cost center / IT purchase cost center" vertex="1">
           <mxGeometry height="60" width="120" x="340" y="40" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-20" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-19" value="">
@@ -1005,7 +1005,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" value="Inventory of required material" vertex="1">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#C73500;fillColor=#fa6800;fontColor=#000000;" value="Inventory of required material" vertex="1">
           <mxGeometry height="60" width="120" x="25" y="590" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-54" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-53" value="">
@@ -1124,11 +1124,14 @@
         <mxCell id="KXmR1bUmSigDAgfglAWe-5" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Checking&amp;nbsp;&lt;div&gt;process&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="690" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="KXmR1bUmSigDAgfglAWe-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="SAP issues" vertex="1">
+        <mxCell id="KXmR1bUmSigDAgfglAWe-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="SAP login/access issues" vertex="1">
           <mxGeometry height="60" width="110" x="850" y="400" as="geometry" />
         </mxCell>
         <mxCell id="KXmR1bUmSigDAgfglAWe-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Confirmation&amp;nbsp;&lt;div&gt;SLA&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="300" y="767" as="geometry" />
+        </mxCell>
+        <mxCell id="Bw-97mcM7oatEdUbqILS-2" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="No automated&lt;div&gt;tiering?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="500" y="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
