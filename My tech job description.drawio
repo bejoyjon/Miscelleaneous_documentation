@@ -1137,7 +1137,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NeSbEfyNAPbPzDXfL9-b" name="FSQR KB agentic system">
-    <mxGraphModel dx="1678" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1326,7 +1326,7 @@
         <mxCell id="tytMjCy1SKe_rxO5AcGD-34" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
           <mxGeometry height="40" width="70" x="940" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="tytMjCy1SKe_rxO5AcGD-35" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="tytMjCy1SKe_rxO5AcGD-29">
+        <mxCell id="tytMjCy1SKe_rxO5AcGD-35" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="tytMjCy1SKe_rxO5AcGD-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tytMjCy1SKe_rxO5AcGD-37" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="tytMjCy1SKe_rxO5AcGD-36" value="">
@@ -1366,7 +1366,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tytMjCy1SKe_rxO5AcGD-48" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tytMjCy1SKe_rxO5AcGD-18">
+        <mxCell id="tytMjCy1SKe_rxO5AcGD-48" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="tytMjCy1SKe_rxO5AcGD-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tytMjCy1SKe_rxO5AcGD-49" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.289;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.734;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="tytMjCy1SKe_rxO5AcGD-34">
