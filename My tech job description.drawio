@@ -1118,6 +1118,18 @@
             <mxPoint x="530" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KXmR1bUmSigDAgfglAWe-4" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Data&amp;nbsp;&lt;div&gt;accuracy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="480" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KXmR1bUmSigDAgfglAWe-5" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Checking&amp;nbsp;&lt;div&gt;process&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="690" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KXmR1bUmSigDAgfglAWe-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="SAP issues" vertex="1">
+          <mxGeometry height="60" width="110" x="850" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="KXmR1bUmSigDAgfglAWe-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Confirmation&amp;nbsp;&lt;div&gt;SLA&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="300" y="767" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
