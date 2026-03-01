@@ -1411,7 +1411,7 @@
           <mxGeometry height="30" width="30" x="320" y="300" as="geometry" />
         </mxCell>
         <mxCell id="XnQv6tkyuo_YY4OnXVgf-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" value="8" vertex="1">
-          <mxGeometry height="30" width="30" x="300" y="630" as="geometry" />
+          <mxGeometry height="30" width="30" x="290" y="620" as="geometry" />
         </mxCell>
         <mxCell id="XnQv6tkyuo_YY4OnXVgf-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" value="9" vertex="1">
           <mxGeometry height="30" width="30" x="760" y="525" as="geometry" />
