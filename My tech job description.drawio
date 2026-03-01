@@ -1137,7 +1137,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NeSbEfyNAPbPzDXfL9-b" name="FSQR KB agentic system">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1235,16 +1235,15 @@
         <mxCell id="tytMjCy1SKe_rxO5AcGD-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Fetch data" vertex="1">
           <mxGeometry height="60" width="120" x="230" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="tytMjCy1SKe_rxO5AcGD-28" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tytMjCy1SKe_rxO5AcGD-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="tytMjCy1SKe_rxO5AcGD-28" edge="1" parent="1" source="XnQv6tkyuo_YY4OnXVgf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tytMjCy1SKe_rxO5AcGD-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="300.0000000000002" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tytMjCy1SKe_rxO5AcGD-40" connectable="0" parent="tytMjCy1SKe_rxO5AcGD-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="capture raw prompt" vertex="1">
           <mxGeometry relative="1" x="0.3556" y="-1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="-17" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="tytMjCy1SKe_rxO5AcGD-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Prompt user" vertex="1">
-          <mxGeometry height="60" width="30" x="535" y="270" as="geometry" />
         </mxCell>
         <mxCell id="tytMjCy1SKe_rxO5AcGD-19" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="tytMjCy1SKe_rxO5AcGD-47" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1285,11 +1284,12 @@
         <mxCell id="tytMjCy1SKe_rxO5AcGD-21" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Answering machine" vertex="1">
           <mxGeometry height="60" width="120" x="570" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="tytMjCy1SKe_rxO5AcGD-27" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.296;exitY=-0.007;exitDx=0;exitDy=0;jumpStyle=arc;exitPerimeter=0;" target="tytMjCy1SKe_rxO5AcGD-9">
+        <mxCell id="tytMjCy1SKe_rxO5AcGD-27" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.296;exitY=-0.007;exitDx=0;exitDy=0;jumpStyle=arc;exitPerimeter=0;" target="XnQv6tkyuo_YY4OnXVgf-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="831" y="290" />
             </Array>
+            <mxPoint x="565" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tytMjCy1SKe_rxO5AcGD-29" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Prompt and response database" vertex="1">
@@ -1385,6 +1385,9 @@
         </mxCell>
         <mxCell id="tytMjCy1SKe_rxO5AcGD-47" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
           <mxGeometry height="40" width="70" x="255" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XnQv6tkyuo_YY4OnXVgf-1" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="510" y="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
