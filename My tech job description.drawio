@@ -1134,7 +1134,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NeSbEfyNAPbPzDXfL9-b" name="Page-6">
-    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1282,10 +1282,10 @@
         <mxCell id="tytMjCy1SKe_rxO5AcGD-21" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Answering machine" vertex="1">
           <mxGeometry height="60" width="120" x="570" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="tytMjCy1SKe_rxO5AcGD-27" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.72;exitY=0.003;exitDx=0;exitDy=0;jumpStyle=arc;exitPerimeter=0;" target="tytMjCy1SKe_rxO5AcGD-9">
+        <mxCell id="tytMjCy1SKe_rxO5AcGD-27" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.296;exitY=-0.007;exitDx=0;exitDy=0;jumpStyle=arc;exitPerimeter=0;" target="tytMjCy1SKe_rxO5AcGD-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="731" y="290" />
+              <mxPoint x="831" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1334,7 +1334,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tytMjCy1SKe_rxO5AcGD-36" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
-          <mxGeometry height="40" width="70" x="690" y="400" as="geometry" />
+          <mxGeometry height="40" width="70" x="595" y="400" as="geometry" />
         </mxCell>
         <mxCell id="tytMjCy1SKe_rxO5AcGD-43" edge="1" parent="1" source="tytMjCy1SKe_rxO5AcGD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.757;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="tytMjCy1SKe_rxO5AcGD-34">
           <mxGeometry relative="1" as="geometry">
