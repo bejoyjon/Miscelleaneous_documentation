@@ -1162,7 +1162,7 @@
         <mxCell id="URYJ2YCCceXLwaVc6X1S-9" edge="1" parent="1" source="URYJ2YCCceXLwaVc6X1S-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="URYJ2YCCceXLwaVc6X1S-8" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="URYJ2YCCceXLwaVc6X1S-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Design processing system" vertex="1">
+        <mxCell id="URYJ2YCCceXLwaVc6X1S-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Design processing system / logic on processing" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="30" as="geometry" />
         </mxCell>
         <mxCell id="URYJ2YCCceXLwaVc6X1S-11" edge="1" parent="1" source="URYJ2YCCceXLwaVc6X1S-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="URYJ2YCCceXLwaVc6X1S-10" value="">
