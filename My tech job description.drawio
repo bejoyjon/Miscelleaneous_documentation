@@ -993,10 +993,10 @@
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-41" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Store manager" vertex="1">
           <mxGeometry height="60" width="30" x="70" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-66" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_vQLLKlDcXTz4eFmmRZb-51">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-66" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-51">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="85" y="730" />
+              <mxPoint x="85" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1008,7 +1008,7 @@
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" value="Inventory of required material" vertex="1">
           <mxGeometry height="60" width="120" x="25" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-54" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-53" value="">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-54" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-53" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-56" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Inspects and&lt;div&gt;confirms&amp;nbsp;&lt;/div&gt;&lt;div&gt;delivery&lt;/div&gt;" vertex="1">
@@ -1017,7 +1017,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-51" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="End customer" vertex="1">
-          <mxGeometry height="60" width="30" x="180" y="710" as="geometry" />
+          <mxGeometry height="60" width="30" x="180" y="720" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-59" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-60" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1134,7 +1134,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NeSbEfyNAPbPzDXfL9-b" name="FSQR KB agentic system">
-    <mxGraphModel dx="1678" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
