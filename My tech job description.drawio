@@ -995,7 +995,7 @@
             <mxPoint x="27" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-51" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="End customer" vertex="1">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-51" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=light-dark(#FA6800,#FFFFFF);fontColor=#000000;strokeColor=light-dark(#C73500,#FFFFFF);" value="End customer" vertex="1">
           <mxGeometry height="60" width="30" x="890" y="698.5" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-59" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-60" value="">
@@ -1081,8 +1081,8 @@
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-88" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fa6800;strokeColor=#C73500;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="230" y="740" as="sourcePoint" />
-            <mxPoint x="190" y="680" as="targetPoint" />
+            <mxPoint x="260" y="610" as="sourcePoint" />
+            <mxPoint x="170" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-90" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fa6800;strokeColor=#C73500;" value="">
@@ -1104,7 +1104,7 @@
           <mxGeometry height="60" width="110" x="675" y="50" as="geometry" />
         </mxCell>
         <mxCell id="KXmR1bUmSigDAgfglAWe-6" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="SAP login/access issues" vertex="1">
-          <mxGeometry height="60" width="110" x="170" y="690" as="geometry" />
+          <mxGeometry height="60" width="110" x="180" y="590" as="geometry" />
         </mxCell>
         <mxCell id="KXmR1bUmSigDAgfglAWe-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Confirmation&amp;nbsp;&lt;div&gt;SLA&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="1050" y="40" as="geometry" />
@@ -1127,8 +1127,8 @@
         <mxCell id="nOyA3ctPyzPScgCxPffj-12" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-51">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="630" />
-              <mxPoint x="580" y="719" />
+              <mxPoint x="570" y="630" />
+              <mxPoint x="570" y="719" />
             </Array>
             <mxPoint x="380" y="490" as="sourcePoint" />
           </mxGeometry>
