@@ -955,16 +955,6 @@
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-35" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=middle;" value="Purchase Order&lt;div&gt;(SAP)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="740" as="geometry" />
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-48" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="_vQLLKlDcXTz4eFmmRZb-43">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="910" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-49" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Supplies items" vertex="1">
-          <mxGeometry relative="1" x="0.1308" y="-2" as="geometry">
-            <mxPoint x="2" y="-30" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-63" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-62" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -979,7 +969,7 @@
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-44" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_vQLLKlDcXTz4eFmmRZb-43" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-41" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Store manager&lt;/span&gt;" vertex="1">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-41" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Depot owner&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="30" x="75" y="1010" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#C73500;fillColor=#fa6800;fontColor=#000000;" value="Inventory of required material" vertex="1">
@@ -1050,7 +1040,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-64" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Payment person&lt;/span&gt;" vertex="1">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-64" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;R&amp;amp;R person&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="30" x="847" y="354" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-65" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-64">
@@ -1106,11 +1096,21 @@
         <mxCell id="nOyA3ctPyzPScgCxPffj-14" edge="1" parent="1" source="nOyA3ctPyzPScgCxPffj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nOyA3ctPyzPScgCxPffj-13" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nOyA3ctPyzPScgCxPffj-16" connectable="0" parent="nOyA3ctPyzPScgCxPffj-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1294" y="-2" as="geometry">
+            <mxPoint x="-152" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nOyA3ctPyzPScgCxPffj-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Is the item&lt;div&gt;in Depot?&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="80" x="500" y="250" as="geometry" />
         </mxCell>
         <mxCell id="nOyA3ctPyzPScgCxPffj-9" edge="1" parent="1" source="nOyA3ctPyzPScgCxPffj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="_vQLLKlDcXTz4eFmmRZb-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nOyA3ctPyzPScgCxPffj-15" connectable="0" parent="nOyA3ctPyzPScgCxPffj-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.5486" y="-4" as="geometry">
+            <mxPoint x="39" y="4" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-32" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=light-dark(#FFFFFF,#FFFFFF);" value="CSSP person" vertex="1">
           <mxGeometry height="60" width="30" x="300" y="740" as="geometry" />
@@ -1125,7 +1125,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nOyA3ctPyzPScgCxPffj-13" parent="1" style="whiteSpace=wrap;html=1;" value="Depot process" vertex="1">
-          <mxGeometry height="60" width="120" x="665" y="260" as="geometry" />
+          <mxGeometry height="60" width="120" x="1030" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nOyA3ctPyzPScgCxPffj-18" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=light-dark(#FA6800,#FFFFFF);fontColor=#000000;strokeColor=light-dark(#C73500,#FFFFFF);" value="End customer" vertex="1">
+          <mxGeometry height="60" width="30" x="320" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="nOyA3ctPyzPScgCxPffj-19" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="nOyA3ctPyzPScgCxPffj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nOyA3ctPyzPScgCxPffj-20" connectable="0" parent="nOyA3ctPyzPScgCxPffj-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sends to customer" vertex="1">
+          <mxGeometry relative="1" x="0.1882" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
