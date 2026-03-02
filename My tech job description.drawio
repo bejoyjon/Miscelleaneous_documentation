@@ -944,7 +944,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_vQLLKlDcXTz4eFmmRZb-42" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" target="_vQLLKlDcXTz4eFmmRZb-41" value="">
+        <mxCell id="_vQLLKlDcXTz4eFmmRZb-42" edge="1" parent="1" source="_vQLLKlDcXTz4eFmmRZb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;fillColor=#fa6800;strokeColor=#C73500;" target="_vQLLKlDcXTz4eFmmRZb-41" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_vQLLKlDcXTz4eFmmRZb-91" connectable="0" parent="_vQLLKlDcXTz4eFmmRZb-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Requests for&lt;div&gt;inventory check??&lt;/div&gt;" vertex="1">
