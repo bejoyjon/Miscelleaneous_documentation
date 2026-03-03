@@ -21,7 +21,9 @@ Lezen - To read
 # Tenses
 ## Pronouns
 Match the below with each column of the tenses
+
 | Subject | Ik | je | hij/zij | Wij | jullie | zij |
+| --- | --- | --- | --- | --- | --- | --- |
 | Object | Ik | je | hij/zij | Wij | jullie | zij |
 
 
