@@ -1,54 +1,93 @@
-# Verbs
-## All rounder verbs
-Blijven - to be - 
-Worden - to become - 
+## Verbs and tenses
+### Compound Verbs
+Verbs can be created by mixing a suffix and another word: \
+Op+.... - Oplossing ==> Ik los op\
+Af+... - Afwijzen ==> Ik wijs af\
+Zich + .... \
+there is also the "ending" - door and heen - which is stuck at the end of the sentence, to change the meaning to "through".
+
+### All rounder verbs
+Blijven - to be - .\
+Worden - to become - .\
 Hebben - to have
 
-## In the office
-Werken - To work
-Lezen - To read
+### In the office
+Werken - To work\
+Lezen - To read\
+Krijgen - To receive\
+Nemen - To take\
+Sturen - To send\
+Leiden - To lead\
+Vooltoien - To complete (formal), <i> Afmaken </i> - to complete (informal), <i> Beendigen </i> - to end...a party for example, <i> Afronden </i> - to wrap up....e.g a conversation \
+Vraagen - To ask \
+Aantworden - To answer\
+Bespreken - To discuss, <i> Behandling </i> - to handle...e.g a topic, <i> Bepraten </i> - To talk over...e.g. someone \
+Op.lossen - To solve...a problem, <i> Verhelpen </i> - fix or remove....an issue, <i> Zich voornemen </i> - resolve to do something \
+Besluiten - to decide \
+Vinden - To find \
+Tellen - To count \
+Bellen - To call \
+Accepteren - To accept...e.g. a package, an idea..., <i> Aanvarden </i> - to accept...a challenge, <i> Aannemen </i> - to take on... \
+Weigeren - refuse....to do something, <i> Verwerpen </i> -  To reject or dismiss, <i> Afwijzen </i> - to turn down \
+
+### In the hotel
 
 
-## In the hotel
+### In the park
 
 
-## In the park
+### On the road and in public transport
 
 
-## On the road and in public transport
 
-
-# Tenses
 ## Pronouns
 Match the below with each column of the tenses
 
 | Subject | Ik | je | hij/zij | Wij | jullie | zij |
 | --- | --- | --- | --- | --- | --- | --- |
-| Object | Ik | je | hij/zij | Wij | jullie | zij |
+| Object | mij | je | hem/haar | ons | jullie | ? |
+| Possessive | mijn | je | ? | onze | jullie | hun |
+
+### Tenses general
+Technical explanation - https://en.wikipedia.org/wiki/Dutch_conjugation#Present_tense 
+
+| Perfect Past | Simple Past | Perfect Present | Simple Present | Simple Future | Perfect Future | Past Future | Command |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| Ik had gewerkt | Ik werkte | Ik heb gewerkt | Ik werk | Ik zal werken | Ik zou werken | Ik zal heb gewerkt | Werk nu |
+
+### Conditional - Would and Should
+Ik zou <adjective, niet...> infinitive verb - I would <quickly, carefully.... the thing...> choose \
+Ik zou <> moeten infinitive verb - I would <> must choose = I should <> choose
 
 
-## Past
+## Common adjectives
+### Happy and positive
+Vrolijk - happy\
+Vriendlijke - kind
+
+### Sad, negative, dark
+? - sad\
+Saai - bored\
+? - angry\
+? - upset\
+? - worried\
+? - anxious
 
 
-## Present
+### Weight and count and variety and stuff
+Zwaak, Zwakker, Zwaakste - heavy, heavier, heaviest \
+Licht? \
+Eerste, , dierde, vierde, , \
+Verschilende - different \
+Dezelfde, hetzelfde - the same \
 
 
-## Future
+## Common things
+### In the office
+<i><b> Activities </b></i> \
+Gesprek - conversation \
+Vergadering - meeting
 
-
-## Command 
-
-
-## Would and Should
-
-
-# Common adjectives
-## Happy and positive
-
-## Sad, negative, dark
-
-## Weight and count and stuff
-
-# Common things
-
-
+<i><b> Email related </b></i> \
+Onderwerp - Topic / subject 
+Oplossing - solution
