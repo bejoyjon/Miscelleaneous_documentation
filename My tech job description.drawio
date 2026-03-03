@@ -1756,7 +1756,7 @@
           <mxGeometry height="30" width="30" x="310" y="230" as="geometry" />
         </mxCell>
         <mxCell id="XnQv6tkyuo_YY4OnXVgf-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" value="8" vertex="1">
-          <mxGeometry height="30" width="30" x="285" y="560" as="geometry" />
+          <mxGeometry height="30" width="30" x="400" y="540" as="geometry" />
         </mxCell>
         <mxCell id="XnQv6tkyuo_YY4OnXVgf-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" value="9" vertex="1">
           <mxGeometry height="30" width="30" x="680" y="450" as="geometry" />
@@ -1784,6 +1784,17 @@
         </mxCell>
         <mxCell id="QZEio_TxLYTpaS7S0cgA-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
           <mxGeometry height="60" width="30" x="675" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="QZEio_TxLYTpaS7S0cgA-13" edge="1" parent="1" source="QZEio_TxLYTpaS7S0cgA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tytMjCy1SKe_rxO5AcGD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QZEio_TxLYTpaS7S0cgA-14" connectable="0" parent="QZEio_TxLYTpaS7S0cgA-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Remember&lt;div&gt;these&lt;/div&gt;&lt;div&gt;instructions&lt;/div&gt;&lt;div&gt;when planning&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3682" as="geometry">
+            <mxPoint x="-2" y="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QZEio_TxLYTpaS7S0cgA-12" parent="1" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.document;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Agents.md" vertex="1">
+          <mxGeometry height="50" width="32.64" x="97.36000000000001" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
