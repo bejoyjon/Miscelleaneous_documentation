@@ -1,0 +1,1 @@
+Manus.im - does basic reasearch for free, creates reports and makes a "web app" for showing the info. Can add apps or connectors to most major apps like Gmail, Outlook (no Teams though), maybe the most important one is connecting to the browser and controlling it for doing the search and displaying web app and all - https://manus.im/app#connectors/built-in
