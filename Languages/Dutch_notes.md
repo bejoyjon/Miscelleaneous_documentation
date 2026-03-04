@@ -1,4 +1,9 @@
 ## Verbs and tenses
+Mainly SOV, but: \
+1. Sentences with only one verb - SVO or VSO
+2. Sentences with multiple verbs - SVOV+V+V+V... e.g _Jan wilde zijn moeder gaan helpen._
+3. Subordinate clause - most common - phrase.tense wise participle.aux verb - _Omdat ik gewerkt heb_
+
 ### Compound Verbs
 Verbs can be created by mixing a suffix and another word: \
 Op+.... - Oplossing ==> Ik los op\
