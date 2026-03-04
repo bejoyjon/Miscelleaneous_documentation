@@ -1466,7 +1466,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dCUxIHhUsoPECuicRKXV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=2;spacingRight=2;fillColor=#60a917;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=#2D7600;fontSize=10;" value="Additional improvements:&lt;div&gt;1. Auto-approve for items below 100 EUR.&lt;/div&gt;&lt;div&gt;2. Policy by band, and display only valid choices.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="180" x="952.5" y="830" as="geometry" />
+          <mxGeometry height="90" width="180" x="970" y="830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
