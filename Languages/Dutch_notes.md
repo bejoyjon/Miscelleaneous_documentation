@@ -54,7 +54,7 @@ Match the below with each column of the tenses
 | Possessive | mijn | je | ? | onze | jullie | hun |
 
 ### Tenses general
-Technical explanation - https://en.wikipedia.org/wiki/Dutch_conjugation#Present_tense 
+Technical explanation - [https://en.wikipedia.org/wiki/Dutch_conjugation#Present_tense ](https://en.wikipedia.org/wiki/Dutch_grammar)
 
 | Perfect Past | Simple Past | Perfect Present | Simple Present | Simple Future | Perfect Future | Past Future | Command |
 |--- |--- |--- |--- |--- |--- |--- |--- |
