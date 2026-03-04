@@ -1432,7 +1432,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vYcGmXowHn-hpIJK4dar-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=7;spacingBottom=2;spacingRight=1;spacingTop=1;fontSize=9;fillColor=#60a917;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=#2D7600;" value="&lt;ol style=&quot;padding-left: 0px; margin-left: 4px; margin-top: 4px; margin-bottom: 9px;&quot;&gt;&lt;li&gt;Identify CCs used previously.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Check with Finance if CCs still valid.&lt;/li&gt;&lt;li&gt;Check with CC owners if we can change owner name to ourselves&lt;/li&gt;&lt;/ol&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="41" y="840" as="geometry" />
+          <mxGeometry height="70" width="190" x="40" y="835" as="geometry" />
         </mxCell>
         <mxCell id="vYcGmXowHn-hpIJK4dar-84" edge="1" parent="1" source="vYcGmXowHn-hpIJK4dar-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#008a00;strokeColor=#005700;" target="vYcGmXowHn-hpIJK4dar-18">
           <mxGeometry relative="1" as="geometry">
@@ -1454,9 +1454,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vYcGmXowHn-hpIJK4dar-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=7;spacingBottom=2;spacingRight=1;spacingTop=1;fontSize=9;fillColor=#60a917;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=#2D7600;" value="&lt;ol style=&quot;padding-left: 0px; margin-left: 4px; margin-top: 4px; margin-bottom: 9px;&quot;&gt;&lt;li&gt;Check if CC exists in Verified Employee CC list. If yes, check if item is applicable for approval.&lt;/li&gt;&lt;li&gt;If no, check with finance, get added as owner of right CC first, before approving.&lt;/li&gt;&lt;/ol&gt;" vertex="1">
-          <mxGeometry height="50" width="344" x="606" y="830" as="geometry" />
+          <mxGeometry height="50" width="390" x="560" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="vYcGmXowHn-hpIJK4dar-86" edge="1" parent="1" source="vYcGmXowHn-hpIJK4dar-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;" target="vYcGmXowHn-hpIJK4dar-81">
+        <mxCell id="vYcGmXowHn-hpIJK4dar-86" edge="1" parent="1" source="vYcGmXowHn-hpIJK4dar-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="vYcGmXowHn-hpIJK4dar-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vYcGmXowHn-hpIJK4dar-88" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=7;spacingBottom=2;spacingRight=1;spacingTop=1;fontSize=9;fillColor=#60a917;fontColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=#2D7600;" value="&lt;ol style=&quot;padding-left: 0px; margin-left: 4px; margin-top: 4px; margin-bottom: 9px;&quot;&gt;&lt;li&gt;Approver is one of us, so login issues resolved&lt;/li&gt;&lt;/ol&gt;" vertex="1">
