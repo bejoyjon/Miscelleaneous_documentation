@@ -65,7 +65,9 @@ Technical explanation - [https://en.wikipedia.org/wiki/Dutch_grammar](https://en
 Ik zou <adjective, niet...> infinitive verb - I would <quickly, carefully.... the thing...> choose \
 Ik zou <> moeten infinitive verb - I would <> must choose = I should <> choose\
 
-Negatives _conditional_, zouden comes after description, adverbs and all with the last verb - Als ik _niet_ tijd _zouden gehad_...
+Negatives _conditional_, zouden comes after description, adverbs and all with the last verb - Als ik _niet_ tijd _zou gehad_...
+
+Subjugate conditional - Als...., _zouden tense_ SOV. e.g. Als ik niet tijd gehad, zou ik niet naar Amsterdam gegaan.
 
 
 ## Common adjectives
