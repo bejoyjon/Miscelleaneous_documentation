@@ -1,4 +1,4 @@
-## General notes
+## Retrieval Augmented Generation
 1. Key step is to identify all the data sources and their relationships, within the larger logic of tying together multiple pieces of information.
 2. Generic approach to RAG:
    - read data
@@ -9,7 +9,6 @@
    - Use the vector store data for similarity matching when user prompts.
   
 ## MCPs
-
 ### How to create one
 
 ## Langchain notes (https://docs.langchain.com/)
@@ -19,7 +18,11 @@ Benefits:
 - Manages large context as a system using file system tools. __ls__, __read_file__, __write_file__, __edit_file__.
 - Swap filesystem backends from its ___virtual filesystem___ - in-memory state, local disk, durable stores or your own custom backend, even sandboxes such as Modal or Daytona.
 - Persistant memory across sessions, using LangGraph's Memory Store.
-- Multistep process planning and handling. __write_todos__
+- Multistep process planning and handling. __write_todos__ . Does this on its own if it feels the need, just like calling tools.
+
+Features:
+- Streaming - sending updates as agent executes it. Both as output and debugging.
+- Spawn new agents
 
 
 Built on Langchain's core blocks. Execution, streaming etc. through LangGraph.
@@ -42,14 +45,36 @@ Built on Langchain's core blocks. Execution, streaming etc. through LangGraph.
 ```
 # pip install -qU deepagents
 from deepagents import create_deep_agent
+import os
+from typing import Literal
+from tavily import TavilyClient
+from deepagents import create_deep_agent
 
+tavily_client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
+
+# CREATE AN INTERNET SEARCH TOOL USING TAVILY
+def internet_search(
+    query: str,
+    max_results: int = 5,
+    topic: Literal["general", "news", "finance"] = "general",
+    include_raw_content: bool = False,
+):
+    """Run a web search"""
+    return tavily_client.search(
+        query,
+        max_results=max_results,
+        include_raw_content=include_raw_content,
+        topic=topic,
+    )
+
+# SOME GENERIC TOOL
 def get_weather(city: str) -> str:
     """Get weather for a given city."""
     return f"It's always sunny in {city}!"
 
 # _Set LANGSMITH_TRACING=true and your API key to get started_
 agent = create_deep_agent(
-    tools=[get_weather],
+    tools=[internet_search, get_weather],
     system_prompt="You are a helpful assistant",
       )
 
