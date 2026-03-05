@@ -3,6 +3,7 @@ Mainly SOV, but: \
 1. Sentences with only one verb - SVO or VSO
 2. Sentences with multiple verbs - SVOV+V+V+V... e.g _Jan wilde zijn moeder gaan helpen._
 3. Subordinate clause - most common - phrase.tense wise participle.aux verb - _Omdat ik gewerkt heb_
+4. Conditional? - Als....., VSO - Omdat ik tijd heb, _ga ik_ naar Amsterdam 
 
 ### Compound Verbs
 Verbs can be created by mixing a suffix and another word: \
@@ -62,7 +63,9 @@ Technical explanation - [https://en.wikipedia.org/wiki/Dutch_grammar](https://en
 
 ### Conditional - Would and Should
 Ik zou <adjective, niet...> infinitive verb - I would <quickly, carefully.... the thing...> choose \
-Ik zou <> moeten infinitive verb - I would <> must choose = I should <> choose
+Ik zou <> moeten infinitive verb - I would <> must choose = I should <> choose\
+
+Negatives _conditional_, zouden comes after description, adverbs and all with the last verb - Als ik tijd _niet zouden gehad_...
 
 
 ## Common adjectives
