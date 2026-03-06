@@ -57,17 +57,25 @@ Match the below with each column of the tenses
 ### Tenses general
 Technical explanation - [https://en.wikipedia.org/wiki/Dutch_grammar](https://en.wikipedia.org/wiki/Dutch_grammar)
 
+| Past Perfect | Past Perfect Continuous | Past Continuous| Simple Past | Present Perfect | Present Perfect Continuous | Present Continuous| Simple Present | Future Perfect | Future Perfect Continuous | Future Continuous| Simple Future |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| --- |
+| I had worked | I had been working | I was working | I worked | I have worked | I have been working | I am working | I work | I will have worked | I will have been working | I will be working | I will work |
+| Ik had gewerkt|  | | Ik werkt | Ik heb gewerkt| | | Ik werk | Ik zal heb gewerkt | Future Perfect Continuous | Future Continuous| Ik zal werken |
+
 | Perfect Past | Simple Past | Perfect Present | Simple Present | Simple Future | Perfect Future | Past Future | Command |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Ik had gewerkt | Ik werkte | Ik heb gewerkt | Ik werk | Ik zal werken | Ik zou werken | Ik zal heb gewerkt | Werk nu |
 
-### Conditional - Would and Should
-Ik zou <adjective, niet...> infinitive verb - I would <quickly, carefully.... the thing...> choose \
-Ik zou <> moeten infinitive verb - I would <> must choose = I should <> choose\
+### Conditional - Would, Could and Should
+Ik zou <adjective, niet...> infinitive verb - I would <quickly, carefully.... the thing...> infinitive \
+Ik zou <> kunnen infinitive verb - I __would__ <> __can__ infinitive = I could infinitive 
+Ik zou <> moeten infinitive verb - I would <> must infinitive = I should <> infinitive\
 
 Negatives _conditional_, zouden comes after description, adverbs and all with the last verb - Als ik _niet_ tijd _zou gehad_...
 
-Subjugate conditional - Als...., _zouden tense_ SOV. e.g. Als ik niet tijd gehad, zou ik niet naar Amsterdam gegaan.
+Subjugate conditional - Als...., _zouden_ SOV. e.g. Als ik niet tijd gehad, zou ik niet naar Amsterdam gegaan.
+
+Subjugate conditional ___negative___ - Als..... e.g. .
 
 
 ## Common adjectives
@@ -88,7 +96,7 @@ Saai - bored\
 ### Weight and count and variety and stuff
 Zwaak, Zwakker, Zwaakste - heavy, heavier, heaviest \
 Licht? \
-Eerste, , dierde, vierde, , \
+Eerste, tweede, dierde, vierde, , \
 Verschilende - different \
 Dezelfde, hetzelfde - the same \
 
@@ -104,7 +112,7 @@ ___Email related___ \
 Onderwerp - Topic / subject 
 Oplossing - solution
 
-___Apps related___
+___Apps related___\
 Toegang - access
 
 
@@ -121,3 +129,15 @@ Buiten / Buitenkant - outside
 
 ### Measure of, count of, paying, ordering and accounting 
 Maat - size\
+
+
+# Appendix 
+## All verbs with their tenses
+
+Blijven 
+
+
+Hebben 
+
+
+Worden 
