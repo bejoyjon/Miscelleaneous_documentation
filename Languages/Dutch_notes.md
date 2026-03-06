@@ -67,14 +67,11 @@ Match the below with each column of the tenses
 ### Tenses general
 Technical explanation - [https://en.wikipedia.org/wiki/Dutch_grammar](https://en.wikipedia.org/wiki/Dutch_grammar)
 
-| Past Perfect | Past Perfect Continuous | Past Continuous| Simple Past | Present Perfect | Present Perfect Continuous | Present Continuous| Simple Present | Future Perfect | Future Perfect Continuous | Future Continuous| Simple Future |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| --- |
-| I had worked | I had been working | I was working | I worked | I have worked | I have been working | I am working | I work | I will have worked | I will have been working | I will be working | I will work |
-| Ik had gewerkt|  | | Ik werkt | Ik heb gewerkt| | | Ik werk | Ik zal heb gewerkt | Future Perfect Continuous | Future Continuous| Ik zal werken |
+| Past Perfect | Past Perfect Continuous | Past Continuous| Simple Past | Present Perfect | Present Perfect Continuous | Present Continuous| Simple Present | Future Perfect | Future Perfect Continuous | Future Continuous| Simple Future | Command |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| --- | --- |
+| I had worked | I had been working | I was working | I worked | I have worked | I have been working | I am working | I work | I will have worked | I will have been working | I will be working | I will work | Work! |
+| Ik had gewerkt|  | | Ik werkt | Ik heb gewerkt| | | Ik werk | Ik zal heb gewerkt |  | | Ik zal werken | Werk |
 
-| Perfect Past | Simple Past | Perfect Present | Simple Present | Simple Future | Perfect Future | Past Future | Command |
-|--- |--- |--- |--- |--- |--- |--- |--- |
-| Ik had gewerkt | Ik werkte | Ik heb gewerkt | Ik werk | Ik zal werken | Ik zou werken | Ik zal heb gewerkt | Werk nu |
 
 ### Conditional - Would, Could and Should
 Ik zou <adjective, niet...> infinitive verb - I would <quickly, carefully.... the thing...> infinitive \
