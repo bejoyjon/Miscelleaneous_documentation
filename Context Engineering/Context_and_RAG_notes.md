@@ -1,4 +1,4 @@
-## Retrieval Augmented Generation
+# Retrieval Augmented Generation Methodology
 1. Key step is to identify all the data sources and their relationships, within the larger logic of tying together multiple pieces of information.
 2. Generic approach to RAG:
    - read data
@@ -7,11 +7,20 @@
    - make an index from chunk ID / vector store ID vs text.
        - Tree indexing is a highly accurate but resource intensive method. Same logic as tree search.
    - Use the vector store data for similarity matching when user prompts.
-  
+
+Rajsuthan Gopinath has done a [PoC for RAGing](https://www.youtube.com/watch?v=bkKVWf7qQUk&list=PLA1G2nVay86RW7LqJERpgTAWbWmNdXcAI) from 10k+ docs from NASA for an aerospace co. \
+Challenges:
+1. Mix of scans, technical diagrams meant large amount of image detection.
+2. Required hybrid retreival methods, formula detection.
+
+
+
+
+# Tools
 ## MCPs
 ### How to create one
 
-## [Langchain notes](https://docs.langchain.com)
+## [Langchain](https://docs.langchain.com)
 ### Deepagents
 Basically agent harness i.e. tool calling loop like OpenAI or Claude agents, but has a lot more integrations built in. \
 Built on Langchain's core blocks. Execution, streaming etc. through LangGraph.
