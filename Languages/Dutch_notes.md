@@ -15,7 +15,9 @@ there is also the "ending" - door and heen - which is stuck at the end of the se
 ### All rounder verbs
 Blijven - to be - .\
 Worden - to become - .\
-Hebben - to have
+Hebben - to have / to have to\
+Graag? - ...like to\
+Willen - to want to...
 
 ### In the office
 Werken - To work\
@@ -24,19 +26,26 @@ Krijgen - To receive\
 Nemen - To take\
 Sturen - To send\
 Leiden - To lead\
-Vooltoien - To complete (formal), <i> Afmaken </i> - to complete (informal), <i> Beendigen </i> - to end...a party for example, <i> Afronden </i> - to wrap up....e.g a conversation \
+Vooltoien - To complete (formal), _Afmaken _ - to complete (informal), _Beendigen_ - to end...a party for example, _Afronden_ - to wrap up....e.g a conversation \
 Vraagen - To ask \
 Aantworden - To answer\
-Bespreken - To discuss, <i> Behandling </i> - to handle...e.g a topic, <i> Bepraten </i> - To talk over...e.g. someone \
-Op.lossen - To solve...a problem, <i> Verhelpen </i> - fix or remove....an issue, <i> Zich voornemen </i> - resolve to do something \
+Bespreken - To discuss, _Behandling_ - to handle...e.g a topic, _Bepraten_ - To talk over...e.g. someone \
+Op.lossen - To solve...a problem, _Verhelpen_ - fix or remove....an issue, _Zich voornemen_ - resolve to do something \
 Besluiten - to decide \
 Vinden - To find \
 Tellen - To count \
 Bellen - To call \
-Accepteren - To accept...e.g. a package, an idea..., <i> Aanvarden </i> - to accept...a challenge, <i> Aannemen </i> - to take on... \
-Weigeren - refuse....to do something, <i> Verwerpen </i> -  To reject or dismiss, <i> Afwijzen </i> - to turn down \
+Accepteren - To accept...e.g. a package, an idea..., _Aanvarden_ - to accept...a challenge, _Aannemen_ - to take on... \
+Weigeren - refuse....to do something, _Verwerpen_ -  To reject or dismiss, _Afwijzen_ - to turn down \
+? - remind
 
 ### In the hotel
+? - check in\
+? - check out\
+? - billing (my card)\
+? - order (food & drinks)\
+? - pay\
+? - buy
 
 
 ### In the park
@@ -44,6 +53,7 @@ Weigeren - refuse....to do something, <i> Verwerpen </i> -  To reject or dismiss
 
 ### On the road and in public transport
 Reisen - to travel
+? - to book
 
 
 ## Pronouns
@@ -106,6 +116,7 @@ Dezelfde, hetzelfde - the same \
 ___Activities___\
 Gesprek - conversation \
 Vergadering - meeting\
+? - discussion\
 Moeite - effort 
 
 ___Email related___ \
@@ -114,6 +125,14 @@ Oplossing - solution
 
 ___Apps related___\
 Toegang - access
+
+### In the hotel 
+___Activities___\
+? - check in\
+Vergadering - meeting\
+? - discussion\
+Moeite - effort 
+
 
 
 ### Outside, on the road and public spaces
@@ -129,6 +148,7 @@ Buiten / Buitenkant - outside
 
 ### Measure of, count of, paying, ordering and accounting 
 Maat - size\
+Rekening - bill\
 
 
 # Appendix 
