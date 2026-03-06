@@ -39,12 +39,12 @@ Built on Langchain's core blocks. Execution, streaming etc. through LangGraph.
 - Spawn new agents - subagents can be configured with their own system_prompt, tools and even models separate from the default, which is the master agent's model.
 - Defaults - Model - Claude x.x (changes every now and then), System prompt - mostly about tool use, and subagents. Middleware special tools like filesystem tools can be appended to the system prompt as well. The system prompt does not define any kind of role, only generic, all purpose instructions.
 - [Middleware tools](#deepagents-middleware-sample)
-      - TodoListMiddleware: todo lists for organizing agent tasks and work
-      - FilesystemMiddleware: file system operations such as reading, writing, and navigating directories
-      - SubAgentMiddleware: Spawns and coordinates subagents for delegating tasks to specialized agents
-      - SummarizationMiddleware: Condenses message history to stay within context limits when conversations grow long
-      - AnthropicPromptCachingMiddleware: Auto reduction of redundant token processing when using <ins>Anthropic</ins> models
-      - PatchToolCallsMiddleware: Automatic message history fixes when tool calls are interrupted or cancelled before receiving results
+     - TodoListMiddleware: todo lists for organizing agent tasks and work.
+     - FilesystemMiddleware: file system operations such as reading, writing, and navigating directories
+     - SubAgentMiddleware: Spawns and coordinates subagents for delegating tasks to specialized agents
+     - SummarizationMiddleware: Condenses message history to stay within context limits when conversations grow long
+     - AnthropicPromptCachingMiddleware: Auto reduction of redundant token processing when using <ins>Anthropic</ins> models
+     - PatchToolCallsMiddleware: Automatic message history fixes when tool calls are interrupted or cancelled before receiving results
    - Human in the loop middleware tools   
       - MemoryMiddleware: Persists and retrieves conversation context across sessions when the memory argument is provided
       - SkillsMiddleware: Enables custom skills when the skills argument is provided
