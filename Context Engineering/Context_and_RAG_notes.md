@@ -11,7 +11,7 @@
 ## MCPs
 ### How to create one
 
-## Langchain notes (https://docs.langchain.com/)
+## [Langchain notes](https://docs.langchain.com)
 ### Deepagents
 Basically agent harness i.e. tool calling loop like OpenAI or Claude agents, but has a lot more integrations built in. \
 Built on Langchain's core blocks. Execution, streaming etc. through LangGraph.
@@ -27,9 +27,9 @@ Built on Langchain's core blocks. Execution, streaming etc. through LangGraph.
 
 #### ___Features___:
 - Streaming - sending updates as agent executes it. Useful for both output and debugging.
-- Spawn new agents
+- Spawn new agents - subagents can be configured with their own system_prompt, tools and even models separate from the default, which is the master agent's model.
 - Defaults - Model - Claude x.x (changes every now and then), System prompt - mostly about tool use, and subagents. Middleware special tools like filesystem tools can be appended to the system prompt as well. The system prompt does not define any kind of role, only generic, all purpose instructions.
-   - [Middleware tools](#deepagents-middleware-sample)
+- [Middleware tools](#deepagents-middleware-sample)
       - TodoListMiddleware: todo lists for organizing agent tasks and work
       - FilesystemMiddleware: file system operations such as reading, writing, and navigating directories
       - SubAgentMiddleware: Spawns and coordinates subagents for delegating tasks to specialized agents
@@ -41,6 +41,13 @@ Built on Langchain's core blocks. Execution, streaming etc. through LangGraph.
       - SkillsMiddleware: Enables custom skills when the skills argument is provided
       - HumanInTheLoopMiddleware: Pauses for human approval or input at specified points when the interrupt_on argument is provided
       - More middleware can be integrated with custom hooks - see [deepagents custom middleware docs](https://docs.langchain.com/oss/python/langchain/middleware/custom#custom-state-schema), note possible errors that you can make
+- Backends
+   - default - StateBackend, lasts for the session only.
+   - Filesystembackend - dealing with local files
+   - LocalShellBackend - shell interactions
+   - StoreBackend - 
+   - CompositeBackend
+   - Sandbox - special type of Backend which makes changes in a constrained environment.
 
 
 #### ___Do not use Deepagents if___ :
