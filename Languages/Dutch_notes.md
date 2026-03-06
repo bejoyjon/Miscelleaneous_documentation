@@ -43,7 +43,7 @@ Weigeren - refuse....to do something, <i> Verwerpen </i> -  To reject or dismiss
 
 
 ### On the road and in public transport
-
+Reisen - to travel
 
 
 ## Pronouns
@@ -81,7 +81,8 @@ Saai - bored\
 ? - angry\
 ? - upset\
 ? - worried\
-? - anxious
+? - anxious\
+? - sorry / apologetic 
 
 
 ### Weight and count and variety and stuff
@@ -92,12 +93,31 @@ Verschilende - different \
 Dezelfde, hetzelfde - the same \
 
 
-## Common things
+## Common nouns
 ### In the office
-<i><b> Activities </b></i> \
+___Activities___\
 Gesprek - conversation \
-Vergadering - meeting
+Vergadering - meeting\
+Moeite - effort 
 
-<i><b> Email related </b></i> \
+___Email related___ \
 Onderwerp - Topic / subject 
 Oplossing - solution
+
+___Apps related___
+Toegang - access
+
+
+### Outside, on the road and public spaces
+Richting - direction\
+Voorkant - in front of\
+Achter - behind\
+? - left side\
+? - right side\
+Boven - above\
+Beneiden - below/under\
+Binnen / Binnenkant - inside\
+Buiten / Buitenkant - outside
+
+### Measure of, count of, paying, ordering and accounting 
+Maat - size\
