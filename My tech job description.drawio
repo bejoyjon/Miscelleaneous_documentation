@@ -2468,7 +2468,7 @@
             <mxPoint x="-5" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6BczClmz-A2k4KHn4pWN-7" parent="I7m9XsOibK2go_DxYcyI-33" style="image;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="PostgreSQL database&amp;nbsp;&lt;div&gt;of all meter data&lt;/div&gt;" vertex="1">
+        <mxCell id="6BczClmz-A2k4KHn4pWN-7" parent="I7m9XsOibK2go_DxYcyI-33" style="image;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" value="PostgreSQL database&amp;nbsp;&lt;div&gt;of all meter data&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="60" x="1005" y="127.5" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-8" edge="1" parent="I7m9XsOibK2go_DxYcyI-33" source="I7m9XsOibK2go_DxYcyI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.531;exitDx=0;exitDy=0;exitPerimeter=0;" target="6BczClmz-A2k4KHn4pWN-7">
@@ -2478,7 +2478,7 @@
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-9" connectable="0" parent="6BczClmz-A2k4KHn4pWN-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Append each &quot;D section&quot;&lt;div&gt;to respective tables. E.g&lt;/div&gt;&lt;div&gt;&quot;D1&quot; value goes to table&lt;/div&gt;&lt;div&gt;D1_raw with timestamp&lt;/div&gt;&lt;div&gt;and customer name/&lt;/div&gt;&lt;div&gt;tenant id&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0648" y="2" as="geometry">
-            <mxPoint x="-17" y="1" as="offset" />
+            <mxPoint x="-26" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I7m9XsOibK2go_DxYcyI-15" parent="I7m9XsOibK2go_DxYcyI-33" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="Common and customer specific &#xa;&quot;static&quot; data" vertex="1">
@@ -2539,7 +2539,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CoEy17iHxGE9fJVb03xK-1" parent="I7m9XsOibK2go_DxYcyI-33" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="End user &#xa;specific &#xa;&quot;static&quot; data&#xa;like area, floor..." vertex="1">
-          <mxGeometry height="40" width="90" x="890" y="60" as="geometry" />
+          <mxGeometry height="40" width="90" x="880" y="60" as="geometry" />
         </mxCell>
         <mxCell id="CoEy17iHxGE9fJVb03xK-2" edge="1" parent="I7m9XsOibK2go_DxYcyI-33" source="CoEy17iHxGE9fJVb03xK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" target="6BczClmz-A2k4KHn4pWN-7">
           <mxGeometry relative="1" as="geometry">
