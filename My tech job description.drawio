@@ -2104,7 +2104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5v8YRWaCmojoG1Oi9-ED" name="Power-Analytics-System-diagram">
-    <mxGraphModel dx="2037" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="570" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2139,7 +2139,7 @@
           <mxGeometry height="88.75" width="125" x="50" y="20.000000000000004" as="geometry" />
         </mxCell>
         <mxCell id="vUzEVyLoqQjVRlAyQMg0-9" parent="I7m9XsOibK2go_DxYcyI-29" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Login page" vertex="1">
-          <mxGeometry height="60.84" width="98.75" x="425" y="152.07999999999993" as="geometry" />
+          <mxGeometry height="60.84" width="98.75" x="440" y="152.07999999999993" as="geometry" />
         </mxCell>
         <mxCell id="vUzEVyLoqQjVRlAyQMg0-16" parent="I7m9XsOibK2go_DxYcyI-29" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Basic&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Analytics + LLM&lt;/span&gt;&lt;div&gt;based Web app&lt;/div&gt;" vertex="1">
           <mxGeometry height="96.25" width="145" x="824.13" y="16.250000000000007" as="geometry" />
@@ -2332,9 +2332,11 @@
         <mxCell id="I7m9XsOibK2go_DxYcyI-35" edge="1" parent="1" source="I7m9XsOibK2go_DxYcyI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=17.5;exitPerimeter=0;entryX=0.512;entryY=0.886;entryDx=0;entryDy=0;entryPerimeter=0;" target="vUzEVyLoqQjVRlAyQMg0-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1120" y="92" />
+              <mxPoint x="1120" y="93" />
               <mxPoint x="1120" y="780" />
-              <mxPoint x="506" y="780" />
+              <mxPoint x="510" y="780" />
+              <mxPoint x="510" y="690" />
+              <mxPoint x="511" y="690" />
             </Array>
             <mxPoint x="1119.9999999999995" y="789.9999999999998" as="targetPoint" />
           </mxGeometry>
