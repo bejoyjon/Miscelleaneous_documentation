@@ -77,8 +77,11 @@ Built on Langchain's core blocks. Execution, streaming etc. through LangGraph.
 # Appendix
 ## FAQs
 ### 1. Context windows seem to vary by model, and by each generation. What decides context window, speed of training and speed of inference at the model level and infra? Is there any impact of vector databases or similar harnesses?
+Context window - \
+Speed of training - \
 [Speed of training](https://github.com/bejoyjon/Miscelleaneous_documentation/blob/main/AI%20apps%20/Noteworthy_web_apps_and_models.md#1-what-are-the-criteria-that-decides-speed-of-training--finetuning)
-2. 
+
+### 2. 
 
 ## Sample code
 ### Deepagents sample
