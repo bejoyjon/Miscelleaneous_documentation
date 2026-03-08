@@ -2282,7 +2282,7 @@
             <mxPoint x="-17" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I7m9XsOibK2go_DxYcyI-15" parent="I7m9XsOibK2go_DxYcyI-33" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="Common and customer specific &#xa;constant data" vertex="1">
+        <mxCell id="I7m9XsOibK2go_DxYcyI-15" parent="I7m9XsOibK2go_DxYcyI-33" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="Common and customer specific &#xa;&quot;static&quot; data" vertex="1">
           <mxGeometry height="40" width="90" x="990" y="15" as="geometry" />
         </mxCell>
         <mxCell id="I7m9XsOibK2go_DxYcyI-16" edge="1" parent="I7m9XsOibK2go_DxYcyI-33" source="I7m9XsOibK2go_DxYcyI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6BczClmz-A2k4KHn4pWN-7">
