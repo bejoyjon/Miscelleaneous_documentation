@@ -1,5 +1,5 @@
 # Retrieval Augmented Generation Methodology
-1. Key step is to identify all the data sources and their relationships, within the larger logic of tying together multiple pieces of information.
+1. Key step is to identify all the data sources and their relationships, within the larger logic of tying together multiple pieces of information. ___Therefore, critical to identify, understand, develop / improve data existing sources for any organization we work for.___ Even better if we can design for the future e.g a distinct data group for AI generated data.
 2. Generic approach to RAG:
    - read data
    - chunk it using overlapping chunking models
