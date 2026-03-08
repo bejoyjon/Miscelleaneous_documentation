@@ -1821,14 +1821,50 @@
         <mxCell id="ok5AgBosstmFvk_svyCo-0" parent="PDUwmFleRplkZXQibBha-1" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" value="Prompt from&amp;nbsp;&lt;div&gt;local machine&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="60" x="50" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="ok5AgBosstmFvk_svyCo-4" parent="PDUwmFleRplkZXQibBha-1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;labelBackgroundColor=light-dark(#FFFFFF,transparent);fontColor=light-dark(#000000,#FFB366);" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Prompt from cloud system&lt;/span&gt;" vertex="1">
-          <mxGeometry height="31.5" width="50" x="150" y="46" as="geometry" />
+        <mxCell id="ok5AgBosstmFvk_svyCo-4" parent="PDUwmFleRplkZXQibBha-1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;labelBackgroundColor=none;fontColor=#000000;" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Prompt from cloud system&lt;/span&gt;" vertex="1">
+          <mxGeometry height="44.1" width="70" x="150" y="46" as="geometry" />
         </mxCell>
-        <mxCell id="ok5AgBosstmFvk_svyCo-5" parent="PDUwmFleRplkZXQibBha-1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.uis_ultimate_internet_service;" value="Internet&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="54" width="54.900000000000006" x="240" y="48" as="geometry" />
+        <mxCell id="ok5AgBosstmFvk_svyCo-5" parent="PDUwmFleRplkZXQibBha-1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.uis_ultimate_internet_service;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="54.900000000000006" x="246.20000000000002" y="48" as="geometry" />
         </mxCell>
         <mxCell id="ok5AgBosstmFvk_svyCo-6" parent="PDUwmFleRplkZXQibBha-1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" value="" vertex="1">
-          <mxGeometry height="75" width="75" x="125" y="290" as="geometry" />
+          <mxGeometry height="75" width="75" x="210" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-7" parent="PDUwmFleRplkZXQibBha-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" value="Research agent" vertex="1">
+          <mxGeometry height="50" width="43" x="258.1" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-8" parent="PDUwmFleRplkZXQibBha-1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" value="" vertex="1">
+          <mxGeometry height="75" width="75" x="30" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-10" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.608;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="ok5AgBosstmFvk_svyCo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-11" parent="PDUwmFleRplkZXQibBha-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" value="Feature creation&lt;div&gt;agent&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="43" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-12" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ok5AgBosstmFvk_svyCo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="160" />
+              <mxPoint x="122" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-13" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ok5AgBosstmFvk_svyCo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-14" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.94;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" target="ok5AgBosstmFvk_svyCo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="263" />
+              <mxPoint x="201" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-15" connectable="0" parent="ok5AgBosstmFvk_svyCo-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ask&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="0.0715" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
