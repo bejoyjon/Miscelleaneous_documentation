@@ -1818,52 +1818,139 @@
       <root>
         <mxCell id="PDUwmFleRplkZXQibBha-0" />
         <mxCell id="PDUwmFleRplkZXQibBha-1" parent="PDUwmFleRplkZXQibBha-0" />
-        <mxCell id="ok5AgBosstmFvk_svyCo-0" parent="PDUwmFleRplkZXQibBha-1" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" value="Prompt from&amp;nbsp;&lt;div&gt;local machine&lt;/div&gt;" vertex="1">
+        <mxCell id="ok5AgBosstmFvk_svyCo-0" parent="PDUwmFleRplkZXQibBha-1" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="Prompt from&amp;nbsp;&lt;div&gt;local machine&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="60" x="50" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="ok5AgBosstmFvk_svyCo-4" parent="PDUwmFleRplkZXQibBha-1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;labelBackgroundColor=none;fontColor=#000000;" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Prompt from cloud system&lt;/span&gt;" vertex="1">
+        <mxCell id="ok5AgBosstmFvk_svyCo-4" parent="PDUwmFleRplkZXQibBha-1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;labelBackgroundColor=default;fontColor=#000000;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;whiteSpace=wrap;" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Prompt from cloud system&lt;/span&gt;" vertex="1">
           <mxGeometry height="44.1" width="70" x="150" y="46" as="geometry" />
         </mxCell>
-        <mxCell id="ok5AgBosstmFvk_svyCo-5" parent="PDUwmFleRplkZXQibBha-1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.uis_ultimate_internet_service;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="ok5AgBosstmFvk_svyCo-5" parent="PDUwmFleRplkZXQibBha-1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.uis_ultimate_internet_service;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" value="&lt;div&gt;Internet&lt;/div&gt;" vertex="1">
           <mxGeometry height="54" width="54.900000000000006" x="246.20000000000002" y="48" as="geometry" />
         </mxCell>
         <mxCell id="ok5AgBosstmFvk_svyCo-6" parent="PDUwmFleRplkZXQibBha-1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" value="" vertex="1">
-          <mxGeometry height="75" width="75" x="210" y="390" as="geometry" />
+          <mxGeometry height="75" width="75" x="325" y="610" as="geometry" />
         </mxCell>
         <mxCell id="ok5AgBosstmFvk_svyCo-7" parent="PDUwmFleRplkZXQibBha-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" value="Research agent" vertex="1">
           <mxGeometry height="50" width="43" x="258.1" y="170" as="geometry" />
         </mxCell>
         <mxCell id="ok5AgBosstmFvk_svyCo-8" parent="PDUwmFleRplkZXQibBha-1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" value="" vertex="1">
-          <mxGeometry height="75" width="75" x="30" y="440" as="geometry" />
+          <mxGeometry height="75" width="75" x="385" y="730" as="geometry" />
         </mxCell>
         <mxCell id="ok5AgBosstmFvk_svyCo-10" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.608;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="ok5AgBosstmFvk_svyCo-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ok5AgBosstmFvk_svyCo-11" parent="PDUwmFleRplkZXQibBha-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" value="Feature creation&lt;div&gt;agent&lt;/div&gt;" vertex="1">
+        <mxCell id="ok5AgBosstmFvk_svyCo-22" connectable="0" parent="ok5AgBosstmFvk_svyCo-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Search for potential features&lt;div&gt;&amp;nbsp;to add to product&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0932" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-25" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.06;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="262" />
+              <mxPoint x="65" y="400" />
+            </Array>
+            <mxPoint x="65" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-11" parent="PDUwmFleRplkZXQibBha-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" value="Input manager&lt;div&gt;agent&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="43" x="100" y="230" as="geometry" />
         </mxCell>
         <mxCell id="ok5AgBosstmFvk_svyCo-12" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ok5AgBosstmFvk_svyCo-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="80" y="160" />
-              <mxPoint x="122" y="160" />
+              <mxPoint x="80" y="120" />
+              <mxPoint x="122" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ok5AgBosstmFvk_svyCo-13" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ok5AgBosstmFvk_svyCo-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ok5AgBosstmFvk_svyCo-14" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.94;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" target="ok5AgBosstmFvk_svyCo-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="263" />
-              <mxPoint x="201" y="263" />
+              <mxPoint x="185" y="120" />
+              <mxPoint x="122" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ok5AgBosstmFvk_svyCo-15" connectable="0" parent="ok5AgBosstmFvk_svyCo-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ask&amp;nbsp;" vertex="1">
-          <mxGeometry relative="1" x="0.0715" y="2" as="geometry">
+        <mxCell id="ok5AgBosstmFvk_svyCo-17" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.94;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.23;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="ok5AgBosstmFvk_svyCo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299" y="182" />
+              <mxPoint x="410" y="182" />
+              <mxPoint x="410" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-18" connectable="0" parent="ok5AgBosstmFvk_svyCo-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ask Research&lt;div&gt;agent to look for&lt;/div&gt;&lt;div&gt;features - every 2nd and 4th&lt;/div&gt;&lt;div&gt;Sunday at 6 pm local time&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4806" as="geometry">
+            <mxPoint x="148" y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-19" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0.23;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0.23;entryDx=0;entryDy=0;entryPerimeter=0;" target="ok5AgBosstmFvk_svyCo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269" y="180" />
+              <mxPoint x="170" y="180" />
+              <mxPoint x="170" y="241" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-20" connectable="0" parent="ok5AgBosstmFvk_svyCo-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Results of&lt;div&gt;search&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.6964" y="2" as="geometry">
+            <mxPoint x="-30" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-26" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ok5AgBosstmFvk_svyCo-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="440" />
+              <mxPoint x="160" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-28" connectable="0" parent="ok5AgBosstmFvk_svyCo-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="If feature addition or&lt;div&gt;modification, add as item&lt;/div&gt;&lt;div&gt;in the&amp;nbsp;Power-analytics-roadmap&amp;nbsp;&lt;/div&gt;&lt;div&gt;project in the Power-Analytics&lt;/div&gt;&lt;div&gt;repo.&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint x="40" y="68" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-33" connectable="0" parent="ok5AgBosstmFvk_svyCo-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Feature" vertex="1">
+          <mxGeometry relative="1" x="-0.6296" y="3" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-27" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ok5AgBosstmFvk_svyCo-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="770" />
+            </Array>
+            <mxPoint x="270" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-29" connectable="0" parent="ok5AgBosstmFvk_svyCo-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="If feature addition or&lt;div&gt;modification, add as Issue&lt;/div&gt;&lt;div&gt;in&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;the Power-Analytics&lt;/span&gt;&lt;/div&gt;&lt;div&gt;repo.&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3013" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-34" connectable="0" parent="ok5AgBosstmFvk_svyCo-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Issue" vertex="1">
+          <mxGeometry relative="1" x="-0.7311" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-24" parent="PDUwmFleRplkZXQibBha-1" style="rhombus;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontSize=8;" value="Is it an Issue/ break or feature addition or modification?" vertex="1">
+          <mxGeometry height="80" width="130" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-30" parent="PDUwmFleRplkZXQibBha-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" value="Feature change agent" vertex="1">
+          <mxGeometry height="50" width="43" x="460" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-31" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="ok5AgBosstmFvk_svyCo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-32" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="ok5AgBosstmFvk_svyCo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="ok5AgBosstmFvk_svyCo-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="482" y="768" />
+              <mxPoint x="482" y="625" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
