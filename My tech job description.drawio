@@ -2104,7 +2104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5v8YRWaCmojoG1Oi9-ED" name="Power-Analytics-System-diagram">
-    <mxGraphModel dx="570" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2282,6 +2282,11 @@
         </mxCell>
         <mxCell id="I7m9XsOibK2go_DxYcyI-16" edge="1" parent="I7m9XsOibK2go_DxYcyI-33" source="I7m9XsOibK2go_DxYcyI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6BczClmz-A2k4KHn4pWN-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7m9XsOibK2go_DxYcyI-37" connectable="0" parent="I7m9XsOibK2go_DxYcyI-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Get static data like&lt;div&gt;definitions, codes&amp;nbsp;&lt;/div&gt;&lt;div&gt;or&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;standards&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2828" y="2" as="geometry">
+            <mxPoint x="-2" y="9" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e9PskM22Nfar8fjiIj77-37" parent="I7m9XsOibK2go_DxYcyI-33" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Customer A&lt;div&gt;specific analytics&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="141" x="370" y="309" as="geometry" />
