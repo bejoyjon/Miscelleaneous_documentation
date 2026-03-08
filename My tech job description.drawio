@@ -1975,10 +1975,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6BczClmz-A2k4KHn4pWN-1" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" value="Agent for customer A" vertex="1">
-          <mxGeometry height="50" width="43" x="600" y="670" as="geometry" />
+          <mxGeometry height="50" width="43" x="600" y="760" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Customer A user" vertex="1">
-          <mxGeometry height="60" width="30" x="850" y="610" as="geometry" />
+          <mxGeometry height="60" width="30" x="830" y="740" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-5" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6BczClmz-A2k4KHn4pWN-4" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1989,21 +1989,63 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="MDMS database (Oracle or SQL)" vertex="1">
-          <mxGeometry height="80" width="60" x="50" y="550" as="geometry" />
+          <mxGeometry height="80" width="100" x="160" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="6BczClmz-A2k4KHn4pWN-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="Cloud raw storage like S3 or GC Storage" vertex="1">
-          <mxGeometry height="80" width="90" x="300" y="550" as="geometry" />
+        <mxCell id="6BczClmz-A2k4KHn4pWN-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="Staging blob storage like S3 or GC Storage" vertex="1">
+          <mxGeometry height="80" width="90" x="450" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="6BczClmz-A2k4KHn4pWN-7" parent="1" style="image;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
-          <mxGeometry height="80" width="60" x="630" y="550" as="geometry" />
+        <mxCell id="6BczClmz-A2k4KHn4pWN-7" parent="1" style="image;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="PostgreSQL database of all meter data" vertex="1">
+          <mxGeometry height="80" width="60" x="880" y="580" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-8" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" target="6BczClmz-A2k4KHn4pWN-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-9" connectable="0" parent="6BczClmz-A2k4KHn4pWN-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Append each &quot;D section&quot;&lt;div&gt;to respective tables. E.g&lt;/div&gt;&lt;div&gt;&quot;D1&quot; value goes to table&lt;/div&gt;&lt;div&gt;D1_raw with timestamp&lt;/div&gt;&lt;div&gt;and customer name/&lt;/div&gt;&lt;div&gt;tenant id&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0648" y="2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-17" y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-10" parent="1" style="dashed=0;outlineConnect=0;html=1;align=right;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.weblogos.github" value="Power-Analytics&lt;div&gt;Github repo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="52.5" x="120" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-14" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" target="6BczClmz-A2k4KHn4pWN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-19" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" target="6BczClmz-A2k4KHn4pWN-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-20" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="114" width="60" x="60" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-15" edge="1" parent="6BczClmz-A2k4KHn4pWN-20" source="6BczClmz-A2k4KHn4pWN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6BczClmz-A2k4KHn4pWN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-11" parent="6BczClmz-A2k4KHn4pWN-20" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;" value="Common to all customers folder" vertex="1">
+          <mxGeometry height="30" width="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-13" parent="6BczClmz-A2k4KHn4pWN-20" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Long_shadow_web_icons-2008/python-943.svg" value="Common to all customers&amp;nbsp;&lt;div&gt;functions and other&lt;/div&gt;&lt;div&gt;code&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="3.75" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-21" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="Container with combined code of Common and customer specific code" vertex="1">
+          <mxGeometry height="60" width="170" x="580" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-22" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="6BczClmz-A2k4KHn4pWN-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-23" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="130" width="47.5" x="360" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-16" edge="1" parent="6BczClmz-A2k4KHn4pWN-23" source="6BczClmz-A2k4KHn4pWN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6BczClmz-A2k4KHn4pWN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-17" parent="6BczClmz-A2k4KHn4pWN-23" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;" value="Customer A specific folder" vertex="1">
+          <mxGeometry height="30" width="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-18" parent="6BczClmz-A2k4KHn4pWN-23" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Long_shadow_web_icons-2008/python-943.svg" value="Customer A specific functions&lt;div&gt;and other code&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="3.75" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-24" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6BczClmz-A2k4KHn4pWN-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
