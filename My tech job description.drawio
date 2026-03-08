@@ -1970,7 +1970,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5v8YRWaCmojoG1Oi9-ED" name="Power-Analytics-System-diagram">
-    <mxGraphModel dx="1984" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1983,7 +1983,7 @@
         <mxCell id="6BczClmz-A2k4KHn4pWN-5" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6BczClmz-A2k4KHn4pWN-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6BczClmz-A2k4KHn4pWN-6" connectable="0" parent="6BczClmz-A2k4KHn4pWN-5" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="Read in data every&amp;nbsp;&lt;div&gt;2 mins.&lt;/div&gt;&lt;div&gt;If new data, add to previous&amp;nbsp;&lt;/div&gt;&lt;div&gt;data in&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;raw storage.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;If no new data&lt;/div&gt;&lt;div&gt;skip, wait and try&lt;/div&gt;&lt;div&gt;again.&lt;/div&gt;" vertex="1">
+        <mxCell id="6BczClmz-A2k4KHn4pWN-6" connectable="0" parent="6BczClmz-A2k4KHn4pWN-5" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="Read in data every&amp;nbsp;&lt;div&gt;2 mins.&lt;/div&gt;&lt;div&gt;If new data, replace previous&amp;nbsp;&lt;/div&gt;&lt;div&gt;data in&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;raw storage.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;If no new data&lt;/div&gt;&lt;div&gt;skip, wait and try&lt;/div&gt;&lt;div&gt;again.&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2737" y="-3" as="geometry">
             <mxPoint x="-39" as="offset" />
           </mxGeometry>
@@ -1991,7 +1991,7 @@
         <mxCell id="6BczClmz-A2k4KHn4pWN-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="MDMS database (Oracle or SQL)" vertex="1">
           <mxGeometry height="80" width="100" x="70" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="6BczClmz-A2k4KHn4pWN-25" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="6BczClmz-A2k4KHn4pWN-21">
+        <mxCell id="6BczClmz-A2k4KHn4pWN-25" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="6BczClmz-A2k4KHn4pWN-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-26" connectable="0" parent="6BczClmz-A2k4KHn4pWN-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Triggered by&lt;div&gt;code update.&lt;/div&gt;&lt;div&gt;Convert xml into&lt;/div&gt;&lt;div&gt;specific D-section&lt;/div&gt;&lt;div&gt;Tables and feed&lt;/div&gt;&lt;div&gt;into PostgreSQL&lt;/div&gt;&lt;div&gt;database&lt;/div&gt;" vertex="1">
@@ -2004,14 +2004,14 @@
         </mxCell>
         <mxCell id="e9PskM22Nfar8fjiIj77-1" connectable="0" parent="6BczClmz-A2k4KHn4pWN-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;text-align: left;&quot;&gt;Read in data whenever staging blob&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;is updated, and append to existing&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;data with timestamp&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0194" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-3" y="67" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="Staging blob storage like S3 or GC Storage" vertex="1">
           <mxGeometry height="80" width="90" x="360" y="650" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-7" parent="1" style="image;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="PostgreSQL database of all meter data" vertex="1">
-          <mxGeometry height="80" width="60" x="910" y="650" as="geometry" />
+          <mxGeometry height="80" width="60" x="855" y="660" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-8" edge="1" parent="1" source="e9PskM22Nfar8fjiIj77-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="6BczClmz-A2k4KHn4pWN-7">
           <mxGeometry relative="1" as="geometry" />
@@ -2024,20 +2024,14 @@
         <mxCell id="6BczClmz-A2k4KHn4pWN-10" parent="1" style="dashed=0;outlineConnect=0;html=1;align=right;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.weblogos.github" value="Power-Analytics&lt;div&gt;Github repo&lt;/div&gt;" vertex="1">
           <mxGeometry height="51" width="52.5" x="-440" y="1070" as="geometry" />
         </mxCell>
-        <mxCell id="6BczClmz-A2k4KHn4pWN-19" edge="1" parent="1" source="e9PskM22Nfar8fjiIj77-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" target="6BczClmz-A2k4KHn4pWN-17">
+        <mxCell id="6BczClmz-A2k4KHn4pWN-19" edge="1" parent="1" source="e9PskM22Nfar8fjiIj77-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;" target="6BczClmz-A2k4KHn4pWN-17">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6BczClmz-A2k4KHn4pWN-20" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="114" width="60" x="70" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="6BczClmz-A2k4KHn4pWN-11" parent="6BczClmz-A2k4KHn4pWN-20" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;" value="Common to all customers folder" vertex="1">
-          <mxGeometry height="30" width="47.5" as="geometry" />
         </mxCell>
         <mxCell id="e9PskM22Nfar8fjiIj77-16" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e9PskM22Nfar8fjiIj77-15" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6BczClmz-A2k4KHn4pWN-21" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="Container with combined code of Common and customer specific code for Customer A" vertex="1">
-          <mxGeometry height="60" width="170" x="540" y="354" as="geometry" />
+        <mxCell id="6BczClmz-A2k4KHn4pWN-21" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="Container with combined code of Common and customer specific code for Customer A, deployed in AWS Lambda / EC2 or GCP compute engine / Functions" vertex="1">
+          <mxGeometry height="56" width="320" x="460" y="354" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-22" edge="1" parent="1" source="e9PskM22Nfar8fjiIj77-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="6BczClmz-A2k4KHn4pWN-21" value="">
           <mxGeometry relative="1" as="geometry">
@@ -2050,16 +2044,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="Client specific long term blob storage like S3 or GC Storage. Data lasts for 365 days." vertex="1">
-          <mxGeometry height="80" width="90" x="600" y="720" as="geometry" />
+          <mxGeometry height="80" width="90" x="575" y="840" as="geometry" />
         </mxCell>
-        <mxCell id="e9PskM22Nfar8fjiIj77-14" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e9PskM22Nfar8fjiIj77-12">
+        <mxCell id="e9PskM22Nfar8fjiIj77-14" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e9PskM22Nfar8fjiIj77-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-17" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;" value="Customer A specific folder" vertex="1">
-          <mxGeometry height="30" width="47.5" x="50" y="324" as="geometry" />
+          <mxGeometry height="30" width="47.5" x="60" y="250" as="geometry" />
         </mxCell>
         <mxCell id="e9PskM22Nfar8fjiIj77-13" connectable="0" parent="1" style="group;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="" vertex="1">
-          <mxGeometry height="170" width="330" x="68.75" y="383" as="geometry" />
+          <mxGeometry height="170" width="330" x="160" y="170" as="geometry" />
         </mxCell>
         <mxCell id="e9PskM22Nfar8fjiIj77-7" parent="e9PskM22Nfar8fjiIj77-13" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Long_shadow_web_icons-2008/python-943.svg" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Customer A specific&lt;/span&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Data quality module&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="37.333333333333336" width="37.333333333333336" x="40" y="30" as="geometry" />
@@ -2074,18 +2068,10 @@
           <mxGeometry height="150" width="330" y="20" as="geometry" />
         </mxCell>
         <mxCell id="e9PskM22Nfar8fjiIj77-15" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="Individual tables of D-values. Exact format to be decided." vertex="1">
-          <mxGeometry height="60" width="120" x="585" y="540" as="geometry" />
-        </mxCell>
-        <mxCell id="e9PskM22Nfar8fjiIj77-17" edge="1" parent="1" source="e9PskM22Nfar8fjiIj77-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6BczClmz-A2k4KHn4pWN-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e9PskM22Nfar8fjiIj77-25" connectable="0" parent="e9PskM22Nfar8fjiIj77-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Add to Container" vertex="1">
-          <mxGeometry relative="1" x="0.1639" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry height="60" width="120" x="560" y="480" as="geometry" />
         </mxCell>
         <mxCell id="e9PskM22Nfar8fjiIj77-18" connectable="0" parent="1" style="group;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="" vertex="1">
-          <mxGeometry height="170" width="330" x="460" as="geometry" />
+          <mxGeometry height="170" width="330" x="445" as="geometry" />
         </mxCell>
         <mxCell id="e9PskM22Nfar8fjiIj77-22" parent="e9PskM22Nfar8fjiIj77-18" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="Common code base" vertex="1">
           <mxGeometry height="150" width="330" y="20" as="geometry" />
@@ -2104,18 +2090,32 @@
             <mxPoint x="453.7931034482758" y="284" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e9PskM22Nfar8fjiIj77-28" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+        <mxCell id="e9PskM22Nfar8fjiIj77-30" edge="1" parent="1" source="e9PskM22Nfar8fjiIj77-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.514;entryDx=0;entryDy=0;entryPerimeter=0;" target="6BczClmz-A2k4KHn4pWN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BczClmz-A2k4KHn4pWN-11" parent="1" style="html=1;verticalLabelPosition=top;align=center;labelBackgroundColor=#ffffff;verticalAlign=bottom;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;labelPosition=center;" value="Common to all customers folder" vertex="1">
+          <mxGeometry height="30" width="47.5" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9PskM22Nfar8fjiIj77-31" edge="1" parent="1" source="6BczClmz-A2k4KHn4pWN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e9PskM22Nfar8fjiIj77-27" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-250" y="1096" />
               <mxPoint x="-250" y="236" />
             </Array>
-            <mxPoint x="-77" y="236" as="sourcePoint" />
+            <mxPoint x="-387" y="1096" as="sourcePoint" />
             <mxPoint x="-12" y="236" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e9PskM22Nfar8fjiIj77-27" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;" value="Production code base" vertex="1">
-          <mxGeometry height="30" width="47.5" x="-10" y="220.5" as="geometry" />
+          <mxGeometry height="30" width="47.5" x="-100" y="207.33" as="geometry" />
+        </mxCell>
+        <mxCell id="e9PskM22Nfar8fjiIj77-32" edge="1" parent="1" source="e9PskM22Nfar8fjiIj77-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="6BczClmz-A2k4KHn4pWN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9PskM22Nfar8fjiIj77-33" connectable="0" parent="e9PskM22Nfar8fjiIj77-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Add to&lt;div&gt;Container&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0661" y="3" as="geometry">
+            <mxPoint y="27" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
