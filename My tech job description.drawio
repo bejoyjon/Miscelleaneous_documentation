@@ -2538,6 +2538,16 @@
             <mxPoint x="-9" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="CoEy17iHxGE9fJVb03xK-1" parent="I7m9XsOibK2go_DxYcyI-33" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="End user &#xa;specific &#xa;&quot;static&quot; data&#xa;like area, floor..." vertex="1">
+          <mxGeometry height="40" width="90" x="890" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CoEy17iHxGE9fJVb03xK-2" edge="1" parent="I7m9XsOibK2go_DxYcyI-33" source="CoEy17iHxGE9fJVb03xK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" target="6BczClmz-A2k4KHn4pWN-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="144" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="I7m9XsOibK2go_DxYcyI-35" edge="1" parent="1" source="I7m9XsOibK2go_DxYcyI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=17.5;exitPerimeter=0;entryX=0.512;entryY=0.886;entryDx=0;entryDy=0;entryPerimeter=0;" target="vUzEVyLoqQjVRlAyQMg0-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
