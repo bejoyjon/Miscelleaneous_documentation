@@ -1,17 +1,17 @@
 
 ## [PART 1 - Building a Scalable RAG System for Rocket Science Documents](https://www.youtube.com/live/bkKVWf7qQUk?si=YL2UrWcjZH18B9SZ)
 ### Outline of the Video Content
-Introduction: Background and Project Scope
-Use Case Description: Meridian Aerospace and Data Challenges
-Domain Exploration: AI-Assisted Understanding with Claude
-User Personas and System Success Criteria
-Document Characteristics and Visual Exploration
-Technology Stack: Dockling, Vector DB, VLMs, and Phased Development
-Document Processing: Table Detection and Extraction
-Table Representation: Markdown vs JSON, Image Support, and Model Comparisons
-Formula Extraction: Cropping, VLM Processing, Challenges, and Solutions
-General Observations: Confidence Scoring, Evaluation, and Next Steps
-Wrap-Up: Future Work and Repository Sharing
+Introduction: Background and Project Scope\
+Use Case Description: Meridian Aerospace and Data Challenges\
+Domain Exploration: AI-Assisted Understanding with Claude\
+User Personas and System Success Criteria\
+Document Characteristics and Visual Exploration\
+Technology Stack: Dockling, Vector DB, VLMs, and Phased Development\
+Document Processing: Table Detection and Extraction\
+Table Representation: Markdown vs JSON, Image Support, and Model Comparisons\
+Formula Extraction: Cropping, VLM Processing, Challenges, and Solutions\
+General Observations: Confidence Scoring, Evaluation, and Next Steps\
+Wrap-Up: Future Work and Repository Sharing\
 
 ### Key steps for analysis
 #### 🚀 Project Introduction and Use Case
@@ -122,18 +122,18 @@ A: While the prototype uses cloud and open AI models, the system is designed to 
 This summary comprehensively captures the video’s content, reflecting the detailed walkthrough, architectural planning, technical challenges, and AI strategies involved in building a scalable RAG system for complex aerospace documents.
 
 ### Keywords
-RAG (Retrieval-Augmented Generation)
-Aerospace Documents
-Semantic Search
-Multimodal AI (VLM)
-Document Parsing
-Dockling
-Vector Database (Quadrant)
-Domain Terminology Embeddings
-Confidence Scoring
-Table Extraction
-Formula Extraction
-On-Premise AI Deployment
-NASA Documents
-AI Agent Design
-Domain Expert Personas
+RAG (Retrieval-Augmented Generation)\
+Aerospace Documents\
+Semantic Search\
+Multimodal AI (VLM)\
+Document Parsing\
+Dockling\
+Vector Database (Quadrant)\
+Domain Terminology Embeddings\
+Confidence Scoring\
+Table Extraction\
+Formula Extraction\
+On-Premise AI Deployment\
+NASA Documents\
+AI Agent Design\
+Domain Expert Personas\
