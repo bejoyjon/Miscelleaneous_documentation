@@ -2104,7 +2104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5v8YRWaCmojoG1Oi9-ED" name="Power-Analytics-System-diagram">
-    <mxGraphModel dx="1678" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2125,7 +2125,7 @@
           <mxGeometry height="50" width="100" x="65" as="geometry" />
         </mxCell>
         <mxCell id="I7m9XsOibK2go_DxYcyI-29" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Web app in host of choice&amp;nbsp;" vertex="1">
-          <mxGeometry height="250" width="1000" x="30" y="480" as="geometry">
+          <mxGeometry height="250" width="1000" x="20" y="480" as="geometry">
             <mxRectangle height="80" width="40" x="30" y="480" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -2216,11 +2216,6 @@
             <mxPoint x="1099.13" y="754.4466666666667" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I7m9XsOibK2go_DxYcyI-32" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Create intermediate tables&lt;div&gt;and store in same PostgreSQL&amp;nbsp;&lt;/div&gt;&lt;div&gt;database&lt;/div&gt;" vertex="1">
-          <mxGeometry x="885" y="320" as="geometry">
-            <mxPoint x="-9" y="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="I7m9XsOibK2go_DxYcyI-33" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Backend in Cloud" vertex="1">
           <mxGeometry height="400" width="1130" x="20" y="60" as="geometry" />
         </mxCell>
@@ -2307,7 +2302,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vUzEVyLoqQjVRlAyQMg0-20" parent="I7m9XsOibK2go_DxYcyI-33" style="image;sketch=0;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/mscae/Cognitive_Services.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" value="Customer specific&amp;nbsp;&lt;div&gt;Cloud&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;based&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;LLM inference&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="100" x="856.63" y="324" as="geometry" />
+          <mxGeometry height="60" width="100" x="846.63" y="324" as="geometry" />
         </mxCell>
         <mxCell id="vUzEVyLoqQjVRlAyQMg0-28" edge="1" parent="I7m9XsOibK2go_DxYcyI-33" source="vUzEVyLoqQjVRlAyQMg0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="vUzEVyLoqQjVRlAyQMg0-20">
           <mxGeometry relative="1" as="geometry">
@@ -2318,9 +2313,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1030" y="280" />
-              <mxPoint x="450" y="280" />
-              <mxPoint x="450" y="317" />
-              <mxPoint x="458" y="317" />
+              <mxPoint x="458" y="280" />
             </Array>
             <mxPoint x="1075.4799999999998" y="173.98000000000002" as="sourcePoint" />
             <mxPoint x="464.9950000000001" y="317" as="targetPoint" />
@@ -2329,6 +2322,11 @@
         <mxCell id="vUzEVyLoqQjVRlAyQMg0-18" connectable="0" parent="e9PskM22Nfar8fjiIj77-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Pull and keep&lt;div&gt;analytical charts&lt;/div&gt;&lt;div&gt;ready&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1426" y="1" as="geometry">
             <mxPoint x="-237" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7m9XsOibK2go_DxYcyI-32" connectable="0" parent="I7m9XsOibK2go_DxYcyI-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Create intermediate tables&lt;div&gt;and store in same PostgreSQL&amp;nbsp;&lt;/div&gt;&lt;div&gt;database&lt;/div&gt;" vertex="1">
+          <mxGeometry x="856.63" y="280" as="geometry">
+            <mxPoint x="-9" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I7m9XsOibK2go_DxYcyI-35" edge="1" parent="1" source="I7m9XsOibK2go_DxYcyI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=17.5;exitPerimeter=0;entryX=0.512;entryY=0.886;entryDx=0;entryDy=0;entryPerimeter=0;" target="vUzEVyLoqQjVRlAyQMg0-9">
