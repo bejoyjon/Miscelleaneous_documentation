@@ -1,6 +1,9 @@
 # Retrieval Augmented Generation Methodology
 1. Key step is to identify all the data sources and their relationships, within the larger logic of tying together multiple pieces of information. ___Therefore, critical to identify, understand, develop / improve data existing sources for any organization we work for.___ Even better if we can design for the future e.g a distinct data group for AI generated data.
-2. Generic approach to RAG:
+2. Create an Index of sorts (tree, semantic, chronological, linear or a combo of these) - use this for faster and more accurate search. Test if 2 or 3 separate indices point to the same doc. The indices should be human modifiable.
+   3. Make sure there are role based rights for read vs edit as the indices now form part of critical / "nuclear" set of data points. 
+4. Data handling system should manage outdated knowledge. For e.g. checking two documents for similarity in title, purpose and other metadata. If over X% similar, then mark older doc as outdate in Index. This data also should be human manageable.
+5. Generic approach to RAG:
    - read data
    - chunk it using overlapping chunking models
    - store it in a vector database
