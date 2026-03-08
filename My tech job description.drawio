@@ -2098,7 +2098,7 @@
         <mxCell id="HSubjfLLNzfIaNg88l2G-32" edge="1" parent="PDUwmFleRplkZXQibBha-1" source="HSubjfLLNzfIaNg88l2G-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" target="HSubjfLLNzfIaNg88l2G-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HSubjfLLNzfIaNg88l2G-33" parent="PDUwmFleRplkZXQibBha-1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="local / sub-page of main domain web app for new customer creation&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;" vertex="1">
+        <mxCell id="HSubjfLLNzfIaNg88l2G-33" parent="PDUwmFleRplkZXQibBha-1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="local / sub-page of main domain web app for new customer creation&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;and modification&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="140" x="90" y="850" as="geometry" />
         </mxCell>
         <mxCell id="HSubjfLLNzfIaNg88l2G-36" parent="PDUwmFleRplkZXQibBha-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" value="Data historian&lt;div&gt;checking agent&lt;/div&gt;" vertex="1">
