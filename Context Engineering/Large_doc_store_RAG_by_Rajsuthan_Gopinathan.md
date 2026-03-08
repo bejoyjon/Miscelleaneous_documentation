@@ -1,5 +1,5 @@
 
-## PART 1 - Building a Scalable RAG System for Rocket Science Documents
+## [PART 1 - Building a Scalable RAG System for Rocket Science Documents](https://www.youtube.com/live/bkKVWf7qQUk?si=YL2UrWcjZH18B9SZ)
 ### Outline of the Video Content
 Introduction: Background and Project Scope
 Use Case Description: Meridian Aerospace and Data Challenges
