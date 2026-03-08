@@ -1818,6 +1818,18 @@
       <root>
         <mxCell id="PDUwmFleRplkZXQibBha-0" />
         <mxCell id="PDUwmFleRplkZXQibBha-1" parent="PDUwmFleRplkZXQibBha-0" />
+        <mxCell id="ok5AgBosstmFvk_svyCo-0" parent="PDUwmFleRplkZXQibBha-1" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" value="Prompt from&amp;nbsp;&lt;div&gt;local machine&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="60" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-4" parent="PDUwmFleRplkZXQibBha-1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;labelBackgroundColor=light-dark(#FFFFFF,transparent);fontColor=light-dark(#000000,#FFB366);" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Prompt from cloud system&lt;/span&gt;" vertex="1">
+          <mxGeometry height="31.5" width="50" x="150" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-5" parent="PDUwmFleRplkZXQibBha-1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.uis_ultimate_internet_service;" value="Internet&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="54.900000000000006" x="240" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ok5AgBosstmFvk_svyCo-6" parent="PDUwmFleRplkZXQibBha-1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" value="" vertex="1">
+          <mxGeometry height="75" width="75" x="125" y="290" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
