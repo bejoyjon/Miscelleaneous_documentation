@@ -1,5 +1,5 @@
 
-## [PART 1 - Building a Scalable RAG System for Rocket Science Documents](https://www.youtube.com/live/bkKVWf7qQUk?si=YL2UrWcjZH18B9SZ)
+## [Building Production RAG for 10K+ NASA Docs (Scales to 85K+): Rocket Schematics and more! | Part 1 ](https://www.youtube.com/live/bkKVWf7qQUk?si=YL2UrWcjZH18B9SZ)
 ### Outline of the Video Content
 1. Introduction: Background and Project Scope
 2. Use Case Description: Meridian Aerospace and Data Challenges
