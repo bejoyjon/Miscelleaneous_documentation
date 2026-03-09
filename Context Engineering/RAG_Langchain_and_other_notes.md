@@ -75,6 +75,11 @@ Built on Langchain's core blocks. Execution, streaming etc. through LangGraph.
 
 
 ### Evals
+#### [Linksmith](https://youtu.be/QZjjVMhjEcY) 
+Can take in images in Base 64 format in the traces - set up for image relevancy to determine if an uploaded image is relevant to the product ecosystem, can apply filter  for traces with image inputs. Multimodal files can be sent as attachments to traces or as part of an offline data set, in addition to natively passing base64 format. The attachment file is mapped in the human message using the 'attachments' variable, allowing for mapping of all attachments or specific ones by name.
+
+
+
 
 
 # Appendix
