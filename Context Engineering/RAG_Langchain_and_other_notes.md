@@ -11,7 +11,7 @@
        - Tree indexing is a highly accurate but resource intensive method. Same logic as tree search.
    - Use the vector store data for similarity matching when user prompts.
 
-Rajsuthan Gopinath has done a [PoC for RAGing](https://www.youtube.com/watch?v=bkKVWf7qQUk&list=PLA1G2nVay86RW7LqJERpgTAWbWmNdXcAI) from 10k+ docs from NASA for an aerospace co. \
+Rajsuthan Gopinath has done a [PoC for RAGing](https://www.youtube.com/watch?v=bkKVWf7qQUk&list=PLA1G2nVay86RW7LqJERpgTAWbWmNdXcAI) from 10k+ docs from NASA for an aerospace co. Detailed notes [here](https://github.com/bejoyjon/Miscelleaneous_documentation/blob/main/Context%20Engineering/Large_doc_store_RAG_by_Rajsuthan_Gopinathan.md).\
 Challenges:
 1. Mix of scans, technical diagrams meant large amount of image detection.
 2. Required hybrid retreival methods, formula detection.
