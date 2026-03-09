@@ -1814,7 +1814,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Product-Creation-System-diagram" id="BKARJ5KbTmt2YZxFADOX">
-    <mxGraphModel dx="2852" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="PDUwmFleRplkZXQibBha-0" />
         <mxCell id="PDUwmFleRplkZXQibBha-1" parent="PDUwmFleRplkZXQibBha-0" />
@@ -2325,7 +2325,7 @@
         <mxCell id="6BczClmz-A2k4KHn4pWN-3" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fillStyle=dots;fillColor=light-dark(#FFFFFF,#5D5D5D);" value="Customer A MDMS database (Oracle or SQL)" vertex="1">
           <mxGeometry height="50" width="100" x="65" as="geometry" />
         </mxCell>
-        <mxCell id="I7m9XsOibK2go_DxYcyI-29" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Web app in host of choice&amp;nbsp;" vertex="1">
+        <mxCell id="I7m9XsOibK2go_DxYcyI-29" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Web App (Basic &amp;amp; Premium)" vertex="1">
           <mxGeometry height="250" width="1000" x="20" y="480" as="geometry">
             <mxRectangle height="80" width="40" x="30" y="480" as="alternateBounds" />
           </mxGeometry>
@@ -2417,7 +2417,7 @@
             <mxPoint x="1099.13" y="754.4466666666667" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I7m9XsOibK2go_DxYcyI-33" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Backend in Cloud" vertex="1">
+        <mxCell id="I7m9XsOibK2go_DxYcyI-33" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Processing Pipeline" vertex="1">
           <mxGeometry height="400" width="1130" x="20" y="60" as="geometry" />
         </mxCell>
         <mxCell id="6BczClmz-A2k4KHn4pWN-4" parent="I7m9XsOibK2go_DxYcyI-33" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="Staging blob storage like S3 or GC Storage. Data lasts till next update" vertex="1">
