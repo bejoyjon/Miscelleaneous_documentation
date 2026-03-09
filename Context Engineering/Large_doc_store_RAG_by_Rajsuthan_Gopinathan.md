@@ -257,7 +257,7 @@ A: Formula extraction is error-prone with current models. The system processes e
 A: The system is highly domain-specific, optimized for aerospace/rocket science documents with known conventions. Applying it directly to other domains like finance would require significant adaptation.
 
 
-### [Formula Extraction, Visual Anchoring and more for NASA docs from 1960s | NASA RAG | Part 3 ](https://www.youtube.com/live/1do7SXZ12dk?si=sKqO8D4GCLNLtknB)
+## [Formula Extraction, Visual Anchoring and more for NASA docs from 1960s | NASA RAG | Part 3 ](https://www.youtube.com/live/1do7SXZ12dk?si=sKqO8D4GCLNLtknB)
 ### Key Insights and Takeaways
 - **Formula Extraction is a Major Bottleneck:** Accurate formula extraction demands 100% precision, requiring innovative visual bounding box approaches combined with VLMs to maintain spatial context and ordering.
 - **Bounding Box Visualization Enhances Model Understanding:** Annotating document images with numbered bounding boxes around paragraphs allows the VLM to associate formulas correctly, preserving reading order and meaning.
