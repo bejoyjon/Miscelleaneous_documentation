@@ -54,7 +54,7 @@ Weigeren - refuse....to do something, _Verwerpen_ -  To reject or dismiss, _Afwi
 ### On the road and in public transport
 Reisen - to travel
 ? - to book
-
+bevind zich - find itself - to be located 
 
 ## Pronouns
 Match the below with each column of the tenses
