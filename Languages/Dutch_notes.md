@@ -17,7 +17,8 @@ Blijven - to be - .\
 Worden - to become - .\
 Hebben - to have / to have to\
 Graag? - ...like to\
-Willen - to want to...
+Willen - to want to...\
+Zal....kunnen - will be able to - Zal hij die werk kunnen doen? 
 
 ### In the office
 Werken - To work\
