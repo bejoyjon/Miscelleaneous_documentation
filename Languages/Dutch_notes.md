@@ -45,7 +45,8 @@ Weigeren - refuse....to do something, _Verwerpen_ -  To reject or dismiss, _Afwi
 ? - billing (my card)\
 ? - order (food & drinks)\
 ? - pay\
-? - buy
+? - buy\
+Verkoch - sell
 
 
 ### In the park
