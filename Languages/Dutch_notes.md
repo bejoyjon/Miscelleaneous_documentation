@@ -65,6 +65,11 @@ Match the below with each column of the tenses
 | Object | mij | je | hem/haar | ons | jullie | ? |
 | Possessive | mijn | je | ? | onze | jullie | hun |
 
+Die - this\
+Deze - this\
+Dat - that\
+? - those
+
 ### Tenses general
 Technical explanation - [https://en.wikipedia.org/wiki/Dutch_grammar](https://en.wikipedia.org/wiki/Dutch_grammar)
 
