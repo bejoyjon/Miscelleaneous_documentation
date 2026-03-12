@@ -55,7 +55,8 @@ Verkoch - sell
 ### On the road and in public transport
 Reisen - to travel
 ? - to book
-bevind zich - find itself - to be located 
+bevind zich - find itself - to be located\ 
+zoek - to look 
 
 ## Pronouns
 Match the below with each column of the tenses
