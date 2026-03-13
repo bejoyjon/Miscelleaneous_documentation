@@ -1,5 +1,5 @@
 ## Verbs and tenses
-Mainly SOV, but: \
+Mainly SOV, but: 
 1. Sentences with only one verb - SVO or VSO
 2. Sentences with multiple verbs - SVOV+V+V+V... e.g _Jan wilde zijn moeder gaan helpen._
 3. Subordinate clause - most common - phrase.tense wise participle.aux verb - _Omdat ik gewerkt heb_
@@ -38,19 +38,19 @@ Vinden - To find \
 Tellen - To count \
 Bellen - To call \
 Accepteren - To accept...e.g. a package, an idea..., _Aanvarden_ - to accept...a challenge, _Aannemen_ - to take on... \
-Weigeren - refuse....to do something, _Verwerpen_ -  To reject or dismiss, _Afwijzen_ - to turn down \
-? - remind\
-Opschrijven - note down .... Ik schrijf de notes op...  
+Weigeren - To refuse....to do something, _Verwerpen_ -  To reject or dismiss, _Afwijzen_ - to turn down \
+Herinneren - To remind\
+Opschrijven - To note down .... Ik schrijf de notes op... \
+Verzoek - To request
 
 ### In the hotel
-? - check in\
-? - check out\
-? - billing (my card)\
-? - order (food & drinks)\
-? - pay\
-Kopen - buy\
-Verkoch - sell
-
+Inchecken - check in..... Ik ga inchecken - I will check in\
+Uitchecken - check out..... Ik ga uitchecken - I will check out\
+Belasten - To bill (my card) .... Ik verzoek u mijn credit card om te belasten - Request you to bill my credit card\
+Bestellen - To order (food & drinks)\
+Betalen - To pay\
+Kopen - To buy\
+Verkoch - To sell
 
 ### In the park
 
@@ -67,16 +67,15 @@ Match the below with each column of the tenses
 
 | Subject | Ik | je | hij/zij | Wij | jullie | zij |
 | --- | --- | --- | --- | --- | --- | --- |
-| Object | mij | je | hem/haar | ons | jullie | ? |
-| Possessive | mijn | je | ? | onze | jullie | hun |
+| Object | mij | je | hem/haar | ons | jullie | ze |
+| Possessive | mijn | jouw | zijn/haar | onze | jullie | hun |
 
-Die - this\
-Deze - this\
-Dat - that\
-? - those
+Die - that\ those
+Deze - this\ these
+Dat - that
 
 Erover - about it\
-? - 
+? - about me/you/him/her....
 
 ### Tenses general
 Technical explanation - [https://en.wikipedia.org/wiki/Dutch_grammar](https://en.wikipedia.org/wiki/Dutch_grammar)
