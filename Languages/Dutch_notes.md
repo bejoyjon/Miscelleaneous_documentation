@@ -19,6 +19,7 @@ Worden - to become - .\
 Hebben - to have / to have to\
 Graag? - ...like to\
 Willen - to want to...\
+- to happen\
 Zal....kunnen - will be able to - Zal hij die werk kunnen doen? 
 
 ### In the office
@@ -41,7 +42,8 @@ Accepteren - To accept...e.g. a package, an idea..., _Aanvarden_ - to accept...a
 Weigeren - To refuse....to do something, _Verwerpen_ -  To reject or dismiss, _Afwijzen_ - to turn down \
 Herinneren - To remind\
 Opschrijven - To note down .... Ik schrijf de notes op... \
-Verzoek - To request
+Verzoek - To request\
+Zijn in gesprek - To be in discussion / to discuss
 
 ### In the hotel
 Inchecken - check in..... Ik ga inchecken - I will check in\
@@ -107,13 +109,13 @@ Vriendlijke - kind\
 Beroemd - famous
 
 ### Sad, negative, dark
-? - sad\
+Verdrietig / vind het jammer - sad / sad that this happened\
 Saai - bored\
-? - angry\
-? - upset\
-? - worried\
-? - anxious\
-? - sorry / apologetic\
+Boos op - angry about\
+Streek zich - upset... Feeling upset - Voelen ____zich___ van streek\
+Bezorgd - worried.... Feeling worried - Voelen ___zich___ bezorgd\
+Angstig - anxious.... Feeling anxious - Voelen ___zich___ angstig\
+Het spijte me - I am sorry / apologetic (about) to \
 Bang voor - afraid of\
 Onmogelijke - impossible
 
@@ -131,7 +133,7 @@ Dezelfde, hetzelfde - the same
 ___Activities___\
 Gesprek - conversation\
 Vergadering - meeting\
-? - discussion\
+Discussie - discussion\
 Moeite - effort\
 Toespraak - speech ... but its "heild een toespraak" / hold a speech for "giving a speech"
 
@@ -148,10 +150,10 @@ Toetsenbord - keyboard
 
 ### In the hotel 
 ___Activities___\
-? - check in\
-? - check out\
+Inchecken - check in\
+Uitchecken - check out\
 Vergadering - meeting\
-? - discussion\
+Discussie - discussion\
 Moeite - effort 
 
 
