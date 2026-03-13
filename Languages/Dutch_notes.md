@@ -7,10 +7,10 @@ Mainly SOV, but: \
 
 ### Compound Verbs
 Verbs can be created by mixing a suffix and another word: \
-Op+.... - Oplossing ==> Ik los op\
-Af+... - Afwijzen ==> Ik wijs af\
+Op + .... - Oplossing ==> Ik los op\
+Af + ... - Afwijzen ==> Ik wijs af\
 Zich + .... \
-there is also the "ending" - door and heen - which is stuck at the end of the sentence, to change the meaning to "through".\
+there is also the "ending" - door and heen - which is stuck at the end of the sentence, to change the meaning to "through". Ik durf niet ___over___ (not ___om___) de smalle brug ___heen__ te rijden \
 ..om <adjective or positonal> te <verb> - to <verb><adjective or positional>...om ___naast___ te ___standen___ - to ___stand___ ___next to___
 
 ### All rounder verbs
@@ -72,7 +72,7 @@ Match the below with each column of the tenses
 Die - this\
 Deze - this\
 Dat - that\
-? - those\
+? - those
 
 Erover - about it\
 ? - 
@@ -103,7 +103,8 @@ Subjugate conditional ___negative___ - Als..... e.g. .
 ## Common adjectives
 ### Happy and positive
 Vrolijk - happy\
-Vriendlijke - kind
+Vriendlijke - kind\
+Beroemd - famous
 
 ### Sad, negative, dark
 ? - sad\
@@ -114,6 +115,7 @@ Saai - bored\
 ? - anxious\
 ? - sorry / apologetic\
 Bang voor - afraid of\
+Onmogelijke - impossible
 
 
 ### Weight and count and variety and stuff
@@ -121,50 +123,60 @@ Zwaak, Zwakker, Zwaakste - heavy, heavier, heaviest \
 Licht? \
 Eerste, tweede, dierde, vierde, , \
 Verschilende - different \
-Dezelfde, hetzelfde - the same \
+Dezelfde, hetzelfde - the same 
 
 
 ## Common nouns
 ### In the office
 ___Activities___\
-Gesprek - conversation \
+Gesprek - conversation\
 Vergadering - meeting\
 ? - discussion\
-Moeite - effort 
+Moeite - effort\
+Toespraak - speech ... but its "heild een toespraak" / hold a speech for "giving a speech"
 
 ___Email related___ \
-Onderwerp - Topic / subject 
-Oplossing - solution
+Onderwerp - Topic / subject\
+Oplossing - solution\
+Uitnodiging - invite / invitation
 
 ___Apps related___\
 Toegang - access
 
+___Hardware___\
+Toetsenbord - keyboard
+
 ### In the hotel 
 ___Activities___\
 ? - check in\
+? - check out\
 Vergadering - meeting\
 ? - discussion\
 Moeite - effort 
-
 
 
 ### Outside, on the road and public spaces
 Richting - direction\
 Voorkant - in front of\
 Achter - behind\
-? - left side\
-? - right side\
+Linksaf - left side\
+Rechtsaf - right side\
 Boven - above\
 Beneiden - below/under\
 Binnen / Binnenkant - inside\
 Buiten / Buitenkant - outside\
 Dicht bij - close to\
 Naast - next to\
-? - away from\
-Zodra - once
+? - away from
+
+### Time related and similar
+Zodra - once\
+Zelfs - even... as in "Even the sky in...." = "Zelfs de lucht in....."\
+? - just / only
 
 ### Measure of, count of, paying, ordering and accounting 
 Maat - size\
+Vorm - shape\
 Rekening - bill\
 
 
