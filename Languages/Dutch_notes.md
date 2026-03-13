@@ -39,7 +39,8 @@ Tellen - To count \
 Bellen - To call \
 Accepteren - To accept...e.g. a package, an idea..., _Aanvarden_ - to accept...a challenge, _Aannemen_ - to take on... \
 Weigeren - refuse....to do something, _Verwerpen_ -  To reject or dismiss, _Afwijzen_ - to turn down \
-? - remind
+? - remind\
+Opschrijven - note down .... Ik schrijf de notes op...  
 
 ### In the hotel
 ? - check in\
@@ -56,9 +57,9 @@ Verkoch - sell
 
 ### On the road and in public transport
 Reisen - to travel\
-? - to book/reserve\
-bevind zich - find itself - to be located\ 
-zoek - to look\
+Boeken / reserven - to book / reserve\
+Bevind zich - find itself - to be located\
+Zoek - to look\
 Bestaan - to exist
 
 ## Pronouns
