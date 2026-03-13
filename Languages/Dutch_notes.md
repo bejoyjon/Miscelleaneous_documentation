@@ -47,7 +47,7 @@ Weigeren - refuse....to do something, _Verwerpen_ -  To reject or dismiss, _Afwi
 ? - billing (my card)\
 ? - order (food & drinks)\
 ? - pay\
-? - buy\
+Kopen - buy\
 Verkoch - sell
 
 
@@ -55,10 +55,11 @@ Verkoch - sell
 
 
 ### On the road and in public transport
-Reisen - to travel
-? - to book
+Reisen - to travel\
+? - to book/reserve\
 bevind zich - find itself - to be located\ 
-zoek - to look 
+zoek - to look\
+Bestaan - to exist
 
 ## Pronouns
 Match the below with each column of the tenses
@@ -111,7 +112,8 @@ Saai - bored\
 ? - upset\
 ? - worried\
 ? - anxious\
-? - sorry / apologetic 
+? - sorry / apologetic\
+Bang voor - afraid of\
 
 
 ### Weight and count and variety and stuff
@@ -159,7 +161,7 @@ Buiten / Buitenkant - outside\
 Dicht bij - close to\
 Naast - next to\
 ? - away from\
-? - 
+Zodra - once
 
 ### Measure of, count of, paying, ordering and accounting 
 Maat - size\
