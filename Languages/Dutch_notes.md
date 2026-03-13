@@ -70,8 +70,8 @@ Match the below with each column of the tenses
 | Object | mij | je | hem/haar | ons | jullie | ze |
 | Possessive | mijn | jouw | zijn/haar | onze | jullie | hun |
 
-Die - that\ those
-Deze - this\ these
+Die - that / those\
+Deze - this / these\
 Dat - that
 
 Erover - about it\
