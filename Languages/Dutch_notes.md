@@ -10,7 +10,8 @@ Verbs can be created by mixing a suffix and another word: \
 Op+.... - Oplossing ==> Ik los op\
 Af+... - Afwijzen ==> Ik wijs af\
 Zich + .... \
-there is also the "ending" - door and heen - which is stuck at the end of the sentence, to change the meaning to "through".
+there is also the "ending" - door and heen - which is stuck at the end of the sentence, to change the meaning to "through".\
+..om <adjective or positonal> te <verb> - to <verb><adjective or positional>...om ___naast___ te ___standen___ - to ___stand___ ___next to___
 
 ### All rounder verbs
 Blijven - to be - .\
