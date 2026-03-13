@@ -152,7 +152,11 @@ Achter - behind\
 Boven - above\
 Beneiden - below/under\
 Binnen / Binnenkant - inside\
-Buiten / Buitenkant - outside
+Buiten / Buitenkant - outside\
+Dicht bij - close to\
+Naast - next to\
+? - away from\
+? - 
 
 ### Measure of, count of, paying, ordering and accounting 
 Maat - size\
