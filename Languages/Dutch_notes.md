@@ -85,6 +85,8 @@ Technical explanation - [https://en.wikipedia.org/wiki/Dutch_grammar](https://en
 | Ik had gewerkt|  | | Ik werkt | Ik heb gewerkt| | | Ik werk | Ik zal heb gewerkt |  | | Ik zal werken | Werk |
 
 
+Het wordt gebruikt - it is being used
+
 ### Conditional - Would, Could and Should
 Ik zou <adjective, niet...> infinitive verb - I would <quickly, carefully.... the thing...> infinitive \
 Ik zou <> kunnen infinitive verb - I __would__ <> __can__ infinitive = I could infinitive 
