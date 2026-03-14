@@ -90,7 +90,7 @@ Duration: Aug 2005 - May 2009\
 Educational Institute: Delhi Technological University\
 Final score: 70/100
 
-CERTIFICATIONS
+## Certifications
 - Gen AI (BITS Pilani)
 - Google Cloud - Cloud Digital Leader
 - UiPath Automation
