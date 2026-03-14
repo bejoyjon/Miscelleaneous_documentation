@@ -81,19 +81,19 @@ Degree: MBA\
 Specialization: General Management\
 Duration: Apr 2015 - Apr 2016\
 Educational Institute: Indian School of Business\
-Final score: 
+Final score: 3.4/4.0
 
 ### Graduation Details
 Degree: Bachelor of Engineering (B.E)\
 Specialization: Electronics & Communications\
 Duration: Aug 2005 - May 2009\
 Educational Institute: Delhi Technological University\
-Final score: 70%
+Final score: 70/100
 
 CERTIFICATIONS
-Gen AI (BITS Pilani)\
-Google Cloud - Cloud Digital Leader\
-UiPath Automation\
-Automation Anywhere\
-MS Fabric/Power BI\
-Well versed with PMP and PgMP, ServiceNow, ITIL v4 Foundation
+- Gen AI (BITS Pilani)
+- Google Cloud - Cloud Digital Leader
+- UiPath Automation
+- Automation Anywhere
+- MS Fabric/Power BI
+- Well versed with Continuous Improvement (Six Sigma, Lean, Kaizen), PMP and PgMP, ServiceNow, ITIL v4 Foundation
