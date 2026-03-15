@@ -31,11 +31,11 @@ Mobile number: +919650775509\
 Email id: bejoyjon@gmail.com
 
 ## Experience and achievements
-Role: Associate Director - IT Business Partnering
-Duration: Oct 2021 - Present
-Employer: Cargill Foods EMEA BU
-Location: Bengaluru, India
-Role description: Key focus on building the bridge between business priorities and requirements and IT skills and organization. I manage the demand pipeline, and align with my Business unit's strategic goals based on business case. The resulting filtered out and prioritized changes get added to portfolio of projects for execution. I control the resourcing, progress, costing, sourcing, vendor billing and allocations such as capex vs opex for the projects. Another critical aspect of my role is to foresee breaks and recurring issues proactively through analytics, and kickstarting remediation processes, as part of Service Delivery. I monitor other KPIs such as Service Delivery SLAs and ticketing automation. Finally, my role is also as a Product Manager for Gen AI based solutions. I capture requirements, develop a PoC, identify scaling gaps and secure funding for the full scale product.
+Role: Associate Director - IT Business Partnering\
+Duration: Oct 2021 - Present\
+Employer: Cargill Foods EMEA BU\
+Location: Bengaluru, India\
+Role description: Key focus on building the bridge between business priorities and requirements and IT skills and organization. I manage the demand pipeline, and align with my Business unit's strategic goals based on business case. The resulting filtered out and prioritized changes get added to portfolio of projects for execution. I control the resourcing, progress, costing, sourcing, vendor billing and allocations such as capex vs opex for the projects. Another critical aspect of my role is to foresee breaks and recurring issues proactively through analytics, and kickstarting remediation processes, as part of Service Delivery. I monitor other KPIs such as Service Delivery SLAs and ticketing automation. Finally, my role is also as a Product Manager for Gen AI based solutions. I capture requirements, develop a PoC, identify scaling gaps and secure funding for the full scale product.\
 Experience:
 1. Built Generative AI solution for proactive service monitoring.
 - Situation: Business colleagues in plants across Europe often face breaks in systems and raise tickets. However, no centralized view or analysis of issues across the Business Unit. This leads to escalations when multiple failures of the same nature happen at the same time. Service teams also focus on providing "quick fix" solutions rather than identify a deeper root cause and propose longer term solutions.
