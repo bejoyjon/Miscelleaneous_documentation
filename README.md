@@ -31,7 +31,7 @@ Mobile number: +919650775509\
 Email id: bejoyjon@gmail.com
 
 ## Experience and achievements
-### Latest role
+### Oct 2021 - Present - Associate Director - IT Business Partnering, Employer: Cargill Foods EMEA BU, Bengaluru, India
 #### Role
 Associate Director - IT Business Partnering
 
@@ -52,7 +52,7 @@ Bengaluru, India
 5. Monitor other KPIs such as Service Delivery SLAs and ticketing automation.
 6. Product Management for Gen AI based solutions - capture requirements, design and develop PoC, roadmap scaled solution, build business case and secure funding for the full scale product.
 
-#### Experience
+#### Experience / Achievements
 1. Built Generative AI solution for proactive service monitoring.
 - Situation: Business colleagues in plants across Europe often face breaks in systems and raise tickets. However, no centralized view or analysis of issues across the Business Unit. This leads to escalations when multiple failures of the same nature happen at the same time. Service teams also focus on providing "quick fix" solutions rather than identify a deeper root cause and propose longer term solutions.
 - Task: Proactively identify issues without any input from Business plants or functions, and initiate remediative actions. Also, classify issues and map to correct root cause based on previous issue resolution data. Present this consolidated data to all IT and Business leaders.
@@ -70,12 +70,22 @@ Bengaluru, India
 - Led $1M+ Infra, Automation & M&A programs, delivering within 90th percentile cost & schedule adherence.
 - Built value-based demand prioritization framework, eliminating $700K in low-value projects.
 
-Role: IT Service Management Consultant
-Duration: Nov 2019 - Sep 2021
-Employer: Cargill Business Services
-Location: Bengaluru, India
-Role description: 
-Achievements:
+### Nov 2019 - Sep 2021 - IT Service Management Consultant, Cargill Business Services, Bengaluru, India
+#### Role
+IT Service Management Consultant
+
+#### Duration
+Nov 2019 - Sep 2021
+
+#### Employer
+Cargill Business Services
+
+#### Location: 
+Bengaluru, India
+
+### Job description: 
+
+### Experience / Achievements
 - Promoted to lead IT lifecycle budgeting exercise for initiatives worth $800k.
 - Nominated by BP Lead for leading BU representation in Major Incidents within first 6 months.
 
@@ -102,14 +112,14 @@ Alstom Transport India Limited, Noida, India
 Led global technical and commercial bid teams for multiple systems for Metro Rail corporations and Indian Railways. Key successful bids submitted – Chennai Metro track, Kochi Metro signaling and telecom, Madhepura e-loco project.
 
 ## Education
-### Post Graduation details
+### Post Graduation
 Degree: MBA\
 Specialization: General Management\
 Duration: Apr 2015 - Apr 2016\
 Educational Institute: Indian School of Business\
 Final score: 3.4/4.0
 
-### Graduation Details
+### Graduation 
 Degree: Bachelor of Engineering (B.E)\
 Specialization: Electronics & Communications\
 Duration: Aug 2005 - May 2009\
