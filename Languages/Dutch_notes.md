@@ -108,7 +108,8 @@ Subjugate conditional ___negative___ - Als..... e.g. .
 ### Happy and positive
 Vrolijk - happy\
 Vriendlijke - kind\
-Beroemd - famous
+Beroemd - famous\
+Ingewikkelde - complicated 
 
 ### Sad, negative, dark
 Verdrietig / vind het jammer - sad / sad or unfortunate that this happened\
@@ -152,7 +153,7 @@ Toegang - access
 ___Hardware___\
 Toetsenbord - keyboard\
 Beeldscherm - screen\
-
+Apparaat - device
 
 ### In the hotel 
 ___Activities___\
