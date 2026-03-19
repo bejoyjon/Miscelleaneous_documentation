@@ -36,10 +36,10 @@ Email id: bejoyjon@gmail.com
 Associate Director - IT Business Partnering
 
 #### Duration
-Duration: Oct 2021 - Present
+Oct 2021 - Present
 
 #### Employer
-Employer: Cargill Foods EMEA BU
+Cargill Foods EMEA BU
 
 #### Location: 
 Bengaluru, India
@@ -58,10 +58,10 @@ Bengaluru, India
 - Task: Proactively identify issues without any input from Business plants or functions, and initiate remediative actions. Also, classify issues and map to correct root cause based on previous issue resolution data. Present this consolidated data to all IT and Business leaders.
 - Action: Designed & implemented GenAI-based data collection & inference pipelines using Python, MySQL, Power BI & GPT 4-o and 4.1 models.
 - Result: Proactively identified 8 new issue topics / themes without , Improved data accuracy from 90.4% to 99.9% & saving 10+ person-hours/week.
-- Developed cloud-hosted LLM solutions for tracking lab contaminants & operational data, delivering $88K annual cost savings through digital automation.
-- Established plant-specific single-window digital services, improving digital adoption & NPS by 30% across 2,500+ users.
-- Pioneered Contamination Analytics product for 24 European sites, capturing MOSH/MOAH insights.
-- Nominated to lead Business Partnering (BP) for additional European business units, strengthening strategic IT alignment with business goals.
+2. Developed cloud-hosted LLM solutions for tracking lab contaminants & operational data, delivering $88K annual cost savings through digital automation.
+3. Established plant-specific single-window digital services, improving digital adoption & NPS by 30% across 2,500+ users.
+4. Pioneered Contamination Analytics product for 24 European sites, capturing MOSH/MOAH insights.
+5. Nominated to lead Business Partnering (BP) for additional European business units, strengthening strategic IT alignment with business goals.
 - Authored enterprise-wide BP playbook influencing standardized IT engagement across global units.
 - Own IT financial governance, managing $1.7M+ annual budgets, billing audits, capitalization & compliance.
 - Designed vendor governance models for SAP-integrated platforms under $600K+ contracts, ensuring audit readiness & service compliance.
