@@ -144,13 +144,15 @@ ___Email related___ \
 Onderwerp - Topic / subject\
 Oplossing - solution\
 Uitnodiging - invite / invitation
+Bestand - file
 
 ___Apps related___\
 Toegang - access
 
 ___Hardware___\
 Toetsenbord - keyboard\
-Beeldscherm - screen
+Beeldscherm - screen\
+
 
 ### In the hotel 
 ___Activities___\
