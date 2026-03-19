@@ -109,14 +109,15 @@ Vriendlijke - kind\
 Beroemd - famous
 
 ### Sad, negative, dark
-Verdrietig / vind het jammer - sad / sad that this happened\
+Verdrietig / vind het jammer - sad / sad or unfortunate that this happened\
 Saai - bored\
 Boos op - angry about\
 Streek zich - upset... Feeling upset - Voelen ____zich___ van streek\
 Bezorgd - worried.... Feeling worried - Voelen ___zich___ bezorgd\
 Angstig - anxious.... Feeling anxious - Voelen ___zich___ angstig\
 Het spijte me - I am sorry / apologetic (about) to \
-Bang voor - afraid of\
+Hebben bang voor - have fear of = afraid of\
+Beschaam zich - to shame oneself / feel ashamed\
 Onmogelijke - impossible
 
 
