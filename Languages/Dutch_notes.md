@@ -79,6 +79,7 @@ Deze - this / these\
 Dat - that
 
 Erover - about it\
+Hiermee - with this \
 ? - about me/you/him/her....
 
 ### Tenses general
@@ -176,7 +177,8 @@ Binnen / Binnenkant - inside\
 Buiten / Buitenkant - outside\
 Dicht bij - close to\
 Naast - next to\
-? - away from
+? - away from\
+Tegengestelde - opposite direction 
 
 ### Time related and similar
 Zodra - once\
