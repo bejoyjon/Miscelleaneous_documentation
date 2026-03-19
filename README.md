@@ -59,6 +59,10 @@ Bengaluru, India
 - Action: Designed & implemented GenAI-based data collection & inference pipelines using Python, MySQL, Power BI & GPT 4-o and 4.1 models.
 - Result: Proactively identified 8 new issue topics / themes without , Improved data accuracy from 90.4% to 99.9% & saving 10+ person-hours/week.
 2. Developed cloud-hosted LLM solutions for tracking lab contaminants & operational data, delivering $88K annual cost savings through digital automation.
+- Situation: Cargill measures levels of contaminants such as mineral oil and saturated hydrocarbons at the sites for edible oils that have been transported from another location, via truck, tankers or pipelines. If the contaminants are above a safe threshold, the remediation that ensues involves isolating the affected batches and conducting"cleaning"procedures, which is expensive and time consuming, in the order of days.
+- Task: identify sources of contaminants through analytics of internal sample tests and independent testing agencies, and build necessary data models for enabling analytical capabilities in other teams to further isolate contaminating processes and build the necessary preventions.
+- Action: Designed & implemented GenAI-based data collection & inference pipelines using Python, MySQL, Power BI & GPT 4-o and 4.1 models.
+- Result: Proactively identified 8 new issue topics / themes without , Improved data accuracy from 90.4% to 99.9% & saving 10+ person-hours/week.
 3. Established plant-specific single-window digital services, improving digital adoption & NPS by 30% across 2,500+ users.
 4. Pioneered Contamination Analytics product for 24 European sites, capturing MOSH/MOAH insights.
 5. Nominated to lead Business Partnering (BP) for additional European business units, strengthening strategic IT alignment with business goals.
