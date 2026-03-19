@@ -55,6 +55,8 @@ Kopen - To buy\
 Verkoch - To sell
 
 ### In the park
+Kijk naar - to look at\
+Bezoek - to visit
 
 
 ### On the road and in public transport
