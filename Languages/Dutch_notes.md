@@ -149,7 +149,8 @@ ___Apps related___\
 Toegang - access
 
 ___Hardware___\
-Toetsenbord - keyboard
+Toetsenbord - keyboard\
+Beeldscherm - screen
 
 ### In the hotel 
 ___Activities___\
