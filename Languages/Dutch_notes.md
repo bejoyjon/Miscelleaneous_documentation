@@ -111,7 +111,7 @@ Vrolijk - happy\
 Vriendlijke - kind\
 Beroemd - famous\
 Ingewikkelde - complicated \
-Ongemadel?? - independent 
+Onafhankelijk - independent 
 
 ### Sad, negative, dark
 Verdrietig / vind het jammer - sad / sad or unfortunate that this happened\
@@ -123,7 +123,8 @@ Angstig - anxious.... Feeling anxious - Voelen ___zich___ angstig\
 Het spijte me - I am sorry / apologetic (about) to \
 Hebben bang voor - have fear of = afraid of\
 Beschaam zich - to shame oneself / feel ashamed\
-Onmogelijke - impossible
+Onmogelijke - impossible\
+Mogelijk - possible 
 
 
 ### Weight and count and variety and stuff
