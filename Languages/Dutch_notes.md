@@ -134,7 +134,9 @@ Licht? \
 Eerste, tweede, dierde, vierde, , \
 Verschilende - different \
 Dezelfde, hetzelfde - the same \
-Binnenkort - soon
+Binnenkort - soon\
+Algemene - general (like general questions or comments)\
+M?? - average
 
 
 ## Common nouns
@@ -192,7 +194,7 @@ Zelfs - even... as in "Even the sky in...." = "Zelfs de lucht in....."\
 ### Measure of, count of, paying, ordering and accounting 
 Maat - size\
 Vorm - shape\
-Rekening - bill\
+Rekening - bill
 
 
 # Appendix 
