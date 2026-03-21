@@ -111,7 +111,8 @@ Vrolijk - happy\
 Vriendlijke - kind\
 Beroemd - famous\
 Ingewikkelde - complicated \
-Onafhankelijk - independent 
+Onafhankelijk - independent \
+Uitstekend - outstanding/excellent 
 
 ### Sad, negative, dark
 Verdrietig / vind het jammer - sad / sad or unfortunate that this happened\
