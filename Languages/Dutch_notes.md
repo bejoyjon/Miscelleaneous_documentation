@@ -110,7 +110,8 @@ Subjugate conditional ___negative___ - Als..... e.g. .
 Vrolijk - happy\
 Vriendlijke - kind\
 Beroemd - famous\
-Ingewikkelde - complicated 
+Ingewikkelde - complicated \
+Ongemadel?? - independent 
 
 ### Sad, negative, dark
 Verdrietig / vind het jammer - sad / sad or unfortunate that this happened\
@@ -130,7 +131,8 @@ Zwaak, Zwakker, Zwaakste - heavy, heavier, heaviest \
 Licht? \
 Eerste, tweede, dierde, vierde, , \
 Verschilende - different \
-Dezelfde, hetzelfde - the same 
+Dezelfde, hetzelfde - the same \
+Binnenkort - soon
 
 
 ## Common nouns
