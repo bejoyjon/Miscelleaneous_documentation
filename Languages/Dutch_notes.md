@@ -126,7 +126,8 @@ Het spijte me - I am sorry / apologetic (about) to \
 Hebben bang voor - have fear of = afraid of\
 Beschaam zich - to shame oneself / feel ashamed\
 Onmogelijke - impossible\
-Mogelijk - possible 
+Mogelijk - possible \
+Onzeker - unsure/insecure
 
 
 ### Weight and count and variety and stuff
