@@ -20,7 +20,8 @@ Hebben - to have / to have to\
 Graag? - ...like to\
 Willen - to want to...\
 - to happen\
-Zal....kunnen - will be able to - Zal hij die werk kunnen doen? 
+Zal....kunnen - will be able to - Zal hij die werk kunnen doen?\
+Moeten - must / to have to - Je ___moet___ dit doen - You must (or have to) do this.
 
 ### In the office
 Werken - To work\
