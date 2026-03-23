@@ -14,7 +14,7 @@ there is also the "ending" - door and heen - which is stuck at the end of the se
 ..om <adjective or positonal> te <verb> - to <verb><adjective or positional>...om ___naast___ te ___standen___ - to ___stand___ ___next to___
 
 ### All rounder verbs
-Blijven - to be - .\
+Blijven - to be / to keep on being or doing an action - De aarde zul de zon ___blijven___ ronddraaien - The earth will ___keep___ orbiting the sun.\
 Worden - to become - .\
 Hebben - to have / to have to\
 Graag? - ...like to\
