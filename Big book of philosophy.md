@@ -1,0 +1,4 @@
+The universe has underlying rules, but the permutations combinations from those rules are very high. 
+one could argue that if we know the right starting conditions and available information/resources surroundimg the process, we could correctly guess the one event or process that followed, but that's almost impossible for mankind to find in our current state because the sheer volume of information needed tk be tracked, and potential loss of all traces of the conditions. sometimes the resulting processes themselves remove all traces of the starting conditions.
+
+one such permutations led to amino acids on one planet (that we know of)
