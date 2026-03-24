@@ -46,7 +46,7 @@ Bengaluru, India
 
 #### Job description
 1. Building the bridge between business priorities and requirements and IT skills and organization.
-2. Manage the demand pipeline, and align with my Business unit's strategic goals based on business case. Add the resulting filtered out and prioritized changesto portfolio of projects for execution.
+2. Manage the tech demand pipeline, ensuring alignment with Business unit's strategic goals and strong business case, and implementing the resulting changes through project portfolio.
 3. Control internal and external resourcing, portfolio progress, costing, sourcing, vendor contracting and billing as well as allocations such as capex vs opex for the projects.
 4. Transform service quality by proactively identifying recurring and high value issues through analytics, and kickstarting remediation processes.
 5. Monitor other KPIs such as Service Delivery SLAs and ticketing automation.
@@ -54,7 +54,7 @@ Bengaluru, India
 
 #### Experience / Achievements
 1. Built Generative AI solution for proactive service monitoring.
-- Situation: Business colleagues in plants across Europe often face breaks in systems and raise tickets. However, no centralized view or analysis of issues across the Business Unit. This leads to escalations when multiple failures of the same nature happen at the same time. Service teams also focus on providing "quick fix" solutions rather than identify a deeper root cause and propose longer term solutions.
+- Situation: Business colleagues in plants across Europe often face breaks in systems and raise tickets. However, no centralized view or analysis of issues across the Business Unit. This leads to escalations when multiple failures of the same nature happen across time or across locations. On the other hand, Ticket management teams focus on providing "quick fix" solutions rather than identify a deeper root cause and propose longer term solutions.
 - Task: Proactively identify issues without any input from Business plants or functions, and initiate remediative actions. Also, classify issues and map to correct root cause based on previous issue resolution data. Present this consolidated data to all IT and Business leaders.
 - Action: Designed & implemented GenAI-based data collection & inference pipelines using Python, MySQL, Power BI & GPT 4-o and 4.1 models.
 - Result: Proactively identified 8 new issue topics / themes without , Improved data accuracy from 90.4% to 99.9% & saving 10+ person-hours/week.
