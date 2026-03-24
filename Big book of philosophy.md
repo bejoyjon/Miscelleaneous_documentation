@@ -1,4 +1,11 @@
 The universe has underlying rules, but the permutations combinations from those rules are very high. 
 one could argue that if we know the right starting conditions and available information/resources surroundimg the process, we could correctly guess the one event or process that followed, but that's almost impossible for mankind to find in our current state because the sheer volume of information needed tk be tracked, and potential loss of all traces of the conditions. sometimes the resulting processes themselves remove all traces of the starting conditions.
 
-one such permutations led to amino acids on one planet (that we know of)
+one such permutations led to amino acids on one planet (that we know of). however, this is not the only place where C and N and H have combined to form acids and within which amino acids, there are other places (cite reference here). 
+
+Gap in understanding - what led these protiens to bunch up into what qualifies as life.
+how did they fight against entropy for the time being?
+what is special about C,N,O and H that leads to carbon based life? are their compounds of a certain potential energy life that is just righh for life or are they one of many possibilities, but the only one we know of? if they are one of many, what are the others?
+if yes, what makes them /made the first being become temporarily anti-entropy? entropy increases in a closed system, but we can have pockets within the closed system where entropy decreases i.e. things become more organized.
+
+life - single set of anti-entropy structures 
