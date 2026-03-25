@@ -8,7 +8,7 @@ Saving documents, ideas, notes, process diagrams......for easier access
   - strengthening Cargill's core by achieving cost efficient and simpler landscape.
   - investing in new food spaces, part of which is enabling data discoverability, simpler data and application landscaping as well as modernizing our core applications.
   - improving customer experience by reducing touchpoints and faster turn around time.
-3. Heavily invested in bringing in change through Generative AI, already running production grade applications for IT ticketing control and Food safety teams customer documentation. Key projects and PoV <== Detail more.
+3. Heavily invested in bringing in change through Generative AI, already running production grade applications for IT ticketing control and Food safety teams customer documentation. Key projects and PoC <== Detail more.
 4. Leading project teams with a combined strength of over 35 Developers, 10 Business Analysts and Infra reviewers, 4 Data scientists and analysts and 4 Project Managers across SAP, related applications such as OpenText, MES applications, Generative AI applications and custom in-built applications. Dotted line reporting of Service Delivery Leads.
 5. Summary of approach taken to leading and sustaining transformation benefits:
 - creating and communicating the vision around the 3 key pillars of IT transformation to all business and IT stakeholders.
@@ -58,21 +58,24 @@ Bengaluru, India
 - Task: Proactively identify issues without any input from Business plants or functions, and initiate remediative actions. Also, classify issues and map to correct root cause based on previous issue resolution data. Present this consolidated data to all IT and Business leaders.
 - Action: Designed & implemented GenAI-based data collection & inference pipelines using Python, MySQL, Power BI & GPT 4-o and 4.1 models.
 - Result: Proactively identified 8 new issue topics / themes without , Improved data accuracy from 90.4% to 99.9% & saving 10+ person-hours/week.
-2. Developed cloud-hosted LLM solutions for tracking lab contaminants & operational data, delivering $88K annual cost savings through digital automation.
+2. Developed cloud-hosted LLM driven solutions for tracking R&D & quality management data, delivering $88K annual cost savings through digital automation.
+3. Pioneered Contamination Analytics product for 24 European sites, capturing MOSH/MOAH insights.
 - Situation: Cargill measures levels of contaminants such as mineral oil and saturated hydrocarbons at the sites for edible oils that have been transported from another location, via truck, tankers or pipelines. If the contaminants are above a safe threshold, the remediation that ensues involves isolating the affected batches and conducting"cleaning"procedures, which is expensive and time consuming, in the order of days.
 - Task: identify sources of contaminants through analytics of internal sample tests and independent testing agencies, and build necessary data models for enabling analytical capabilities in other teams to further isolate contaminating processes and build the necessary preventions.
-- Action: Designed & implemented GenAI-based data collection & inference pipelines using Python, MySQL, Power BI & GPT 4-o and 4.1 models.
-- Result: Proactively identified 8 new issue topics / themes without , Improved data accuracy from 90.4% to 99.9% & saving 10+ person-hours/week.
-3. Established plant-specific single-window digital services, improving digital adoption & NPS by 30% across 2,500+ users.
-4. Pioneered Contamination Analytics product for 24 European sites, capturing MOSH/MOAH insights.
-5. Nominated to lead Business Partnering (BP) for additional European business units, strengthening strategic IT alignment with business goals.
+- Action: Managed a scrum team of 8 members to build AWS based web application for all stakeholders to collaboratively enter contamination testing results, and consequently run analytics to derive insights <== ___Add details of web app and backend here___.
+- Result: <== fill from Steerco meetings.
+4. Doc4You <== show tie in with Foods strategy of customer experience. 
+5. Galileo post go-live - Directed 70+ SAP change programs using Agile & Scrum, reducing delivery cycles by 16% & saving $35K in resourcing costs.
+6. Project Cheetah -
+7. 
+Nominated to lead Business Partnering (BP) for additional European business units, strengthening strategic IT alignment with business goals.
 - Authored enterprise-wide BP playbook influencing standardized IT engagement across global units.
 - Own IT financial governance, managing $1.7M+ annual budgets, billing audits, capitalization & compliance.
 - Designed vendor governance models for SAP-integrated platforms under $600K+ contracts, ensuring audit readiness & service compliance.
 - Reduced enterprise IT asset spends by 14% through process standardization & optimization.
-- Directed 70+ SAP change programs using Agile & Scrum, reducing delivery cycles by 16% & saving $35K in resourcing costs.
 - Led $1M+ Infra, Automation & M&A programs, delivering within 90th percentile cost & schedule adherence.
 - Built value-based demand prioritization framework, eliminating $700K in low-value projects.
+- Established plant-specific single-window digital services, improving digital adoption & NPS by 30% across 2,500+ users.
 
 ### Nov 2019 - Sep 2021 - IT Service Management Consultant, Cargill Business Services, Bengaluru, India
 #### Role
