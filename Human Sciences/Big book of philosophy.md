@@ -1,3 +1,9 @@
+# Dissemination
+- Multiplayer game that makes players initiate actions, and if they don't know what actions, conduct actual secondary research, to make events happen that follow the below story. The players have to have faith in the below philosophy to win. Helps players build understanding of the philosophy, enables scientific thinking, and could lead to secondary research. Players don't have to do the grunt work, an agent will do, but they have to "seed" the research that needs to be done. Having a good game dev would really help.
+- Comic book that walks through the same storyline as below.
+- This is for all the children I love (heart)
+
+# Philosophy
 The universe has underlying rules, but the permutations combinations from those rules are very high. 
 one could argue that if we know the right starting conditions and available information/resources surroundimg the process, we could correctly guess the one event or process that followed, but that's almost impossible for mankind to find in our current state because the sheer volume of information needed tk be tracked, and potential loss of all traces of the conditions. sometimes the resulting processes themselves remove all traces of the starting conditions.
 
