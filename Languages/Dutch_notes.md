@@ -17,7 +17,8 @@ there is also the "ending" - door and heen - which is stuck at the end of the se
 Blijven - to be / to keep on being or doing an action - De aarde zul de zon ___blijven___ ronddraaien - The earth will ___keep___ orbiting the sun.\
 Worden - to become - .\
 Hebben - to have / to have to\
-Graag? - ...like to\
+Graag - ...like to Note: Ik ___heb graag___ een huis = I have (like to) a house - I __like to have___ a huis\
+Liefst - like the most e.g. Ik reis het liefst bij de aeroplane - I like to travel the most by aeroplane.\
 Willen - to want to...\
 - to happen\
 Zal....kunnen - will be able to - Zal hij die werk kunnen doen?\
