@@ -2111,16 +2111,332 @@ This detailed summary captures the technical depth, architectural design, challe
 
 
 # [Domain Terminology & Semantic Search Optimization | Filtering 18K NASA Terms to 5.5K | Part 14](https://www.youtube.com/live/j0M5dDyLNPQ?si=F8Yeli-QJBpJj_vY)
+### Summary of the Video Transcript on Building a Production-Grade Aerospace RAG System
 
+---
+
+#### [00:00:09 ~ 00:01:19] Introduction to the Project and Series Context  
+The video begins by introducing Day 13 of a live series focused on building a **production-grade Retrieval-Augmented Generation (RAG) system** or an **agentic RAG system**. This system is designed to handle **85,000+ to 100,000+ aerospace-related documents**. The purpose of the system is to act as an intelligent search agent that can efficiently sift through thousands of complex documents to find relevant information, effectively serving as a domain-specific search engine and reasoning agent.
+
+---
+
+#### [00:00:44 ~ 00:02:46] Use Case and Document Nature  
+The project revolves around a fictional aerospace consultancy called **Meridian Aerospace** with 180 employees. The company holds a vast archive of aerospace documents, including internal research papers, NASA and SpaceX documents, technical reports, safety analysis, failure investigation reports, and other materials spanning multiple decades, sometimes going back to the 1950s. These documents are complex, often scanned, handwritten, or lacking metadata.
+
+A critical pain point is engineers spending **4 to 6 hours per project** searching through archives for relevant historical test data and failure modes. Institutional knowledge is often locked in senior engineers who are retiring, creating risks such as missing critical failure modes during safety reviews. The dataset contains **very old, jargon-heavy aerospace documents** with a significant percentage (40%) being scanned copies requiring OCR.
+
+---
+
+#### [00:03:12 ~ 00:05:40] Technical Challenges and Current Progress  
+The project has tackled numerous challenges, including:
+
+- **OCR and visual language models (VLMs)** for scanned documents.
+- Handling **heavy aerospace jargon** with domain-specific acronyms and synonyms that evolve over decades (e.g., "chamber combustion" vs. "stability combustion").
+- Managing **18,414 embedded domain terminologies** to improve search accuracy.
+- Processing **formulas, tables, technical diagrams, and images** within documents.
+- Building a hybrid search system combining **keyword and semantic search** with sub-240 millisecond latency.
+- Infrastructure challenges of processing 10,000+ documents on a **single NVIDIA H100 GPU**, achieving about 110 pages per minute sustained throughput despite GPU and RAM bottlenecks.
+
+The speaker emphasizes that this system, while fictional, represents a realistic and highly valuable aerospace RAG project worth around $70,000 to $250,000 in real-world terms.
+
+---
+
+#### [00:06:13 ~ 00:08:43] System Processing Metrics and Document Characteristics  
+At this point, the system has processed around **5,500 documents out of 10,400**, with a **17% failure rate** that is being addressed via retries. The total processing time has exceeded **36 hours**. Documents are large, averaging **67 pages each**, containing dense technical content, formulas, and images.
+
+The document processing pipeline was custom-built for accuracy, leveraging **layout detection tools (Dockling)** and specialized methods for **noise removal** (e.g., stripping confidential statements) to ensure the model focuses on relevant text and visuals.
+
+---
+
+#### [00:11:08 ~ 00:13:22] Model and Infrastructure Details  
+The backend uses a **7-8 billion parameter language model (Qwen-8B)** quantized to **FP8** precision to optimize GPU memory usage on the H100. The system batches queries efficiently, processing up to 256 requests per forward pass, which aligns with how large-scale cloud models serve millions of users simultaneously.
+
+The speaker explains how batching works in production systems to optimize GPU usage and latency, noting that user queries are not processed sequentially but in batches that may introduce slight variable latency depending on batch fullness.
+
+---
+
+#### [00:17:01 ~ 00:19:26] Challenges with Dockling and Multi-Server Setup  
+Dockling layout detection servers are limited to 8 concurrent threads due to internal constraints, causing some bottlenecks. The system uses **watchdogs** to monitor these servers and restart failed processes within seconds, ensuring robustness. The speaker reflects on the trade-offs between using cloud GPUs like H100s and alternatives like B200 GPUs for cost and speed optimization.
+
+---
+
+#### [00:19:30 ~ 00:23:41] Demo of Agent Interface and Domain-Specific Querying  
+The speaker demonstrates a simple chatbot UI powered by Claude’s skills pack, allowing queries into the processed aerospace documents. The agent supports adjacent chunk navigation, image viewing, formula verification, and task management. A notable feature is the integration of the **NASA Thesaurus V2**, a standardized aerospace domain terminology database, which enables the agent to understand complex domain jargon and synonyms, critical for accurate search and reasoning.
+
+---
+
+#### [00:23:39 ~ 00:32:43] Importance and Challenges of Domain Terminologies  
+The NASA thesaurus contains over 18,000 aerospace domain terms, including acronyms like **LOX** (liquid oxygen), **NTO**, and other propulsion-related terms. The agent uses this terminology to expand and refine queries, handling unit conversions and evolving terminology over decades (e.g., PSI vs. MPa).
+
+The speaker highlights the difficulty of making the agent consistently use domain terminologies during query processing, especially when the user’s input already contains precise jargon. They note that fine-tuning or explicitly injecting these terminologies into the model prompt or tool calls may be inefficient or unnecessary if the model already understands these terms.
+
+---
+
+#### [00:32:43 ~ 01:00:03] Experiments with Domain Terminology Tool and Model Behavior  
+Through testing, the agent sometimes ignores the explicit **domain terminology lookup tool** when the query is clear, relying on its internal knowledge. When queries are vague, the terminology tool helps expand relevant keywords and synonyms.
+
+The speaker suggests that for open-source or smaller models with less domain knowledge, the terminology tool is more critical. However, for large models like Claude, the impact is more subtle. They also emphasize the need to filter out noise terms (such as medical terminology irrelevant to aerospace) to improve search precision.
+
+---
+
+#### [01:00:03 ~ 01:15:39] Filtering and Refining Domain Terminologies  
+Because the NASA thesaurus includes many terms outside the propulsion domain (e.g., medical terms), the speaker undertakes a filtering step to reduce the 18,000+ terms to around 3,500 **propulsion-related domain-specific terms**. This pruning reduces noise and improves semantic search accuracy.
+
+They discuss the limitations of embedding models on very short texts or keywords and advocate for a hybrid approach combining **keyword matching** with **augmented semantic search**, particularly for short domain-specific phrases.
+
+---
+
+#### [01:18:25 ~ 01:26:55] Handling Document Updates and Data Ingestion  
+The speaker answers a viewer question about managing document updates and deletions in the database. They describe a workflow where:
+
+- Incoming documents are filtered and metadata-extracted.
+- Similarity searches identify draft or production versions.
+- Metadata includes dates and versioning to manage relevance.
+- Small models or agents help identify document relationships.
+- Manual or semi-automated pipelines are needed due to domain complexity.
+
+They emphasize no one-size-fits-all solution exists, and each domain requires tailored heuristics.
+
+---
+
+#### [01:26:55 ~ 01:39:36] Finalizing Domain Terminologies and Agent Testing  
+After filtering and augmentation, the agent performs better in pulling relevant aerospace propulsion terms and synonyms during search. The speaker notes that the model filters noise intelligently and only uses domain terminology when contextually relevant.
+
+They finalize the domain terminology tool integration and confirm the current system is stable, scalable, and ready for large-scale deployment.
+
+---
+
+#### [01:41:05 ~ 01:58:56] Document Chunking, Metadata, and Search Strategy  
+The agent works with over **800,000 chunks** of document data derived from roughly 5,000 documents. Each chunk contains rich metadata, including section headings and document structure, enabling the agent to navigate document hierarchies effectively.
+
+The speaker explains their chunking strategy:
+
+- Initially chunking by paragraphs, which sometimes causes uneven chunk sizes.
+- Considering setting minimum chunk sizes (~256 tokens) for more consistent processing.
+- Leveraging metadata to link chunks by section for coherent retrieval.
+
+The search strategy involves:
+
+- Conducting a **parallel keyword search** across the large chunk corpus to identify relevant “locations” in the document space.
+- Then expanding contextually from these hits to gather adjacent information.
+- Mimicking how engineers narrow down documents by first finding relevant sections before deep reading.
+
+---
+
+#### [02:00:14 ~ 02:20:43] Agent Simulation, User Behavior Modeling, and Evaluation Framework  
+The speaker outlines their approach to modeling user behavior and agent reasoning via **simulations**:
+
+- Creating **personalities** representing junior and senior engineers with domain experience.
+- Running these personalities through typical workflows to understand their queries and thought processes.
+- Using these insights to craft **system prompts** that make the agent behave like an aerospace engineering consultant, not just a search engine.
+- Emphasizing the importance of a carefully designed **system prompt** to embed domain knowledge and reasoning heuristics rather than relying solely on tool complexity.
+
+For evaluation, they plan to:
+
+- Select around **20-30 documents** as an evaluation subset.
+- Load these into a large LLM with 1 million token capacity (e.g., Gemini) for reference answers.
+- Compare the agent’s ability to find the relevant documents within the full 5,000+ document corpus.
+- Identify gaps and iterate on agent design accordingly.
+
+---
+
+#### [02:39:43 ~ 03:15:38] Ongoing Work, Chunking Issues, and Next Steps  
+The speaker resumes work on integrating the current system with AI Studio and preparing for evaluation:
+
+- Highlights the importance of **landscape analysis** and **multi-resolution search** to deal with document distribution and chunk similarity.
+- Plans to create a **data set of 25 full documents** saved in order for coherent evaluation.
+- Notes chunking granularity issues, particularly overly small chunks, and plans to merge or adjust chunk sizes without breaking document order.
+- Estimates around **200,000 tokens** currently in the evaluation set, which Gemini or similar LLMs can handle.
+- Confirms the infrastructure is stable with backups and snapshots to avoid data loss.
+
+---
+
+#### [03:18:07 ~ 03:19:02] Conclusion and Upcoming Focus  
+The video concludes with a summary stating that:
+
+- Document processing and indexing are largely complete.
+- The focus will shift to **evaluation and identifying gaps** in the agent’s performance.
+- The system is complex but stable, and the next phase involves rigorous testing and refinement.
+- The speaker thanks viewers and encourages further questions and interaction.
+
+---
+
+### Core Concepts and Takeaways
+
+- **Large-scale document ingestion:** Handling 10,000+ aerospace documents with mixed formats (scanned, handwritten, digital).
+- **Domain-specific knowledge:** Embedding 18,000+ aerospace terminologies, filtered to 3,500 propulsion-specific terms, to improve search accuracy.
+- **Hybrid search strategy:** Combining keyword matching and semantic search with efficient indexing (Quadrant DB).
+- **Model optimization:** Using quantized large language models (7-8B parameters at FP8) for cost-effective GPU usage on a single H100.
+- **Chunking and metadata:** Intelligent chunking by paragraph with section metadata aids navigation and retrieval.
+- **Agent design via simulation:** Creating user personas and workflows to craft system prompts tailored to aerospace domain reasoning.
+- **Evaluation methodology:** Using a subset of documents loaded into a large LLM for ground truth generation, comparing agent retrieval performance.
+- **Infrastructure robustness:** Multi-server setup with watchdogs, batching techniques, and backups to ensure continuous processing.
+
+---
+
+### Keywords
+
+- Retrieval-Augmented Generation (RAG)
+- Aerospace documents
+- Domain terminology embedding
+- Hybrid semantic and keyword search
+- Document chunking and metadata
+- Large language models (LLMs)
+- FP8 quantization
+- NASA Thesaurus
+- Agent simulation and system prompt engineering
+- Evaluation framework with large LLMs
+- GPU batching and infrastructure monitoring
+
+---
+
+### FAQ
+
+**Q: Why is domain terminology important in aerospace document search?**  
+A: Aerospace documents contain highly specialized jargon, evolving acronyms, and unit variations. Without domain terminology integration, the search system cannot reliably retrieve relevant documents or interpret queries accurately.
+
+**Q: How does the system handle scanned and handwritten documents?**  
+A: The system uses OCR combined with visual language models and layout detection tools like Dockling to extract text, formulas, tables, and images from complex scanned documents.
+
+**Q: What is the role of simulations in agent design?**  
+A: Simulations model different user personas and their workflows, helping craft system prompts that guide the agent’s reasoning to behave like domain experts, improving relevance and usability.
+
+**Q: How is document update and versioning managed?**  
+A: By extracting metadata and using small models or agents to detect document relationships and versions, the system can identify drafts versus production files and update the database accordingly.
+
+**Q: What are the main bottlenecks in processing large document corpora?**  
+A: GPU memory constraints, thread limitations in layout detection tools, and variability in chunk sizes pose challenges that require batching, monitoring, and efficient pipeline design.
+
+---
+
+This detailed summary captures the essential content, technical depth, and project progress described in the video transcript, neatly structured following the original timeline and themes.
 
 
 # [End to End: 10K Docs Indexed, Agent Reasoning Across 50 Years, Evaluation with Gemini | Part 14](https://www.youtube.com/live/WT6KWo_eqyI?si=3aAEN0aSgQxnsKrK)
 
+### Summary of Video Content: Building a Production-Grade System for NASA Documents
+
+- **[00:00:05 ~ 00:02:07] Introduction and Project Overview**  
+  The project involves building a scalable, production-grade AI system designed to process and analyze over 10,000 NASA technical documents, with the capability to scale beyond 85,000 and even 100,000 documents. These documents span from as early as the 1950s (specifically the 1951 document is mentioned) through to 2025. They are complex, containing dense technical jargon, diagrams, formulas, tables, and scanned copies from different eras. The data source is NASA Technical Reports Server (NTRS), which is freely accessible, allowing bulk document downloads with some rate limits. The project aims to assist aerospace engineers by drastically reducing the hours they spend searching through archives and help surface relevant documents and detailed information efficiently.
+
+- **[00:02:34 ~ 00:04:42] Document Processing Pipeline and Challenges**  
+  The system is built for a fictional midsize aerospace engineering consultancy called Meridian Aerospace, which handles safety certifications, propulsion systems, and satellite technologies for government and commercial clients. Engineers typically spend four to six hours per project searching through documents. The system’s goal is to enable semantic search and rapid retrieval across a massive archive. The documents include scanned copies with complex layouts, tables containing formulas, images, and diagrams. The team spent several days (3-4 days over multiple live streams) developing a custom document processing pipeline that goes beyond basic chunking: it has specialized pipelines for formulas, diagrams, tables, mathematical equations, and figures. Noise such as blacked-out classified data is cleaned. Layout detection is performed using Dockling, and open-source large language models with approximately 7 billion parameters are used for embedding and analysis.
+
+- **[00:04:43 ~ 00:06:52] Scaling and Infrastructure**  
+  Processing 10,000 documents took about two days using a single NVIDIA H100 GPU. Approximately 20% of documents initially failed processing, but retries are planned. The processed data contains about one million embedding chunks, representing a significant scale challenge. The infrastructure combines CPU and GPU layers with parallel processing and watchdog monitoring to ensure reliability. The team encountered issues such as unexpected restarts causing data loss but mitigated this by taking snapshots of the processed data. The system currently holds about 8,000 to 9,000 successfully processed documents in the vector database (Quadrant).
+
+- **[00:06:18 ~ 00:09:48] Intelligent Agent Design and Domain-Specific Terminology**  
+  An intelligent agent, designed to mimic a human researcher, was built over 3-4 days. This agent uses domain intuition and several tools to interact with the document database, including navigating document sections, retrieving specific chunks, and parallel research capabilities. It supports complex technical queries with domain-specific jargon. About 18,000 jargon terms and their synonyms were collected from the aerospace and life sciences domains. Instead of fine-tuning a model, the team integrated this jargon as a tool to improve understanding. The system emphasizes filtering jargon and embedding only a subset (4,000-5,000) relevant to propulsion documents to optimize performance. The current phase focuses on final polishing and resolving outstanding issues before project completion.
+
+- **[00:09:39 ~ 00:19:58] Chunking and Embedding Optimizations**  
+  A major issue identified was the chunk size during document processing. The system used Dockling’s default paragraph-level chunking, which sometimes produced very small chunks (e.g., headings or tiny text snippets). This caused inefficiencies in embedding and retrieval, as many chunks were too granular. The minimum chunk size was set around 150 tokens, but the ideal would be around 512 tokens to improve context and relevance in search queries. The team discussed options:  
+  - Reprocessing documents with larger chunk sizes (costly due to compute time of 40-50 hours).  
+  - Merging small chunks post-processing without reprocessing the entire document.  
+  - Applying filters to ignore chunks below a size threshold during retrieval.  
+  The preferred solution was to create a new collection by merging existing small text chunks into larger ones, preserving document order and metadata (such as section headers). Special care would be taken to avoid merging non-text chunks like tables, images, or formulas. The goal is to improve relevance by having more meaningful chunks, not necessarily longer ones. This approach would preserve computational resources while enhancing retrieval quality.
+
+- **[00:20:52 ~ 00:25:59] Metadata and Section Headers Handling**  
+  The merging procedure must carefully handle metadata such as section headers and document structure, as merging chunks across different sections could confuse context. The system stores section header metadata alongside the text chunks, which allows informed merging that respects document boundaries. The order of chunks is crucial and should be maintained to keep the integrity of the document’s narrative. The team planned to test merging with chunk size targets of minimum 512 tokens and maximum up to 2,000 tokens, balancing chunk size for context while avoiding excessively large embeddings.
+
+- **[00:29:26 ~ 00:41:50] Processing Implementation and UI Improvements**  
+  The merging process was implemented as a dry run, and the team discussed the expected runtime and resource usage. The collection would be duplicated using snapshots to ensure safety and rollback capability if errors occurred. Parallel processing was planned to speed up merging.  
+  Meanwhile, UI issues were addressed, such as fixing rerendering problems in the “sources” panel, which displays the provenance of answers to build user trust. The system was tuned to handle large embedding computations and slowdowns typical with large datasets.
+
+- **[01:04:49 ~ 01:22:34] Handling Image and Formula Rendering**  
+  A significant feature is the handling of images and formulas extracted from scanned documents. The agent can request visual regions or images of diagrams, tables, or formulas to verify its textual understanding and provide richer context to users.  
+  Challenges included serving images stored on a VM while the API runs on the local machine. The team planned to implement an image-serving API that returns Base64-encoded images to the frontend for inline rendering. This API would handle requests for images, figures, and formulas, enabling the user to view these directly in the UI alongside text responses.  
+  The agent supports viewing regions of PDFs or images, improving the user experience by integrating visual verification into the research workflow.
+
+- **[01:37:56 ~ 01:58:17] Snapshot and Data Backup Strategy**  
+  To prevent data loss during reprocessing or system failures, snapshots of the entire document processing state were created on Azure. These snapshots allow quick restoration without needing to re-download or reprocess large document sets.  
+  The team emphasized the importance of slow, cautious operations when working with large datasets and complex pipelines to avoid costly mistakes or data loss.
+
+- **[02:15:59 ~ 03:04:01] Validating Image and Formula Retrieval**  
+  The system was tested with queries for rocket images, propulsion diagrams, and formulas. The agent successfully retrieved and displayed relevant images and formula regions, demonstrating the end-to-end processing and retrieval pipeline works correctly for complex visual data in documents.  
+  The UI shows thumbnails of images the agent “sees” and enables users to click and expand them. Verification of formula extraction accuracy was tested with multiple formulas, with a success rate of about 90-95% accuracy.
+
+- **[03:10:56 ~ 04:10:53] Domain Reasoning and Search with Temporal Filtering**  
+  The system supports filtering documents by creation year, enabling time-bounded searches (e.g., finding all relevant documents from the 1970s or 2020s). This is critical for aerospace research where historical context matters.  
+  Challenges included missing metadata for document creation years due to earlier processing errors. The team developed backfill scripts to extract year data from document numbering schemes and update the metadata in the vector database, enabling efficient numeric filtering using Quadrant’s payload indexing.  
+  This filtering dramatically reduces search space and improves retrieval speed and relevance.  
+  The system also understands cross-document references, enabling the agent to follow citation trails or related reports, which is crucial for aerospace research workflows.
+
+- **[04:11:54 ~ 04:38:15] Timeline-Based Research and Evolution of Technologies**  
+  The agent was able to synthesize historical timelines of technological evolution in cryogenic propellant systems, summarizing key advancements from the 1970s to the 2020s. It identified major shifts such as from passive insulation to active cryocoolers and autonomous operation.  
+  This shows the system’s ability to aggregate knowledge across decades of research documents, providing valuable insights into technological progress and research trends.
+
+- **[04:43:59 ~ 06:00:00] Evaluation Framework and Testing Scenarios**  
+  The project moved into a robust evaluation phase, testing the system’s ability to retrieve relevant documents from a large corpus (10,000+ documents) and answer complex aerospace engineering questions.  
+  Evaluation scenarios covered:  
+  - Retrieval accuracy: finding the correct documents among thousands.  
+  - Domain reasoning: interpreting technical content and jargon.  
+  - Handling degraded documents: OCR errors, scanned tables, and images.  
+  - Negative boundary cases: recognizing when information does not exist and avoiding hallucinations.  
+  - Cross-referencing: linking related documents for comprehensive answers.  
+  The system was tested with multiple real-world-like questions involving technical details, formulas, and diagrams. It successfully retrieved relevant documents, extracted numerical data, and provided references. The agent’s ability to autonomously search related documents and triangulate answers was highlighted as a key strength.
+
+- **[06:00:00 ~ 07:15:57] Final Results, System Strengths, and Project Reflections**  
+  The evaluation showed the agent achieving around 80-100% accuracy on different scenarios, with better results on more advanced models (e.g., Sonet outperforming Haiku).  
+  The system can handle 85,000+ documents and scale to 100,000+ with proper infrastructure. Processing time for 10,000 documents was about 46 hours on an H100 GPU.  
+  The project required sophisticated document processing, including handling technical jargon, diagrams, tables, OCR errors, and metadata extraction.  
+  The system’s trustworthiness is enhanced by showing source documents and images inline, allowing users to verify answers.  
+  The team emphasized the importance of domain understanding, user workflows, and integration with existing enterprise systems.  
+  The project cost (compute, time, licensing) was estimated around $5,000 monthly for GPU rentals, with potential commercial value of $100,000-$200,000 for enterprise deployment.  
+  The speaker reflected on the challenge and novelty of building such a system from scratch, highlighting the absence of one-size-fits-all solutions, and the necessity of domain-specific approaches.  
+  A commercial product, “Intrlex,” was introduced as a 100x more powerful, on-premise, scalable enterprise search system for regulated and classified documents in aerospace, finance, pharma, and other domains requiring compliance.
+
+- **[07:07:00 ~ 07:16:07] Closing Thoughts and Advice**  
+  The project showcased the full lifecycle of building a production-grade document AI system at scale for a highly technical domain.  
+  The speaker encourages creativity, experimentation, and understanding user needs deeply rather than following rigid patterns.  
+  The system architecture involves complex interplay between document processing, embedding, metadata, agent design, and UI/UX considerations.  
+  The speaker invites feedback, questions, and collaboration, promising future articles and code to help others build similar systems.  
+  The entire journey took over two weeks of intensive work, including multiple days of live streams, and involved solving many infrastructure and technical challenges.
+
+---
+
+### Key Insights and Technical Highlights
+
+- **Scalability & Infrastructure**: Processing 10,000+ documents with millions of chunks requires robust GPU and CPU orchestration, parallel processing, and fault tolerance with snapshot backups.
+
+- **Document Processing Complexity**: Handling scanned documents with formulas in tables, images, and technical diagrams requires custom pipelines beyond naive chunking.
+
+- **Chunking Strategy**: Optimal chunk size (target ~512 tokens) is critical for embedding quality and retrieval relevance; post-processing chunk merging can avoid costly recomputation.
+
+- **Domain Expertise & Jargon**: Aerospace documents contain 18,000+ technical jargon terms; integrating domain-specific terminology as tools improves comprehension without expensive fine-tuning.
+
+- **Temporal Filtering & Metadata**: Extracting document creation year and supporting numeric range filters significantly improves search precision.
+
+- **Cross-Document Reasoning**: The agent can follow references and citations to assemble comprehensive and accurate answers.
+
+- **Visual Data Handling**: Serving images and formulas inline via Base64 encoding enhances trust and usability, allowing users to verify extracted data.
+
+- **Evaluation Framework**: Multi-dimensional testing including retrieval accuracy, cross-reference navigation, degraded document robustness, domain reasoning, and hallucination control.
+
+- **High Accuracy Achieved**: Achieved near 90-100% accuracy on complex aerospace document queries in a corpus of 10,000+ documents.
+
+- **Commercial Viability**: Projected enterprise value $100k–$200k; with scalable on-premise solutions like Intrlex for highly regulated environments.
+
+---
+
+### Recommended Testing & Evaluation Aspects
+
+- Retrieval accuracy: Does the system find the correct documents in a large corpus?  
+- Domain reasoning: Can the system interpret technical jargon and complex concepts correctly?  
+- Handling degraded documents: Does it cope with OCR errors and noisy scanned data?  
+- Cross-document navigation: Can it track references and related documents?  
+- Negative boundary queries: Does it correctly respond when information is missing without hallucination?  
+- Speed and scalability: How fast is retrieval and response with increasing document counts?  
+- User trust: Are sources and images presented clearly to verify answers?
+
+---
+
+### Conclusion
+
+This video documents an end-to-end journey of building a highly specialized, scalable AI system for aerospace document search and analysis, addressing unique domain challenges with innovative pipelines, agent design, and evaluation strategies. The system demonstrates high accuracy and robustness, making it suitable for deployment in demanding research environments with large, complex document archives. The project also emphasizes the importance of domain understanding, user workflow integration, and iterative evaluation to deliver a valuable product.
 
 
 
-
-### Keywords
+# Keywords
 - RAG (Retrieval-Augmented Generation)
 - Aerospace Documents
 - Semantic Search
