@@ -1111,7 +1111,7 @@ A6: The system uses fallback mechanisms like visual region capture, thorough dom
 
 This detailed summary captures the entire scope, technical depth, and development plan of the NASA document RAG system as described in the transcript, adhering to the original structure and providing an in-depth understanding for readers or practitioners interested in such complex document AI systems.
 
-# [Processing 10K Documents on a H100 (Qwen) | GPU Infrastructure, Scaling Math, VLLM & Ollama | Part 7] (https://www.youtube.com/live/Wd-DZNKE87Y?si=qnQkqhGKLGDgD2cv)
+# [Processing 10K Documents on a H100 (Qwen) | GPU Infrastructure, Scaling Math, VLLM & Ollama | Part 7](https://www.youtube.com/live/Wd-DZNKE87Y?si=qnQkqhGKLGDgD2cv)
 ### Summary of Video Content: Building a Production RAG System for NASA Documents (Day 7)
 
 ---
