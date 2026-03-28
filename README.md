@@ -2,12 +2,9 @@
 Saving documents, ideas, notes, process diagrams......for easier access
 
 # Resume 
-## About me pointers
+
 1. Working as Associate Director for Business Partnering, reporting into Director, Business Partnering.
-2. Leading overall IT strategy and transformation, focused on 3 key pillars - high quality user experience, reducing technical debt and maximizing RoI. Aligns with Cargill Food's strategy of
-  - strengthening Cargill's core by achieving cost efficient and simpler landscape.
-  - investing in new food spaces, part of which is enabling data discoverability, simpler data and application landscaping as well as modernizing our core applications.
-  - improving customer experience by reducing touchpoints and faster turn around time.
+2.
 3. Heavily invested in bringing in change through Generative AI, already running production grade applications for IT ticketing control and Food safety teams customer documentation. Key projects and PoC <== Detail more.
 4. Leading project teams with a combined strength of over 35 Developers, 10 Business Analysts and Infra reviewers, 4 Data scientists and analysts and 4 Project Managers across SAP, related applications such as OpenText, MES applications, Generative AI applications and custom in-built applications. Dotted line reporting of Service Delivery Leads.
 5. Summary of approach taken to leading and sustaining transformation benefits:
@@ -17,11 +14,6 @@ Saving documents, ideas, notes, process diagrams......for easier access
 - documenting, implementing and refining service and delivery processes.
 - setting up service assessment and continuous improvement teams that focus on benefit sustainability.
 
-
-If you are ok with it, I would love to connect with you and share my CV.
-
-Regards,
-Bejoy
 
 
 ## Contact details
@@ -45,20 +37,23 @@ Cargill Foods EMEA BU
 Bengaluru, India
 
 #### Job description
-1. Building the bridge between business priorities and requirements and IT skills and organization.
-2. Manage the tech demand pipeline, ensuring alignment with Business unit's strategic goals and strong business case, and implementing the resulting changes through project portfolio.
-3. Control internal and external resourcing, portfolio progress, costing, sourcing, vendor contracting and billing as well as allocations such as capex vs opex for the projects.
-4. Transform service quality by proactively identifying recurring and high value issues through analytics, and kickstarting remediation processes.
-5. Monitor other KPIs such as Service Delivery SLAs and ticketing automation.
-6. Product Management for Gen AI based solutions - capture requirements, design and develop PoC, roadmap scaled solution, build business case and secure funding for the full scale product.
+1.  Leading Digital strategy and transformation of Edible Oils Europe, focused on 3 key pillars - high quality user experience, reducing technical debt and maximizing RoI. Aligns with Cargill Food's strategy of:
+  - optimizing RoI and standardizing technical footprint. 
+  - channeling investments for  process, data, infra and application to support business forays into new product and customer categories.
+  - improving external and internal customer experience of Cargill's tech by reducing touchpoints and faster turn around time.
+2. Manage the Digital Transformation pipeline, ensuring alignment with Business unit's strategic goals and value targets, and implementing the resulting changes through project portfolio.
+3. Control project inputs such as internal and external resourcing, sourcing, vendor contracting and billing as well as allocations such as Project capex vs opex.
+4. Transform Operations quality by proactively identifying, prioritizing and remediating high impact issues through analytics driven Continuous Improvement programs.
+6. Product Management for Gen AI based solutions - build architectural framework, design and develop PoC, roadmap scaled solution, and secure funding for justified full scale product.
 
 #### Experience / Achievements
 1. Built Generative AI solution for proactive service monitoring.
-- Situation: Business colleagues in plants across Europe often face breaks in systems and raise tickets. However, no centralized view or analysis of issues across the Business Unit. This leads to escalations when multiple failures of the same nature happen across time or across locations. On the other hand, Ticket management teams focus on providing "quick fix" solutions rather than identify a deeper root cause and propose longer term solutions.
-- Task: Proactively identify issues without any input from Business plants or functions, and initiate remediative actions. Also, classify issues and map to correct root cause based on previous issue resolution data. Present this consolidated data to all IT and Business leaders.
-- Action: Designed & implemented GenAI-based data collection & inference pipelines using Python, MySQL, Power BI & GPT 4-o and 4.1 models.
-- Result: Proactively identified 8 new issue topics / themes without , Improved data accuracy from 90.4% to 99.9% & saving 10+ person-hours/week.
+- Situation: Business colleagues in plants across Europe often face operational failures breaks and consequently raise tickets. However, no centralized view or analysis of issues across the Business Unit. This leads to escalations when multiple failures of the same nature happen across time or across locations. On the other hand, Ticket management teams focus on providing "quick fix" solutions rather than identify a deeper root cause and propose longer term solutions. Manual root cause analysis takes months, often with shallow findings.
+- Task: Proactively identify issue patterns through ETL methods and visualization. Classify issues, map to correct root cause based on previous issue resolution data. Initiate remediative actions post approval of all relevant Tech and Business leaders.
+- Action: Designed & implemented ETL pipeline, classification and visualization system using Python, MySQL, Power BI & GPT 4-o and 4.1 models. A second sub-solution uses RAG pipelines and agentic system to draw inferences from latest trends vs past resolutions.  
+- Result: Proactively identified 8 previously unknown issue areas in 4 months, leading to over 17 FTE savings. Improved data accuracy from 90.4% to 99.9% saved additional 10+ person-hours/week in data quality management and governance.
 2. Developed cloud-hosted LLM driven solutions for tracking R&D & quality management data, delivering $88K annual cost savings through digital automation.
+- 
 3. Pioneered Contamination Analytics product for 24 European sites, capturing MOSH/MOAH insights.
 - Situation: Cargill measures levels of contaminants such as mineral oil and saturated hydrocarbons at the sites for edible oils that have been transported from another location, via truck, tankers or pipelines. If the contaminants are above a safe threshold, the remediation that ensues involves isolating the affected batches and conducting"cleaning"procedures, which is expensive and time consuming, in the order of days.
 - Task: identify sources of contaminants through analytics of internal sample tests and independent testing agencies, and build necessary data models for enabling analytical capabilities in other teams to further isolate contaminating processes and build the necessary preventions.
@@ -67,7 +62,7 @@ Bengaluru, India
 4. Doc4You <== show tie in with Foods strategy of customer experience. 
 5. Galileo post go-live - Directed 70+ SAP change programs using Agile & Scrum, reducing delivery cycles by 16% & saving $35K in resourcing costs.
 6. Project Cheetah -
-7. 
+7. IT Procurement process optimization
 Nominated to lead Business Partnering (BP) for additional European business units, strengthening strategic IT alignment with business goals.
 - Authored enterprise-wide BP playbook influencing standardized IT engagement across global units.
 - Own IT financial governance, managing $1.7M+ annual budgets, billing audits, capitalization & compliance.
