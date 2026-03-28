@@ -12,3 +12,9 @@ Using sample average to estimate population average. Used when sample size are l
 Using multiple sample averages to estiamte population average. Used when accuracy needs to be high, but needs large sample set.
 
 ### p-value
+
+
+### Standard Deviation and Correlation (relationship "closeness" within one dataset and between two datasets)
+
+# FAQs
+### Does combining multiple statistics like mean, median and mode make for a better estimate? E.g. does taking the weighted average of the 3 give a better result than individually?
