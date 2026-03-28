@@ -3,18 +3,6 @@ Saving documents, ideas, notes, process diagrams......for easier access
 
 # Resume 
 
-1. Working as Associate Director for Business Partnering, reporting into Director, Business Partnering.
-2.
-3. Heavily invested in bringing in change through Generative AI, already running production grade applications for IT ticketing control and Food safety teams customer documentation. Key projects and PoC <== Detail more.
-4. Leading project teams with a combined strength of over 35 Developers, 10 Business Analysts and Infra reviewers, 4 Data scientists and analysts and 4 Project Managers across SAP, related applications such as OpenText, MES applications, Generative AI applications and custom in-built applications. Dotted line reporting of Service Delivery Leads.
-5. Summary of approach taken to leading and sustaining transformation benefits:
-- creating and communicating the vision around the 3 key pillars of IT transformation to all business and IT stakeholders.
-- bringing together a lean team of efficient and knowledgeable individuals, organized around these values.
-- documenting and systematically storing initiative requirements and prioritizing based on associated business case.
-- documenting, implementing and refining service and delivery processes.
-- setting up service assessment and continuous improvement teams that focus on benefit sustainability.
-
-
 
 ## Contact details
 Name: Bejoy John\
