@@ -35,20 +35,61 @@ b.	Task – Proactively identify issue patterns through ETL methods and visualiz
 c.	Action – Designed & implemented ETL pipeline, classification and visualization system using Python, MySQL, Power BI & GPT 4-o and 4.1 models. A second sub-solution uses RAG pipelines and agentic system to draw inferences from latest trends vs past resolutions.
 d.	Result – Proactively identified 8 previously unknown issue areas in 4 months, leading to over 17 FTE savings. Improved data accuracy from 90.4% to 99.9% saved additional 10+ person-hours/week in data quality management and governance.
 2.	Developed cloud-hosted LLM driven solutions for tracking R&D & quality management data, delivering $88K annual cost savings through digital automation.
+a. Situation - The Safety and Quality function (FSQR) organization within Edible Oils uses various platforms to archive safety, quality and regulatory information. This knowledge base, which runs into nearly 50k+ active documents (not including archived documents) is a significant contributor to Cargills overall value proposition to our customers. 
+b. Task - Provide highly accurate and exhaustive information for ad hoc queries from chstomers. Also create metadata (labels) that can be used for manual search.
+c. Action - deployed a cloud based 
+d. Result -
+
 3.	Pioneered Contamination Analytics product for 24 European sites, capturing MOSH/MOAH insights.
 a.	Situation – Cargill measures levels of contaminants such as mineral oil and saturated hydrocarbons at the sites for edible oils that have been transported from another location, via truck, tankers or pipelines. If the contaminants are above a safe threshold, the remediation that ensues involves isolating the affected batches and conducting "cleaning" procedures, which are expensive and time consuming, in the order of days.
 b.	Task – Identify sources of contaminants through analytics of internal sample tests and independent testing agencies and build necessary data models for enabling analytical capabilities in other teams to further isolate contaminating processes and build the necessary preventions.
 c.	Action – Managed a scrum team of 8 members to build AWS based web application for all stakeholders to collaboratively enter contamination testing results and consequently run analytics to derive insights <== ___Add details of web app and backend here___.
 d.	Result: <== fill from Steerco meetings.
-4.	Doc4You <== show tie in with Foods strategy of customer experience. 
+4.	Doc4You <== show tie in with Foods strategy of customer experience.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 5.	Galileo post go-live - Directed 70+ SAP change programs using Agile & Scrum, reducing delivery cycles by 16% & saving $35K in resourcing costs.
-6.	Project Cheetah –
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
+6.	Project Cheetah -.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 7.	IT Procurement process optimization - Reduced enterprise IT asset spends by 14% through process standardization & optimization.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 8.	Own IT financial governance, managing $1.7M+ annual budgets, billing audits, capitalization & compliance.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 9.	Designed vendor governance models for SAP-integrated platforms under $600K+ contracts, ensuring audit readiness & service compliance.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 10.	Dekom integration – Led $1M+ Infra, Automation & M&A programs, delivering within 90th percentile cost & schedule adherence.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 11.	Built value-based demand prioritization framework, eliminating $700K in low-value projects.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 12.	Established plant-specific single-window digital services, improving digital adoption & NPS by 30% across 2,500+ users.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 
 ### Nov 2019 - Sep 2021 - IT Service Management Consultant, Cargill Business Services, Bengaluru, India
 #### Role
@@ -67,7 +108,15 @@ Bengaluru, India
 
 #### Experience / Achievements
 - Promoted to lead IT lifecycle budgeting exercise for initiatives worth $800k.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 - Nominated by BP Lead for leading BU representation in Major Incidents within first 6 months.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 
 ### Jun 2016 - Oct 2019 - Senior Consultant - Manufacturing Practice, Cognizant Consulting, Bengaluru, India
 #### Role
@@ -85,6 +134,10 @@ Bengaluru, India
 -------------------------------
 #### Experience / Achievements
 1.	Robotic Process Automation project for Cognizant's platinum account. 
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 a.	Analyzed nearly 200 candidate processes for RPA, articulated over 40 process maps in 2 months.
 b.	Identified & charted functional specifications for automation of 28 processes.
 c.	Developed RPA playbook specifying candidate process identification & raising change requests. 
@@ -93,8 +146,16 @@ e.	Won client appreciation for increasing requirement gathering team efficiency 
 f.	Reduced development time by 16% through feature listing & prioritizing User Interface.
 g.	Oversaw creation of over 140 user stories for entire solution system.
 2.	IFF Machine learning based chemical dictionary.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 3.	Product ownership under the Concept development program of Emerging Technology division.
 a.	Mentored concept development across industries for application of Web VR technologies.
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 
 ### Dec 2014 - Apr 2015 - Senior Manager – Business Development (RE & Infra) - TUV SUD South Asia Pvt Ltd - New Delhi, India 
 #### Role
@@ -125,9 +186,20 @@ Noida, India
 #### Job description: 
 -------------------------------
 #### Experience / Achievements				
-1.	Madhepura e-loco
+1.	Madhepura e-locoa. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 2.	Kochi Metro RS and S&T
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 3.	Chennai Metro Track
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result -
 ## Education
 ### Post Graduation
 Degree: MBA\
@@ -150,3 +222,9 @@ Final score: 70/100
 - Automation Anywhere
 - MS Fabric/Power BI
 - Well versed with Continuous Improvement (Six Sigma, Lean, Kaizen), PMP and PgMP, ServiceNow, ITIL v4 Foundation
+
+Template:
+a. Situation - 
+b. Task - 
+c. Action - 
+d. Result - 
