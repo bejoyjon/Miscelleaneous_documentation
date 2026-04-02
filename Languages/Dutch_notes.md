@@ -30,6 +30,7 @@ Lezen - To read\
 Krijgen - To receive\
 Nemen - To take\
 Sturen - To send\
+Toonen - to show\
 Leiden - To lead\
 Vooltoien - To complete (formal), _Afmaken _ - to complete (informal), _Beendigen_ - to end...a party for example, _Afronden_ - to wrap up....e.g a conversation \
 Vraagen - To ask \
@@ -38,6 +39,7 @@ Bespreken - To discuss, _Behandling_ - to handle...e.g a topic, _Bepraten_ - To 
 Op.lossen - To solve...a problem, _Verhelpen_ - fix or remove....an issue, _Zich voornemen_ - resolve to do something \
 Besluiten - to decide \
 Vinden - To find \
+Uitvinden - to invent \
 Tellen - To count \
 Bellen - To call \
 Accepteren - To accept...e.g. a package, an idea..., _Aanvarden_ - to accept...a challenge, _Aannemen_ - to take on... \
@@ -63,6 +65,7 @@ Bezoek - to visit
 
 ### On the road and in public transport
 Reisen - to travel\
+Reden - to save / rescue \
 Boeken / reserven - to book / reserve\
 Bevind zich - find itself - to be located\
 Zoek - to look\
@@ -124,6 +127,7 @@ Streek zich - upset... Feeling upset - Voelen ____zich___ van streek\
 Bezorgd - worried.... Feeling worried - Voelen ___zich___ bezorgd\
 Angstig - anxious.... Feeling anxious - Voelen ___zich___ angstig\
 Het spijte me - I am sorry / apologetic (about) to \
+Angst - anxiety or fear\
 Hebben bang voor - have fear of = afraid of\
 Beschaam zich - to shame oneself / feel ashamed\
 Onmogelijke - impossible\
@@ -154,8 +158,9 @@ Toespraak - speech ... but its "heild een toespraak" / hold a speech for "giving
 ___Email related___ \
 Onderwerp - Topic / subject\
 Oplossing - solution\
-Uitnodiging - invite / invitation
-Bestand - file
+Uitnodiging - invite / invitation\
+Bestand - file\
+Samenvatting - summary 
 
 ___Apps related___\
 Toegang - access
@@ -171,7 +176,7 @@ Inchecken - check in\
 Uitchecken - check out\
 Vergadering - meeting\
 Discussie - discussion\
-Moeite - effort 
+Bevestiging - confirmation 
 
 
 ### Outside, on the road and public spaces
