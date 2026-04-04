@@ -2738,7 +2738,7 @@
           <mxGeometry height="80" width="80" x="590" y="152.5" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-21" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;whiteSpace=wrap;html=1;" value="Output layer" vertex="1">
-          <mxGeometry height="920" width="150" x="960" y="31" as="geometry">
+          <mxGeometry height="1059" width="150" x="960" y="31" as="geometry">
             <mxRectangle height="30" width="80" x="10" y="870" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -2749,10 +2749,10 @@
           <mxGeometry height="80" width="80" x="40" y="30" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-24" parent="9k1qNvwNOblcU8VzdDja-21" style="shape=card;whiteSpace=wrap;html=1;" value="Admin UI for Group admins" vertex="1">
-          <mxGeometry height="80" width="80" x="35" y="679" as="geometry" />
+          <mxGeometry height="80" width="80" x="35" y="839" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-25" parent="9k1qNvwNOblcU8VzdDja-21" style="shape=card;whiteSpace=wrap;html=1;" value="Infra UI for infra mgrs" vertex="1">
-          <mxGeometry height="80" width="80" x="30" y="821" as="geometry" />
+          <mxGeometry height="80" width="80" x="20" y="959" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-53" parent="9k1qNvwNOblcU8VzdDja-21" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Input for Processing logic" vertex="1">
           <mxGeometry height="80" width="80" x="40" y="308" as="geometry" />
