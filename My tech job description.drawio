@@ -2634,7 +2634,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-7" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Processing Input UI for users" vertex="1">
-          <mxGeometry height="80" width="80" x="35" y="90" as="geometry" />
+          <mxGeometry height="80" width="80" x="30" y="50" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-8" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Security UI for users" vertex="1">
           <mxGeometry height="80" width="80" x="35" y="330" as="geometry" />
@@ -2647,6 +2647,9 @@
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-10" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Infra UI for infra mgrs" vertex="1">
           <mxGeometry height="80" width="80" x="35" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-84" parent="9k1qNvwNOblcU8VzdDja-6" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" value="Optionally loops back to Processing Input UI where applicable" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="150" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-11" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Security layer for users" vertex="1">
           <mxGeometry height="240" width="810" x="150" y="320" as="geometry">
@@ -2757,9 +2760,6 @@
             <mxPoint x="613" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3Aw9aLPiIHancXkVufbJ-16" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingTop=0;spacingLeft=2;spacingRight=2;spacingBottom=2;" value="Processing logic - Steps to convert input to output&amp;nbsp;" vertex="1">
-          <mxGeometry height="70" width="230" x="305" y="75" as="geometry" />
-        </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-42" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
           <mxGeometry height="30" width="60" x="205" y="96" as="geometry" />
         </mxCell>
@@ -2775,7 +2775,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-61" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;" value="Local Input data - local files and artefacts" vertex="1">
-          <mxGeometry height="60" width="95" x="187.5" y="11" as="geometry" />
+          <mxGeometry height="60" width="95" x="125" y="11" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-87" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="9k1qNvwNOblcU8VzdDja-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9k1qNvwNOblcU8VzdDja-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-86" parent="9k1qNvwNOblcU8VzdDja-4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Input for Processing logic" vertex="1">
+          <mxGeometry height="80" width="80" x="300" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Aw9aLPiIHancXkVufbJ-16" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingTop=0;spacingLeft=2;spacingRight=2;spacingBottom=2;" value="Processing logic - Steps to convert input to output&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="230" x="305" y="75" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-27" parent="9k1qNvwNOblcU8VzdDja-36" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="External Processing layer" vertex="1">
           <mxGeometry height="130" width="785" x="25" y="160" as="geometry">
@@ -2835,7 +2844,7 @@
             <mxRectangle height="150" width="40" x="150" y="320" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-64" parent="9k1qNvwNOblcU8VzdDja-63" style="shape=card;whiteSpace=wrap;html=1;" value="Admin policies input (initialization)" vertex="1">
+        <mxCell id="9k1qNvwNOblcU8VzdDja-64" parent="9k1qNvwNOblcU8VzdDja-63" style="shape=card;whiteSpace=wrap;html=1;" value="Admin policies set up" vertex="1">
           <mxGeometry height="100" width="80" x="35" y="9" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-65" parent="9k1qNvwNOblcU8VzdDja-63" style="shape=card;whiteSpace=wrap;html=1;" value="Access confirmation + Role confirmation" vertex="1">
@@ -2855,7 +2864,7 @@
           <mxGeometry height="71" width="180" x="170" y="9" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-69" parent="9k1qNvwNOblcU8VzdDja-63" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingTop=0;spacingLeft=2;spacingRight=2;spacingBottom=2;" value="Credentials Verification logic - Steps to verify and confirm credentials" vertex="1">
-          <mxGeometry height="70" width="180" x="420" y="20" as="geometry" />
+          <mxGeometry height="70" width="180" x="480" y="20" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-70" edge="1" parent="9k1qNvwNOblcU8VzdDja-63" source="9k1qNvwNOblcU8VzdDja-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.562;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="9k1qNvwNOblcU8VzdDja-69" value="">
           <mxGeometry relative="1" as="geometry">
@@ -2863,19 +2872,25 @@
             <mxPoint x="871" y="1485" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-71" parent="9k1qNvwNOblcU8VzdDja-63" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingTop=0;spacingLeft=2;spacingRight=2;spacingBottom=2;" value="Role verification logic - Steps to verify and confirm role access" vertex="1">
-          <mxGeometry height="70" width="180" x="420" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-72" edge="1" parent="9k1qNvwNOblcU8VzdDja-63" source="9k1qNvwNOblcU8VzdDja-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=65;entryPerimeter=0;" target="9k1qNvwNOblcU8VzdDja-65">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-78" parent="9k1qNvwNOblcU8VzdDja-63" style="shape=card;whiteSpace=wrap;html=1;" value="Admin policies input (initialization)" vertex="1">
-          <mxGeometry height="100" width="80" x="35" y="140" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-78" parent="9k1qNvwNOblcU8VzdDja-63" style="shape=card;whiteSpace=wrap;html=1;" value="Admin roles and rights set up and change" vertex="1">
+          <mxGeometry height="100" width="80" x="100" y="135.5" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-79" parent="9k1qNvwNOblcU8VzdDja-63" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingTop=0;spacingLeft=2;spacingRight=2;spacingBottom=2;" value="Processing logic - Steps to &quot;rulify&quot; &amp;amp; store policies" vertex="1">
-          <mxGeometry height="71" width="180" x="180" y="150" as="geometry" />
+          <mxGeometry height="71" width="180" x="230" y="135.5" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-80" edge="1" parent="9k1qNvwNOblcU8VzdDja-63" source="9k1qNvwNOblcU8VzdDja-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=50.5;entryPerimeter=0;" target="9k1qNvwNOblcU8VzdDja-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-83" parent="9k1qNvwNOblcU8VzdDja-63" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Role verification request" vertex="1">
+          <mxGeometry height="80" width="80" x="480" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-81" edge="1" parent="9k1qNvwNOblcU8VzdDja-19" source="9k1qNvwNOblcU8VzdDja-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.043;entryY=0.552;entryDx=0;entryDy=0;entryPerimeter=0;" target="9k1qNvwNOblcU8VzdDja-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-82" edge="1" parent="9k1qNvwNOblcU8VzdDja-19" source="9k1qNvwNOblcU8VzdDja-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=65;entryPerimeter=0;" target="9k1qNvwNOblcU8VzdDja-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-85" edge="1" parent="9k1qNvwNOblcU8VzdDja-19" source="9k1qNvwNOblcU8VzdDja-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.019;entryY=0.79;entryDx=0;entryDy=0;entryPerimeter=0;" target="3Aw9aLPiIHancXkVufbJ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
