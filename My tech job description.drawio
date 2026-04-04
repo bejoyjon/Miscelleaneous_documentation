@@ -2625,8 +2625,30 @@
         <mxCell id="3Aw9aLPiIHancXkVufbJ-6" parent="1" style="whiteSpace=wrap;html=1;" value="Remove features in existing product" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-4" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Processing layer" vertex="1">
-          <mxGeometry height="200" width="650" x="160" y="870" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-19" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Vertical Container" vertex="1">
+          <mxGeometry height="559" width="970" x="70" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-6" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;whiteSpace=wrap;html=1;" value="Input UI" vertex="1">
+          <mxGeometry height="480" width="150" y="30" as="geometry">
+            <mxRectangle height="30" width="80" x="10" y="870" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-7" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Processing UI for users" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-8" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Security UI for users" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-9" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Admin UI for Group admins" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-10" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Infra UI for infra mgrs" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-4" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Processing layer" vertex="1">
+          <mxGeometry height="160" width="650" x="150" y="30" as="geometry">
+            <mxRectangle height="120" width="40" x="160" y="870" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3Aw9aLPiIHancXkVufbJ-14" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;" value="Input data - data before processing" vertex="1">
           <mxGeometry height="100" width="80" x="35" y="50" as="geometry" />
@@ -2649,11 +2671,46 @@
         <mxCell id="9k1qNvwNOblcU8VzdDja-3" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="3Aw9aLPiIHancXkVufbJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.562;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="3Aw9aLPiIHancXkVufbJ-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Input UI" vertex="1">
-          <mxGeometry height="200" width="150" x="300" y="610" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-11" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Processing layer" vertex="1">
+          <mxGeometry height="160" width="650" x="150" y="191" as="geometry" />
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-7" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Processing UI for users" vertex="1">
-          <mxGeometry height="100" width="80" x="30" y="50" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-12" parent="9k1qNvwNOblcU8VzdDja-11" style="shape=card;whiteSpace=wrap;html=1;" value="Input data - data before processing" vertex="1">
+          <mxGeometry height="100" width="80" x="35" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-13" parent="9k1qNvwNOblcU8VzdDja-11" style="shape=card;whiteSpace=wrap;html=1;" value="Output data - data post processing" vertex="1">
+          <mxGeometry height="100" width="80" x="545" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-14" connectable="0" parent="9k1qNvwNOblcU8VzdDja-11" style="group;dashed=1;" value="" vertex="1">
+          <mxGeometry height="130" width="260" x="185" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-15" parent="9k1qNvwNOblcU8VzdDja-14" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" value="Async Processing logic - running parellel processing intiated at different times, but not waiting for former to complete before initiating the next one&amp;nbsp;" vertex="1">
+          <mxGeometry height="130" width="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-16" parent="9k1qNvwNOblcU8VzdDja-14" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Processing logic - Steps to convert input to output&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="230" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-17" edge="1" parent="9k1qNvwNOblcU8VzdDja-11" source="9k1qNvwNOblcU8VzdDja-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=80;entryPerimeter=0;" target="9k1qNvwNOblcU8VzdDja-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-18" edge="1" parent="9k1qNvwNOblcU8VzdDja-11" source="9k1qNvwNOblcU8VzdDja-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.562;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="9k1qNvwNOblcU8VzdDja-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-21" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;whiteSpace=wrap;html=1;" value="Input UI" vertex="1">
+          <mxGeometry height="480" width="150" x="800" y="30" as="geometry">
+            <mxRectangle height="30" width="80" x="10" y="870" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-22" parent="9k1qNvwNOblcU8VzdDja-21" style="shape=card;whiteSpace=wrap;html=1;" value="Processing UI for users" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-23" parent="9k1qNvwNOblcU8VzdDja-21" style="shape=card;whiteSpace=wrap;html=1;" value="Security UI for users" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-24" parent="9k1qNvwNOblcU8VzdDja-21" style="shape=card;whiteSpace=wrap;html=1;" value="Admin UI for Group admins" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-25" parent="9k1qNvwNOblcU8VzdDja-21" style="shape=card;whiteSpace=wrap;html=1;" value="Infra UI for infra mgrs" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
