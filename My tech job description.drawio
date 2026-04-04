@@ -2566,7 +2566,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nF63tiCF3gh2FXnsnjgG" name="Product-Creation-System">
-    <mxGraphModel dx="1188" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2626,55 +2626,85 @@
           <mxGeometry height="60" width="120" x="440" y="510" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-19" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Application development layers" vertex="1">
-          <mxGeometry height="559" width="950" x="70" y="870" as="geometry" />
+          <mxGeometry height="950" width="1110" x="50" y="840" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-6" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;whiteSpace=wrap;html=1;" value="Input UI" vertex="1">
-          <mxGeometry height="480" width="150" y="30" as="geometry">
+          <mxGeometry height="920" width="150" y="30" as="geometry">
             <mxRectangle height="30" width="80" x="10" y="870" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-7" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Processing UI for users" vertex="1">
-          <mxGeometry height="80" width="80" x="30" y="40" as="geometry" />
+          <mxGeometry height="80" width="80" x="30" y="131" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-8" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Security UI for users" vertex="1">
-          <mxGeometry height="80" width="80" x="30" y="130" as="geometry" />
+          <mxGeometry height="80" width="80" x="30" y="342" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-9" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Admin UI for Group admins" vertex="1">
-          <mxGeometry height="80" width="80" x="30" y="220" as="geometry" />
+          <mxGeometry height="80" width="80" x="30" y="671" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-26" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Security UI for admins" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="571" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-10" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Infra UI for infra mgrs" vertex="1">
-          <mxGeometry height="80" width="80" x="30" y="310" as="geometry" />
+          <mxGeometry height="80" width="80" x="30" y="801" as="geometry" />
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-4" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Processing layer" vertex="1">
-          <mxGeometry height="160" width="650" x="150" y="30" as="geometry">
+        <mxCell id="9k1qNvwNOblcU8VzdDja-4" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Local Processing layer" vertex="1">
+          <mxGeometry height="159" width="810" x="150" y="31" as="geometry">
             <mxRectangle height="120" width="40" x="160" y="870" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Aw9aLPiIHancXkVufbJ-14" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;" value="Input data - data before processing" vertex="1">
-          <mxGeometry height="100" width="80" x="35" y="50" as="geometry" />
+          <mxGeometry height="100" width="80" x="45" y="10" as="geometry" />
         </mxCell>
         <mxCell id="3Aw9aLPiIHancXkVufbJ-15" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;" value="Output data - data post processing" vertex="1">
-          <mxGeometry height="100" width="80" x="545" y="50" as="geometry" />
+          <mxGeometry height="100" width="80" x="555" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-1" connectable="0" parent="9k1qNvwNOblcU8VzdDja-4" style="group;dashed=1;" value="" vertex="1">
-          <mxGeometry height="130" width="260" x="185" y="20" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-2" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="3Aw9aLPiIHancXkVufbJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=50;entryPerimeter=0;" target="3Aw9aLPiIHancXkVufbJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="3Aw9aLPiIHancXkVufbJ-18" parent="9k1qNvwNOblcU8VzdDja-1" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" value="Async Processing logic - running parellel processing intiated at different times, but not waiting for former to complete before initiating the next one&amp;nbsp;" vertex="1">
-          <mxGeometry height="130" width="260" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-3" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="3Aw9aLPiIHancXkVufbJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.03;entryY=0.522;entryDx=0;entryDy=0;entryPerimeter=0;" target="3Aw9aLPiIHancXkVufbJ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="85" as="sourcePoint" />
+            <mxPoint x="545" y="71" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="3Aw9aLPiIHancXkVufbJ-16" parent="9k1qNvwNOblcU8VzdDja-1" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Processing logic - Steps to convert input to output&amp;nbsp;" vertex="1">
-          <mxGeometry height="70" width="230" x="10" y="60" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-27" parent="9k1qNvwNOblcU8VzdDja-4" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="External Processing layer" vertex="1">
+          <mxGeometry height="130" width="810" y="160" as="geometry">
+            <mxRectangle height="120" width="40" x="160" y="870" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-2" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="3Aw9aLPiIHancXkVufbJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=80;entryPerimeter=0;" target="3Aw9aLPiIHancXkVufbJ-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-30" connectable="0" parent="9k1qNvwNOblcU8VzdDja-27" style="group;dashed=1;" value="" vertex="1">
+          <mxGeometry height="80" width="260" x="185" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-3" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="3Aw9aLPiIHancXkVufbJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.562;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="3Aw9aLPiIHancXkVufbJ-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-31" parent="9k1qNvwNOblcU8VzdDja-30" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" value="Async Processing logic - running parellel processing intiated at different times, but not waiting for former to complete before initiating the next one&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="260" as="geometry" />
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-11" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Processing layer" vertex="1">
-          <mxGeometry height="160" width="650" x="150" y="191" as="geometry" />
+        <mxCell id="9k1qNvwNOblcU8VzdDja-35" parent="9k1qNvwNOblcU8VzdDja-27" style="shape=card;whiteSpace=wrap;html=1;" value="Input data - data before processing" vertex="1">
+          <mxGeometry height="100" width="80" x="45" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="9k1qNvwNOblcU8VzdDja-12" parent="9k1qNvwNOblcU8VzdDja-11" style="shape=card;whiteSpace=wrap;html=1;" value="Input data - data before processing" vertex="1">
+        <mxCell id="9k1qNvwNOblcU8VzdDja-34" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="9k1qNvwNOblcU8VzdDja-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.522;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="3Aw9aLPiIHancXkVufbJ-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="220" />
+              <mxPoint x="495" y="62" />
+            </Array>
+            <mxPoint x="544.5999999999999" y="226.20000000000027" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Aw9aLPiIHancXkVufbJ-16" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="Processing logic - Steps to convert input to output&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="230" x="195" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-33" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="3Aw9aLPiIHancXkVufbJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=55;entryPerimeter=0;" target="9k1qNvwNOblcU8VzdDja-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-11" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Security layer for users" vertex="1">
+          <mxGeometry height="160" width="810" x="150" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-12" parent="9k1qNvwNOblcU8VzdDja-11" style="shape=card;whiteSpace=wrap;html=1;" value="Login page" vertex="1">
           <mxGeometry height="100" width="80" x="35" y="50" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-13" parent="9k1qNvwNOblcU8VzdDja-11" style="shape=card;whiteSpace=wrap;html=1;" value="Output data - data post processing" vertex="1">
@@ -2696,7 +2726,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-21" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;whiteSpace=wrap;html=1;" value="Output UI" vertex="1">
-          <mxGeometry height="480" width="150" x="800" y="30" as="geometry">
+          <mxGeometry height="920" width="150" x="960" y="31" as="geometry">
             <mxRectangle height="30" width="80" x="10" y="870" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -2710,7 +2740,7 @@
           <mxGeometry height="80" width="80" x="30" y="220" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-25" parent="9k1qNvwNOblcU8VzdDja-21" style="shape=card;whiteSpace=wrap;html=1;" value="Infra UI for infra mgrs" vertex="1">
-          <mxGeometry height="80" width="80" x="30" y="310" as="geometry" />
+          <mxGeometry height="80" width="80" x="30" y="821" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
