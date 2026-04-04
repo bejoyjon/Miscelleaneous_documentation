@@ -3,7 +3,7 @@
 ### Notes from [ByteByteGo Gen AI series](https://bytebytego.com/courses/genai-system-design-interview/introduction-and-overview)
 Add here
 
-# FAQs
+## FAQs
 ### 1. What are the criteria that decides speed of training / finetuning?
 Add here
 
