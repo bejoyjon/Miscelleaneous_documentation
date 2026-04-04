@@ -1,18 +1,23 @@
 # Foundation models
-
-## Key sites
-1. Manus.im - does basic reasearch for free, creates reports and makes a "web app" for showing the info. Can add apps or connectors to most major apps like Gmail, Outlook (no Teams though), maybe the most important one is connecting to the browser and controlling it for doing the search and displaying web app and all - https://manus.im/app#connectors/built-in
-2. Minimax.io - distillation trained on Claude, almost meets Opus 4.6 scores as of 2026 Feb. Offering "coding plan" instead of tokens for $10-$50. https://platform.minimax.io/subscribe/coding-plan
-3. Google AI studio - one of the very few better known models accessible from internal firewall - https://aistudio.google.com/
-
 ## Core tech behind models
+### Notes from [ByteByteGo Gen AI series](https://bytebytego.com/courses/genai-system-design-interview/introduction-and-overview)
 Add here
 
 # FAQs
 ### 1. What are the criteria that decides speed of training / finetuning?
 Add here
 
+
+## Key sites
+1. Manus.im - does basic reasearch for free, creates reports and makes a "web app" for showing the info. Can add apps or connectors to most major apps like Gmail, Outlook (no Teams though), maybe the most important one is connecting to the browser and controlling it for doing the search and displaying web app and all - https://manus.im/app#connectors/built-in
+2. Minimax.io - distillation trained on Claude, almost meets Opus 4.6 scores as of 2026 Feb. Offering "coding plan" instead of tokens for $10-$50. https://platform.minimax.io/subscribe/coding-plan
+3. Google AI studio - one of the very few better known models accessible from internal firewall - https://aistudio.google.com/
+
+
+
 ## Local and free LLMs
+
+### Llama.cpp
 [This video](https://www.youtube.com/watch?v=P8m5eHAyrFM) introduces Llama.cpp, an inference engine designed to run Large Language Models (LLMs) on consumer hardware like laptops or Raspberry Pis rather than expensive cloud data centers (0:00-0:36). By running models locally, users benefit from full data privacy, no subscription costs, and no usage limits.
 Key topics covered include:
 Retrieval Augmented Generation (RAG): Connecting LLMs to private documents (PDFs, spreadsheets) to provide context-aware answers without sending data to the cloud (0:40-1:06).
@@ -23,3 +28,5 @@ ___Model Quantization (GGUF Format)___: Llama.cpp compresses high-precision mode
 - ___Optimized Performance___: The engine utilizes optimized kernels for various platforms, including Metal (Mac), CUDA (Nvidia), ROCm (AMD), and standard CPUs (6:39-7:11).
 - ___Implementation___: Developers can use Llama.cpp via the command-line interface or by setting up an OpenAI-compatible local server on a specific port (7:14-7:54).
 - ___Advanced Features___: Support for multimodal capabilities (interpreting images) and Model Context Protocol to connect to external data sources like CRMs (8:10-8:33).
+
+### Gemma 4
