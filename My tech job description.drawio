@@ -2626,7 +2626,7 @@
           <mxGeometry height="60" width="120" x="440" y="510" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-19" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Application development layers" vertex="1">
-          <mxGeometry height="950" width="1110" x="20" y="1100" as="geometry" />
+          <mxGeometry height="950" width="1110" x="30" y="880" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-6" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;whiteSpace=wrap;html=1;" value="Input layer" vertex="1">
           <mxGeometry height="920" width="150" y="30" as="geometry">
@@ -2634,7 +2634,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-7" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Processing Input UI for users" vertex="1">
-          <mxGeometry height="80" width="80" x="30" y="31" as="geometry" />
+          <mxGeometry height="80" width="80" x="35" y="90" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-8" parent="9k1qNvwNOblcU8VzdDja-6" style="shape=card;whiteSpace=wrap;html=1;" value="Security UI for users" vertex="1">
           <mxGeometry height="80" width="80" x="35" y="330" as="geometry" />
@@ -2714,6 +2714,9 @@
             <mxRectangle height="30" width="80" x="10" y="870" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-60" edge="1" parent="9k1qNvwNOblcU8VzdDja-21" source="9k1qNvwNOblcU8VzdDja-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9k1qNvwNOblcU8VzdDja-59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-22" parent="9k1qNvwNOblcU8VzdDja-21" style="shape=card;whiteSpace=wrap;html=1;" value="Processing Output UI for users" vertex="1">
           <mxGeometry height="80" width="80" x="40" y="30" as="geometry" />
         </mxCell>
@@ -2726,6 +2729,9 @@
         <mxCell id="9k1qNvwNOblcU8VzdDja-53" parent="9k1qNvwNOblcU8VzdDja-21" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Input for Processing logic" vertex="1">
           <mxGeometry height="80" width="80" x="40" y="308" as="geometry" />
         </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-59" parent="9k1qNvwNOblcU8VzdDja-21" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" value="Optionally loops back to Processing Input UI where applicable" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="159" as="geometry" />
+        </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-36" parent="9k1qNvwNOblcU8VzdDja-19" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Application processing layer" vertex="1">
           <mxGeometry height="290" width="810" x="150" y="30" as="geometry">
             <mxRectangle height="180" width="40" x="150" y="30" as="alternateBounds" />
@@ -2737,10 +2743,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3Aw9aLPiIHancXkVufbJ-14" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;" value="Input data - data before processing" vertex="1">
-          <mxGeometry height="100" width="80" x="45" y="10" as="geometry" />
+          <mxGeometry height="80" width="80" x="35" y="71" as="geometry" />
         </mxCell>
         <mxCell id="3Aw9aLPiIHancXkVufbJ-15" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;" value="Output data - data post processing" vertex="1">
-          <mxGeometry height="100" width="80" x="665" y="10" as="geometry" />
+          <mxGeometry height="100" width="80" x="665" y="45" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-3" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="3Aw9aLPiIHancXkVufbJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=65;entryPerimeter=0;" target="3Aw9aLPiIHancXkVufbJ-15">
           <mxGeometry relative="1" as="geometry">
@@ -2749,10 +2755,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3Aw9aLPiIHancXkVufbJ-16" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingTop=0;spacingLeft=2;spacingRight=2;spacingBottom=2;" value="Processing logic - Steps to convert input to output&amp;nbsp;" vertex="1">
-          <mxGeometry height="70" width="230" x="305" y="40" as="geometry" />
+          <mxGeometry height="70" width="230" x="305" y="75" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-42" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
-          <mxGeometry height="30" width="60" x="205" y="45" as="geometry" />
+          <mxGeometry height="30" width="60" x="205" y="96" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-2" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="3Aw9aLPiIHancXkVufbJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9k1qNvwNOblcU8VzdDja-42">
           <mxGeometry relative="1" as="geometry">
@@ -2761,6 +2767,12 @@
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-43" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="9k1qNvwNOblcU8VzdDja-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=50;entryPerimeter=0;" target="3Aw9aLPiIHancXkVufbJ-16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-62" edge="1" parent="9k1qNvwNOblcU8VzdDja-4" source="9k1qNvwNOblcU8VzdDja-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9k1qNvwNOblcU8VzdDja-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9k1qNvwNOblcU8VzdDja-61" parent="9k1qNvwNOblcU8VzdDja-4" style="shape=card;whiteSpace=wrap;html=1;" value="Local Input data - local files and artefacts" vertex="1">
+          <mxGeometry height="60" width="95" x="187.5" y="11" as="geometry" />
         </mxCell>
         <mxCell id="9k1qNvwNOblcU8VzdDja-27" parent="9k1qNvwNOblcU8VzdDja-36" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="External Processing layer" vertex="1">
           <mxGeometry height="130" width="785" x="25" y="160" as="geometry">
