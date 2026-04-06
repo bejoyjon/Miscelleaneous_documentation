@@ -2963,8 +2963,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0piS5n-jzbPMn8zXHXk9-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Type: Button set&lt;div&gt;Title: Language button set&lt;br&gt;&lt;div&gt;Context: Language choice button - users can choose language of interaction&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="890" x="260" y="150" as="geometry" />
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;" value="Type: Button set&lt;div&gt;Title: Language button set&lt;br&gt;&lt;div&gt;Context: Language choice button - users can choose language of interaction&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="900" x="250" y="150" as="geometry" />
         </mxCell>
         <mxCell id="0piS5n-jzbPMn8zXHXk9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Type: Interactive window&lt;div&gt;Title: Referred docs Section&lt;div&gt;Behavior:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Shows the document tree with only&amp;nbsp; the docs that the agent is referring to when answering questions. As more questions are asked, adapts to show the relevant&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;docs to the new context.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User can right click and remove documents from the tree, removing it from the context of the system&#39;s response context.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="240" width="220" x="10" y="160" as="geometry" />
