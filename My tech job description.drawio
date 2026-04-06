@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="10">
   <diagram name="Create responses to Emails and chats" id="W_qpBnaw5XWSPKzUuWEO">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -2954,6 +2954,20 @@
         </mxCell>
         <mxCell id="7wYPkNPbSFM2Isjl8lUD-15" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Add features to existing product" vertex="1">
           <mxGeometry height="60" width="120" x="430" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="epK6-g7JK9LsdDYsKS_d" name="Page-10">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Referred docs Section&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Shows all the docs that the agent is looking at, like table of content with sections, sub-sections...&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Filters to show relevant docs to the question only&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="200" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="All docs Section&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Shows all the docs that the agent is looking at, like table of content with sections, sub-sections...&lt;/div&gt;&lt;/div&gt;&lt;div&gt;If the relevant doc is not in the Referred docs section, right click on doc here and click - Add to consideration list. This adds to the Referred docs section&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="310" width="200" x="40" y="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
