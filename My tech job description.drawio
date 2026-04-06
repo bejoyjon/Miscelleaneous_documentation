@@ -2973,10 +2973,28 @@
           <mxGeometry height="90" width="1080" x="40" y="30" as="geometry" />
         </mxCell>
         <mxCell id="0piS5n-jzbPMn8zXHXk9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Type: Static text window&lt;div&gt;Context: Chat window&lt;/div&gt;" vertex="1">
-          <mxGeometry height="480" width="840" x="280" y="140" as="geometry" />
+          <mxGeometry height="480" width="840" x="280" y="170" as="geometry" />
         </mxCell>
         <mxCell id="0piS5n-jzbPMn8zXHXk9-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Type: Button&lt;div&gt;Text: Download chat&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="980" y="150" as="geometry" />
+          <mxGeometry height="30" width="120" x="980" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="English" vertex="1">
+          <mxGeometry height="20" width="60" x="640" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Francaise" vertex="1">
+          <mxGeometry height="20" width="60" x="710" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Deutsch" vertex="1">
+          <mxGeometry height="20" width="60" x="780" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Nederlands" vertex="1">
+          <mxGeometry height="20" width="60" x="850" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Espanol" vertex="1">
+          <mxGeometry height="20" width="60" x="920" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Portugese" vertex="1">
+          <mxGeometry height="20" width="60" x="990" y="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
