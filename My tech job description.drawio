@@ -2975,7 +2975,7 @@
         <mxCell id="0piS5n-jzbPMn8zXHXk9-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Type: Static text window&amp;nbsp;&lt;div&gt;Context: Page title&lt;br&gt;&lt;div&gt;Title: CARGILL FSQR Knowledge base app&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Background image: Cargill_background.jpg&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="1140" x="10" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="0piS5n-jzbPMn8zXHXk9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Type: Static text window&lt;div&gt;Context: Chat window&lt;/div&gt;" vertex="1">
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Type: Static text window&lt;div&gt;Context: Chat history window&lt;/div&gt;" vertex="1">
           <mxGeometry height="450" width="900" x="250" y="210" as="geometry" />
         </mxCell>
         <mxCell id="0piS5n-jzbPMn8zXHXk9-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Type: Button&lt;div&gt;Title: Download chat&lt;/div&gt;" vertex="1">
@@ -3002,13 +3002,13 @@
         <mxCell id="0piS5n-jzbPMn8zXHXk9-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="700" x="250" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="0piS5n-jzbPMn8zXHXk9-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Type: Interactive text window&lt;div&gt;Title: chat text window&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="680" x="260" y="680" as="geometry" />
         </mxCell>
         <mxCell id="0piS5n-jzbPMn8zXHXk9-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Type: Button&lt;div&gt;Title: Send&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="90" x="960" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="0piS5n-jzbPMn8zXHXk9-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Attach files" vertex="1">
+        <mxCell id="0piS5n-jzbPMn8zXHXk9-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Type: Button&lt;div&gt;Title: Attach files&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="90" x="1060" y="670" as="geometry" />
         </mxCell>
         <mxCell id="0piS5n-jzbPMn8zXHXk9-19" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=10;size=10;position=0.92;position2=1;" value="Type: Static message&lt;div&gt;Context: User previous message&lt;/div&gt;" vertex="1">
