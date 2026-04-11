@@ -22,11 +22,11 @@ By running models locally, users benefit from full data privacy, no subscription
 [Llama.cpp](https://www.youtube.com/watch?v=P8m5eHAyrFM) is an inference engine (like an LLM processor) designed to run LLMs on consumer hardware like laptops / Raspberry Pis (0:00-0:36). 
 
 #### Logic
-___High Precision (Original State) vs Quantization Process____: This format also trades off quantization size (high-precision formats, such as 16-bit or 32-bit (4:48) to a 4-bit (5:10)) for precision size, relying on disproportionate reduction in size vs performance. This reduction in precision allows the model to require significantly less RAM to run — only 25% of the original hardware capabilities — while maintaining similar capabilities and a high degree of accuracy (5:22). This process is facilitated by the GGUF format, which packages the quantized weights and metadata into a single file for quick loading and swapping (4:15-4:35). 
+___High Precision (Original State) vs Quantization Process___: This format also trades off quantization size (high-precision formats, such as 16-bit or 32-bit (4:48) to a 4-bit (5:10)) for precision size, relying on disproportionate reduction in size vs performance. This reduction in precision allows the model to require significantly less RAM to run — only 25% of the original hardware capabilities — while maintaining similar capabilities and a high degree of accuracy (5:22). This process is facilitated by the GGUF format, which packages the quantized weights and metadata into a single file for quick loading and swapping (4:15-4:35). 
  
 
 #### How it works:
-- Get model from Source / Repository: Models like DeepSeek, Llama, and Qwen are obtained from repositories like Hugging Face (4:00).
+- ___Get model from Source / Repository___: Models like DeepSeek, Llama, and Qwen are obtained from repositories like Hugging Face (4:00).
 - Convert to ___GGUF Format___: Converted to GGUF format (4:10) which packages the model's weights and metadata together into a single file, making it highly efficient for quickly loading and swapping between different models (4:23).
 - ___Quantization Variants___ - Models are named based on their quantization type, such as Q4_K_M (5:51). This specific notation refers to 4-bit precision (Q4) combined with a specific compression algorithm variant (K_M) tuned for quality (6:12).
 - ___Optimized Performance___: The engine utilizes optimized kernels for various platforms, including Metal (Mac), CUDA (Nvidia), ROCm (AMD), and standard CPUs (6:39-7:11).
