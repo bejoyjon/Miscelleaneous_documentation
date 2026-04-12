@@ -1,7 +1,8 @@
 # Dissemination
 - Multiplayer game that makes players initiate actions, and if they don't know what actions, conduct actual secondary research, to make events happen that follow the below story. The players have to have faith in the below philosophy to win. Helps players build understanding of the philosophy, enables scientific thinking, and could lead to secondary research. Players don't have to do the grunt work, an agent will do, but they have to "seed" the research that needs to be done. Having a good game dev would really help.
 - Comic book that walks through the same storyline as below.
-- This is for all the children I love Heart
+- This is for all the children I love ❤️ 
+- Get an LLM to ask questions from life, and capture your answers here, by adding to the knowledge base below. it can also answer your "questions" from your notes below.
 
 # Philosophy
 ### The Universe
@@ -40,3 +41,8 @@ No one can reproduce the same method to see / test God's presence. Seeing is jus
 Tribal affinity - the fear of being left out is primal. See national geographic. Early jungle was even more dangerous. Ties in with the desire to live and reproduce.
 
 Lateral thinking 
+
+## FAQs
+### where does our need for entertainment come from? 
+Some things like sports, esp very "raw" sports like wrestling, running, even chess are pretty evident, and animals "play" when they're small. But why are some other activities like seeing other places, raw nature, bring treated like a king or queen, feeling risible (being made to laugh), seeing other acts of sports etc. worth something that people will pay money for?
+
