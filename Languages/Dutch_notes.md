@@ -163,7 +163,8 @@ Bestand - file\
 Samenvatting - summary 
 
 ___Apps related___\
-Toegang - access
+Toegang - access\
+Toets - test
 
 ___Hardware___\
 Toetsenbord - keyboard\
@@ -195,15 +196,23 @@ Naast - next to\
 Tegengestelde - opposite direction 
 
 ### Time related and similar
-Zodra - once\
+Zodra - once...Zodra heb ik gedaan = I have done it once (...during all this while)\
+Ooit - once (...upon a time) i.e.long back
 Zelfs - even... as in "Even the sky in...." = "Zelfs de lucht in....."\
-? - just / only
+Even - just / only\
+Voorlopig - for now\
+Doorgaans/meestal - usually \
+
 
 ### Measure of, count of, paying, ordering and accounting 
 Maat - size\
 Vorm - shape\
 Rekening - bill
 
+### Others 
+Volstrekt - absolutely/definitely \
+Blijkbaar - Apparently \
+Stiekem - secretly 
 
 # Appendix 
 ## All verbs with their tenses
