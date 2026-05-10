@@ -44,7 +44,15 @@ Challenges include:
 - documents sensitive, and NOT cloud-hosted. - On-premise deployment preferred, but initial development uses cloud and hybrid models.
 
 #### ⚙ Document Processing Pipeline
-Use ___IBM’s DockLing___ for document parsing: detects tables, figures, formulas, text, and document hierarchy. Tables are extracted as images and textual representations; complex tables require special handling. Formulas detected and cropped as images for VLM-based interpretation. Images and diagrams processed with VLMs to generate descriptions and contextual metadata. Metadata extraction (abstracts, titles, symbols) is leveraged to improve search relevance. Chunking strategy incorporates document hierarchy and adjacent context to maintain semantic coherence. Pipeline designed for extensibility and iterative improvement based on user feedback.
+1. Document parsing - Use ___IBM’s DockLing___ - detects tables, figures, formulas, text, and document hierarchy.
+2. Tables - extracted as images and textual representations; complex tables require special handling. 
+3. Formulas - detected and cropped as images for VLM-based interpretation. 
+4. Images and diagrams processed with VLMs - generate descriptions and contextual metadata. 
+5. Metadata extraction (abstracts, titles, symbols) is leveraged to improve search relevance. <-- how?
+6. Chunking strategy incorporates document hierarchy and adjacent context to maintain semantic coherence. <-- how?
+
+
+Pipeline designed for extensibility and iterative improvement based on user feedback.
 
 #### 🤖 AI Model Integration and Challenges
 Initial experiments with OpenAI GPT, Claude, and open-source models like Quen and Gemini for text and VLM tasks. Challenges include API rate limits, model hallucinations, token limits, and response inconsistencies. JSON and Markdown outputs explored for table extraction; Markdown preferred for flexibility despite minor formatting issues. Confidence scoring proposed at multiple levels (pre-processing, agent response) to flag uncertain or low-quality results for review. Iterative approach to model selection and prompt engineering to balance accuracy, cost, and speed. Emphasis on building a generalized system that imitates human domain intuition without overfitting prompts.
