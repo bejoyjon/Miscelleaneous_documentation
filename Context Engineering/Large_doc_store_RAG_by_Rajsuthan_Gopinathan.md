@@ -28,10 +28,20 @@ Over 25 years, accumulated approximately 85,000 documents, including propulsion 
 Challenges include:
 - heavy use of scanned documents (40%).
 - highly technical documents, including / complex tables, formulas, and interconnected references. 
-- Semantic search is essential keyword search fails due to domain-specific terminology and jargon. Two main user personas: <ins>Sandra (experienced engineer needing precise validation) and a junior engineer, unnamed, but let's call him Chris (requiring proactive guidance)</ins>. Accuracy is paramount; vague or assumed answers are unacceptable due to safety and regulatory concerns. The system must ask clarifying questions and avoid assumptions, supporting iterative refinement. Speed expectations vary; simple queries may return in seconds, complex research can take minutes.
+- Semantic search is essential due to domain-specific terminology and jargon. 
+- Two main user personas: <ins>Sandra (experienced engineer needing precise validation) and a junior engineer, unnamed, but let's call him Chris (requiring proactive guidance)</ins>. 
+- Accuracy is paramount; vague or assumed answers are unacceptable due to safety and regulatory concerns. 
+- System must ask clarifying questions and avoid assumptions, supporting iterative refinement. 
+- Speed expectations vary; simple queries may return in seconds, complex research can take minutes.
 
 #### 🗂 Document Characteristics and Challenges
-40% of documents are scanned copies with heavy tables and technical diagrams. Rich metadata like abstracts and symbols exist but vary between documents. Complex hierarchical structures and cross-document references complicate chunking and indexing. Visual content (images, formulas, graphs) requires multimodal understanding via ___Vision Language Models (VLMs)___. Symbols and domain terminologies (e.g., NASA’s 18,000+ terms) must be incorporated for semantic accuracy. The documents are mostly local, classified or unclassified but sensitive, and not cloud-hosted. On-premise deployment preferred, but initial development uses cloud and hybrid models.
+- 40% of documents are scanned copies.
+- heavy tables and technical diagrams. 
+- Rich metadata like abstracts and symbols exist but vary between documents. 
+- Complex hierarchical structures and cross-document references --> complicate chunking and indexing. 
+- Visual content (images, formulas, graphs) requires multimodal understanding via ___Vision Language Models (VLMs)___.
+- Symbols and domain terminologies (e.g., NASA’s 18,000+ terms) must be incorporated for semantic accuracy. 
+- documents sensitive, and NOT cloud-hosted. - On-premise deployment preferred, but initial development uses cloud and hybrid models.
 
 #### ⚙ Document Processing Pipeline
 Use ___IBM’s DockLing___ for document parsing: detects tables, figures, formulas, text, and document hierarchy. Tables are extracted as images and textual representations; complex tables require special handling. Formulas detected and cropped as images for VLM-based interpretation. Images and diagrams processed with VLMs to generate descriptions and contextual metadata. Metadata extraction (abstracts, titles, symbols) is leveraged to improve search relevance. Chunking strategy incorporates document hierarchy and adjacent context to maintain semantic coherence. Pipeline designed for extensibility and iterative improvement based on user feedback.
