@@ -15,10 +15,20 @@
 
 ### Key steps for analysis
 #### 🚀 Project Introduction and Use Case
-Raj introduces himself and outlines his experience with AI agents in regulated enterprises such as pharma and banks. The project focuses on building a Retrieval-Augmented Generation (RAG) system for complex NASA rocket science documents. Initial scope: processing 10,000 documents, scalable to 85,000+, including scanned tables, formulas, technical jargon, and diagrams. Raj presents a fictional but realistic use case based on Meridian Aerospace, a midsize aerospace engineering consultancy with 180 employees. Over 25 years, they accumulated approximately 85,000 documents, including propulsion test reports, safety analyses, failure investigations, specifications, and compliance filings dating back to the 1990s. Engineers currently spend 4-6 hours per project searching archives;  retiring senior engineers’ minds, and missed information has led to failures in safety reviews. The system aims to reduce search time drastically and improve accuracy in retrieving technical data, including mathematical equations and technical diagrams, at scale.
+Project focuses on building a RAG system for complex NASA rocket science documents. Initial scope: 
+- processing 10,000 documents, scalable to 85,000+.
+- including scanned tables, formulas, technical jargon, and diagrams. 
+
+
+Raj presents a fictional but realistic use case based on Meridian Aerospace, a midsize aerospace engineering consultancy with 180 employees. 
+
+Over 25 years, accumulated approximately 85,000 documents, including propulsion test reports, safety analyses, failure investigations, specifications, and compliance filings dating back to the 1990s.
 
 #### 🔍 Domain & User Insights
-Challenges include heavy use of scanned documents (40%), highly technical documents, including scanned records, complex tables, formulas, and interconnected references. Semantic search is essential; keyword search fails due to domain-specific terminology and jargon. Two main user personas: <ins>Sandra (experienced engineer needing precise validation) and a junior engineer, unnamed, but let's call him Chris (requiring proactive guidance)</ins>. Accuracy is paramount; vague or assumed answers are unacceptable due to safety and regulatory concerns. The system must ask clarifying questions and avoid assumptions, supporting iterative refinement. Speed expectations vary; simple queries may return in seconds, complex research can take minutes.
+Challenges include:
+- heavy use of scanned documents (40%).
+- highly technical documents, including / complex tables, formulas, and interconnected references. 
+- Semantic search is essential keyword search fails due to domain-specific terminology and jargon. Two main user personas: <ins>Sandra (experienced engineer needing precise validation) and a junior engineer, unnamed, but let's call him Chris (requiring proactive guidance)</ins>. Accuracy is paramount; vague or assumed answers are unacceptable due to safety and regulatory concerns. The system must ask clarifying questions and avoid assumptions, supporting iterative refinement. Speed expectations vary; simple queries may return in seconds, complex research can take minutes.
 
 #### 🗂 Document Characteristics and Challenges
 40% of documents are scanned copies with heavy tables and technical diagrams. Rich metadata like abstracts and symbols exist but vary between documents. Complex hierarchical structures and cross-document references complicate chunking and indexing. Visual content (images, formulas, graphs) requires multimodal understanding via ___Vision Language Models (VLMs)___. Symbols and domain terminologies (e.g., NASA’s 18,000+ terms) must be incorporated for semantic accuracy. The documents are mostly local, classified or unclassified but sensitive, and not cloud-hosted. On-premise deployment preferred, but initial development uses cloud and hybrid models.
