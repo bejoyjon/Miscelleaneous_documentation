@@ -46,3 +46,7 @@ Lateral thinking
 ### where does our need for entertainment come from? 
 Some things like sports, esp very "raw" sports like wrestling, running, even chess are pretty evident, and animals "play" when they're small. But why are some other activities like seeing other places, raw nature, bring treated like a king or queen, feeling risible (being made to laugh), seeing other acts of sports etc. worth something that people will pay money for?
 
+
+## Miscellaneous
+Rat experiment - drug laced water fed in a cage of rats, they all died. But drug laced water in a very stimulating cage with all kinds of rat 'toys', the rats avoided drug laced water. Probably because the rats liked the goals they got (how does their brain come to 'like' the goals like wheels and toys)....and the drug laced water became a hindrance to the goal. --> check and add if studies show similar in Human beings.
+
