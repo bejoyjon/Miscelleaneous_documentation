@@ -29,7 +29,7 @@ Challenges include:
 - heavy use of scanned documents (40%).
 - highly technical documents, including / complex tables, formulas, and interconnected references. 
 - Semantic search is essential due to domain-specific terminology and jargon. 
-- Two main user personas: <ins>Sandra (experienced engineer needing precise validation) and a junior engineer, unnamed, but let's call him Chris (requiring proactive guidance)</ins>. 
+- Two main user personas: <ins>Sandra (experienced engineer needing precise validation) and a junior engineer, Chris (requiring proactive guidance)</ins>. 
 - Accuracy is paramount; vague or assumed answers are unacceptable due to safety and regulatory concerns. 
 - System must ask clarifying questions and avoid assumptions, supporting iterative refinement. 
 - Speed expectations vary; simple queries may return in seconds, complex research can take minutes.
@@ -55,7 +55,17 @@ Challenges include:
 Pipeline designed for extensibility and iterative improvement based on user feedback.
 
 #### 🤖 AI Model Integration and Challenges
-Initial experiments with OpenAI GPT, Claude, and open-source models like Quen and Gemini for text and VLM tasks. Challenges include API rate limits, model hallucinations, token limits, and response inconsistencies. JSON and Markdown outputs explored for table extraction; Markdown preferred for flexibility despite minor formatting issues. Confidence scoring proposed at multiple levels (pre-processing, agent response) to flag uncertain or low-quality results for review. Iterative approach to model selection and prompt engineering to balance accuracy, cost, and speed. Emphasis on building a generalized system that imitates human domain intuition without overfitting prompts.
+Initial experiments with general foundation models text and VLM tasks, challenges include:
+ - token cost and API rate limits
+ - model hallucinations
+ - response inconsistencies ->?.
+ 
+Mitigation: 
+- JSON and Markdown outputs explored for table extraction;
+- Markdown preferred for flexibility despite minor formatting issues.
+- Confidence scoring proposed at multiple levels (pre-processing, agent response) to flag uncertain or low-quality results for review.
+- Iterative approach to model selection and prompt engineering to balance accuracy, cost, and speed.
+- Emphasis on building a generalized system that imitates human domain intuition without overfitting prompts.
 
 #### 🛠 Development and Next Steps
 Live coding sessions involve extensive debugging, model testing, and pipeline tuning. Focus on completing document processing (tables, formulas, images) before advancing to agent design and deployment. Planned future work: improve complex table extraction, optimize formula detection, implement hierarchical chunking, and build confidence scoring. System will be open-sourced with detailed documentation and test cases. Continuous domain learning through conversations with experts and iterative user feedback integration.
