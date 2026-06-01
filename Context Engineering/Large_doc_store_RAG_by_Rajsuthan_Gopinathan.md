@@ -25,23 +25,29 @@ Raj presents a fictional but realistic use case based on Meridian Aerospace, a m
 Over 25 years, accumulated approximately 85,000 documents, including propulsion test reports, safety analyses, failure investigations, specifications, and compliance filings dating back to the 1990s.
 
 #### 🔍 Domain & User Insights
-Challenges include:
-- heavy use of scanned documents (40%).
-- highly technical documents, including / complex tables, formulas, and interconnected references. 
-- Semantic search is essential due to domain-specific terminology and jargon. 
-- Two main user personas: <ins>Sandra (experienced engineer needing precise validation) and a junior engineer, Chris (requiring proactive guidance)</ins>. 
+Key requirements
+- Semantic search is essential due to domain-specific terminology and jargon (e.g., NASA’s 18,000+ terms). 
+- Two main user personas: <ins>Sandra (25 years at Meridian Aerospace, very experienced, comfortable with command lines, values exact specifications)</ins> wants to validate her mental model. expects highly accurate, non-vague results and efficient knowledge transfer to junior engineer) and a junior engineer, <ins>Chris (expects the system to understand incomplete or inaccurate queries and help him avoid repetitive questions to seniors)</ins>.
+- Support iterative refinement of queries and follow references across documents requiring proactive guidance).
+- Agent should think like domain expert (engineer/scientist), recognizing user’s personality and search behavior.
 - Accuracy is paramount; vague or assumed answers are unacceptable due to safety and regulatory concerns. 
 - System must ask clarifying questions and avoid assumptions, supporting iterative refinement. 
 - Speed expectations vary; simple queries may return in seconds, complex research can take minutes.
 
-#### 🗂 Document Characteristics and Challenges
-- 40% of documents are scanned copies.
-- heavy tables and technical diagrams. 
+Success criteria:
+- source accuracy.
+- search repeatability reliably.
+- avoids false positives.
+- provides source transparency
+- integrates confidence scoring.
+
+Challenges include:
+- heavy use of scanned documents (40%).
+- deeply technical documents and diagrams, including / complex tables, formulas, and interconnected references. 
 - Rich metadata like abstracts and symbols exist but vary between documents. 
 - Complex hierarchical structures and cross-document references --> complicate chunking and indexing. 
 - Visual content (images, formulas, graphs) requires multimodal understanding via ___Vision Language Models (VLMs)___.
-- Symbols and domain terminologies (e.g., NASA’s 18,000+ terms) must be incorporated for semantic accuracy. 
-- documents sensitive, and NOT cloud-hosted. - On-premise deployment preferred, but initial development uses cloud and hybrid models.
+- documents sensitive, and NOT cloud-hosted --> On-premise deployment preferred, but initial development uses cloud and hybrid models.
 
 #### ⚙ Document Processing Pipeline
 1. Document parsing - Use ___IBM’s DockLing___ - detects tables, figures, formulas, text, and document hierarchy.
@@ -52,10 +58,10 @@ Challenges include:
 6. Chunking strategy incorporates document hierarchy and adjacent context to maintain semantic coherence. <-- how?
 
 
-Pipeline designed for extensibility and iterative improvement based on user feedback.
+__Pipeline designed for extensibility and iterative improvement based on user feedback.__
 
 #### 🤖 AI Model Integration and Challenges
-Initial experiments with general foundation models text and VLM tasks, challenges include:
+Preliminary domain knowledge from Claude (model?). Initial experiments with general foundation models text and VLM tasks, challenges include:
  - token cost and API rate limits
  - model hallucinations
  - response inconsistencies ->?.
@@ -68,31 +74,24 @@ Mitigation:
 - Emphasis on building a generalized system that imitates human domain intuition without overfitting prompts.
 
 #### 🛠 Development and Next Steps
-Live coding sessions involve extensive debugging, model testing, and pipeline tuning. Focus on completing document processing (tables, formulas, images) before advancing to agent design and deployment. Planned future work: improve complex table extraction, optimize formula detection, implement hierarchical chunking, and build confidence scoring. System will be open-sourced with detailed documentation and test cases. Continuous domain learning through conversations with experts and iterative user feedback integration.
+- Extensive debugging, model testing, and pipeline tuning.
+- Focus on completing document processing (tables, formulas, images) before advancing to agent design and deployment.
+Planned future work:
+- improve complex table extraction,
+- optimize formula detection,
+- implement hierarchical chunking
+- build confidence scoring.
+
+  System will be open-sourced with detailed documentation and test cases. Continuous domain learning through conversations with experts and iterative user feedback integration.
 
 ### Summary of Video Content: Building a Scalable RAG System for Complex Aerospace Documents
 
-##### Introduction and Project Overview
-[00:22 ~ 03:49]
-Raj introduces himself as an AI engineer with experience building AI agents and RAG (Retrieval-Augmented Generation) systems, especially for regulated enterprises such as pharmaceutical companies and banks. The focus of this live stream is to build a RAG system that handles complex aerospace documentation, particularly rocket science documents from NASA. The initial scale is 10,000 documents, with plans to scale to 85,000+ documents.
-The documents contain complex technical content including diagrams, formulas, scanned copies, tables, and regulatory filings. The goal is to build a system capable of understanding and retrieving information from these documents, including mathematical equations and technical diagrams, at scale. Raj emphasizes a raw, fresh approach, sharing his thought process and practical coding live.
-
-##### Use Case: Meridian Aerospace
-[03:50 ~ 10:30]
-Raj presents a fictional but realistic use case based on Meridian Aerospace, a midsize aerospace engineering consultancy with 180 employees. Over 25 years, they accumulated approximately 85,000 documents, including propulsion test reports, safety analyses, failure investigations, specifications, and compliance filings dating back to the 1990s.
-Challenges include heavy use of scanned documents (40%), complex technical jargon, mathematical formulas, and structural cross-references across documents. Engineers spend 4-6 hours per project searching archives for critical historical data, institutional knowledge is locked in retiring senior engineers’ minds, and missed information has led to failures in safety reviews.
-The documents are mostly local, classified or unclassified but sensitive, and not cloud-hosted. The system must work primarily on-premise but will use a hybrid approach with cloud and open-source models for prototyping. Key requirements include semantic search that understands technical diagrams, equations, and domain-specific language, with minimal assumptions and high accuracy.
-
-##### Domain Understanding and Initial AI Assistance
-[11:21 ~ 25:12]
-Raj uses Claude (an AI assistant) to better understand the aerospace domain and the specific needs of the system. Claude summarizes the core problem as a knowledge management and enterprise search challenge, highlighting the inadequacy of keyword search and the need for semantic search with vector databases and multimodal embeddings.
-Technical difficulties include handling scanned PDFs without OCR reliance, extracting and embedding domain-specific terminology (NASA has over 18,000 domain terms), and interpreting diagrams and formulas. Raj plans to embed terminology vocabularies and use domain-adapted embeddings or leverage model fine-tuning with domain knowledge.
-He stresses the importance of building an agent that thinks like a domain expert (engineer/scientist), recognizing the user’s personality and search behavior. The system should be flexible, dynamic, and able to clarify ambiguous queries rather than making assumptions. Measuring confidence in results and transparency of sources is critical.
+f building  The system should be flexible, dynamic, and able to clarify ambiguous queries rather than making assumptions. Measuring confidence in results and transparency of sources is critical.
 
 ##### User Personas and Success Criteria
 [25:13 ~ 45:42]
 Raj defines two user personas:
-Sandra – a 52-year-old senior engineer with 25 years at Meridian Aerospace. She is very experienced, comfortable with command lines, values exact specifications, and wants to validate her mental model. She expects highly accurate, non-vague results and efficient knowledge transfer to junior engineers.
+Sandra – s.
 Junior Engineer – a 28-year-old with 3 years experience, tech-savvy and eager to learn but with high expectations for proactive search assistance. He expects the system to understand incomplete or inaccurate queries and help him avoid repetitive questions to seniors.
 Success means the system finds the right documents reliably, avoids false positives, provides source transparency, and integrates confidence scoring. Speed is important, but complex queries can take minutes, which is acceptable given the time saved overall. The system should support iterative refinement of queries and follow references across documents.
 
