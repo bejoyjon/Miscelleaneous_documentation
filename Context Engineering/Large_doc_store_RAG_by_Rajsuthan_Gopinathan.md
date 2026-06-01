@@ -14,7 +14,7 @@
 11. Wrap-Up: Future Work and Repository Sharing
 
 ### Key steps for analysis
-#### 🚀 Project Introduction and Use Case
+#### Project Introduction and Use Case
 Project focuses on building a RAG system for complex NASA rocket science documents. Initial scope: 
 - processing 10,000 documents, scalable to 85,000+.
 - including scanned tables, formulas, technical jargon, and diagrams. 
@@ -24,7 +24,7 @@ Raj presents a fictional but realistic use case based on Meridian Aerospace, a m
 
 Over 25 years, accumulated approximately 85,000 documents, including propulsion test reports, safety analyses, failure investigations, specifications, and compliance filings dating back to the 1990s.
 
-#### 🔍 Domain & User Insights
+#### Domain & User Insights
 Key requirements
 - Semantic search is essential due to domain-specific terminology and jargon (e.g., NASA’s 18,000+ terms). 
 - Two main user personas: <ins>Sandra (25 years at Meridian Aerospace, very experienced, comfortable with command lines, values exact specifications)</ins> wants to validate her mental model. expects highly accurate, non-vague results and efficient knowledge transfer to junior engineer) and a junior engineer, <ins>Chris (expects the system to understand incomplete or inaccurate queries and help him avoid repetitive questions to seniors)</ins>.
@@ -49,18 +49,19 @@ Challenges include:
 - Visual content (images, formulas, graphs) requires multimodal understanding via ___Vision Language Models (VLMs)___.
 - documents sensitive, and NOT cloud-hosted --> On-premise deployment preferred, but initial development uses cloud and hybrid models.
 
-#### ⚙ Document Processing Pipeline
-1. Document parsing - Use ___IBM’s DockLing___ - detects tables, figures, formulas, text, and document hierarchy.
-2. Tables - extracted as images and textual representations; complex tables require special handling. 
-3. Formulas - detected and cropped as images for VLM-based interpretation. 
-4. Images and diagrams processed with VLMs - generate descriptions and contextual metadata. 
-5. Metadata extraction (abstracts, titles, symbols) is leveraged to improve search relevance. <-- how?
-6. Chunking strategy incorporates document hierarchy and adjacent context to maintain semantic coherence. <-- how?
+#### Document Processing Pipeline
+1. batching and local inference are important considerations.
+2. Document parsing - Use ___IBM’s DockLing___ - detects tables, figures, formulas, text, and document hierarchy.
+3. Tables - extracted as images and textual representations; complex tables require special handling. 
+4. Formulas - detected and cropped as images for VLM-based interpretation. 
+5. Images and diagrams processed with VLMs - generate descriptions and contextual metadata. 
+6. Metadata extraction (abstracts, titles, symbols) is leveraged to improve search relevance. <-- how?
+7. Chunking strategy incorporates document hierarchy and adjacent context to maintain semantic coherence. <-- how?
 
 
 __Pipeline designed for extensibility and iterative improvement based on user feedback.__
 
-#### 🤖 AI Model Integration and Challenges
+#### AI Model Integration and Challenges
 Preliminary domain knowledge from Claude (model?). Initial experiments with general foundation models text and VLM tasks, challenges include:
  - token cost and API rate limits
  - model hallucinations
@@ -73,7 +74,8 @@ Mitigation:
 - Iterative approach to model selection and prompt engineering to balance accuracy, cost, and speed.
 - Emphasis on building a generalized system that imitates human domain intuition without overfitting prompts.
 
-#### 🛠 Development and Next Steps
+
+#### Development and Next Steps
 - Extensive debugging, model testing, and pipeline tuning.
 - Focus on completing document processing (tables, formulas, images) before advancing to agent design and deployment.
 Planned future work:
@@ -86,65 +88,14 @@ Planned future work:
 
 ### Summary of Video Content: Building a Scalable RAG System for Complex Aerospace Documents
 
-f building  The system should be flexible, dynamic, and able to clarify ambiguous queries rather than making assumptions. Measuring confidence in results and transparency of sources is critical.
-
-##### User Personas and Success Criteria
-[25:13 ~ 45:42]
-Raj defines two user personas:
-Sandra – s.
-Junior Engineer – a 28-year-old with 3 years experience, tech-savvy and eager to learn but with high expectations for proactive search assistance. He expects the system to understand incomplete or inaccurate queries and help him avoid repetitive questions to seniors.
-Success means the system finds the right documents reliably, avoids false positives, provides source transparency, and integrates confidence scoring. Speed is important, but complex queries can take minutes, which is acceptable given the time saved overall. The system should support iterative refinement of queries and follow references across documents.
-
-##### Document Characteristics and Initial Data Collection
-[45:43 ~ 01:37:55]
-Raj spends significant time exploring and visually reviewing the NASA documents to understand their nature and complexity. The documents are very diverse: some are clean PDFs, others scanned, many contain tables, graphs, images, formulas, and handwritten notes.
-Tables are large and complex, often spanning multiple pages with nested groupings and embedded visual elements. Diagrams and graphs are numerous and intricate. Abstracts and metadata are sometimes present, which can be used to improve indexing. Symbols used in formulas and documents are standardized and important for accurate interpretation.
-Raj highlights the need for hierarchical chunking of documents to respect sections and sub-sections, rather than naive chunking. The goal is to preserve document structure and context for better retrieval and comprehension by the AI.
 
 ##### Technology Stack and Pipeline Planning
-[01:37:56 ~ 02:24:00]
-Raj plans to use Dockling (an IBM tool) for document parsing, which supports PDF, DOC, PPTX formats and provides table detection, text extraction, and document layout understanding. Dockling will be used as the base for parsing documents into structured chunks with metadata.
-Quadrant will be used for vector storage and indexing, with open-source or cloud-hosted multimodal models (such as Together AI’s Quen) for embeddings and visual understanding.
-He emphasizes a phased approach:
-Phase 1: Document processing foundation (table, formula, image extraction)
+Phase 1: Document processing foundation (table, formula, image extraction) 
+- using Dockling, tables are detected and extracted as images and text. Due to the complexity and noisiness of tables (e.g., multi-page vertical tables, merged cells, footnotes), send both the image and extracted text to a Visual Language Models (Together AI’s Quen, Alibaba Cloud, and Claude) to generate JSON or markdown representations along with notes on nuances that text alone cannot capture.
+- Dockling’s layout detection is used to locate formulas, cropping them as images and send to VLM for LaTeX or markdown conversion with notes.
 Phase 2: Embedding setup and vector store integration
 Phase 3: Agent and RAG system development
 Raj will initially process 10,000 documents from NASA, pulled via API with rate limits, and stored locally for offline processing.
-
-##### Document Processing: Table Extraction
-[02:24:01 ~ 04:20:58]
-Raj demonstrates code and pipeline for extracting tables from the documents using Dockling. Tables are detected and extracted as images and text. Due to the complexity and noisiness of tables (e.g., multi-page vertical tables, merged cells, footnotes), Raj suggests sending both the image and extracted text to a Visual Language Model (VLM) to generate JSON or markdown representations along with notes on nuances that text alone cannot capture.
-He tests different Dockling models and parameters to improve table detection accuracy, including cell matching options and bounding boxes for table regions. Some tables are missed or partially extracted, highlighting the complexity of aerospace documents.
-Raj runs the extracted tables through VLMs (Together AI’s Quen, Alibaba Cloud, and Claude) to generate structured markdown tables and notes, dealing with API rate limits and model timeouts. He finds markdown output more practical than JSON due to JSON’s strictness and error-proneness.
-He acknowledges that 90-95% accuracy is achievable, but some complex tables may require manual or custom post-processing. Confidence scoring and fallbacks to displaying original table images are also suggested for user verification.
-
-##### Formula Extraction
-[04:20:59 ~ 06:59:41]
-Raj proceeds to formula extraction, a critical aspect due to the technical nature of aerospace documents. Dockling’s layout detection is used to locate formulas, cropping them as images for VLM interpretation.
-The formula extraction pipeline uses similar principles to tables: detect formulas, crop images, send to VLM for LaTeX or markdown conversion with notes.
-Initial results show some formulas are accurately extracted, but many are missed or hallucinated. Raj discusses padding and cropping adjustments to improve formula capture.
-He suggests a fallback where entire pages containing formulas are sent to the model to ensure no formula is missed, prioritizing accuracy over efficiency.
-Raj compares outputs from different VLM models (Claude, Together AI’s Quen), finding Claude more accurate on complex formulas.
-The pipeline includes capturing standardized symbols and notation, which are crucial for interpreting formulas correctly across documents.
-
-##### General Observations and Next Steps
-##### [06:59:42 ~ 07:07:53]
-Raj reflects on the complexity and time required for accurate document processing at this scale and domain complexity. He stresses the importance of iterative testing, human-in-the-loop evaluation, and continuous refinement of preprocessing and AI prompting.
-The development plan includes completing table and formula extraction, followed by image/diagram processing and hierarchical chunking.
-Confidence scoring, error handling, and source transparency are critical to building user trust in the system.
-Raj plans to share the GitHub repository and continue development in future live streams, emphasizing that the current work is a foundational prototype to be improved upon.
-He advises others to spend significant time understanding domain documents and user needs before jumping into coding large-scale AI document processing systems.
-
-##### Key Insights and Takeaways
-Building a production-grade RAG system for aerospace documents requires deep domain understanding, extensive data exploration, and sophisticated document parsing strategies.
-Complex aerospace documents combine scanned materials, technical jargon, formulas, intricate tables, and diagrams, making naive document chunking or keyword search ineffective.
-Using Dockling for document layout parsing combined with VLMs for multimodal understanding (text + images + formulas) helps extract meaningful structured data.
-Semantic search must handle domain-specific terminologies and provide high accuracy with minimal assumptions, supported by confidence scores and user feedback loops.
-User personas highlight the need for precision, transparency, iterative refinement, and source referencing; the system must respect domain experts’ workflows.
-Real-world deployment requires hybrid cloud and on-premise solutions, handling sensitive data and scaling to tens of thousands of documents.
-API limitations and model selection impact processing speed and accuracy; batching and local inference are important considerations.
-Tables and formulas are the most challenging extraction tasks and often require custom handling, fallback strategies, and hybrid text/image processing.
-Iterative development, testing with domain experts, and flexible architecture are essential for success in such specialized AI systems.
 
 
 #### FAQ
