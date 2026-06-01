@@ -1,28 +1,12 @@
 
 ## [Building Production RAG for 10K+ NASA Docs (Scales to 85K+): Rocket Schematics and more! | Part 1 ](https://www.youtube.com/live/bkKVWf7qQUk?si=YL2UrWcjZH18B9SZ)
-### Outline of the Video Content
-1. Introduction: Background and Project Scope
-2. Use Case Description: Meridian Aerospace and Data Challenges
-3. Domain Exploration: AI-Assisted Understanding with Claude
-4. User Personas and System Success Criteria
-5. Document Characteristics and Visual Exploration
-6. Technology Stack: Dockling, Vector DB, VLMs, and Phased Development
-7. Document Processing: Table Detection and Extraction
-8. Table Representation: Markdown vs JSON, Image Support, and Model Comparisons
-9. Formula Extraction: Cropping, VLM Processing, Challenges, and Solutions
-10. General Observations: Confidence Scoring, Evaluation, and Next Steps
-11. Wrap-Up: Future Work and Repository Sharing
 
 ### Key steps for analysis
 #### Project Introduction and Use Case
-Project focuses on building a RAG system for complex NASA rocket science documents. Initial scope: 
-- processing 10,000 documents, scalable to 85,000+.
+Project focuses a fictional but realistic use case on building a RAG system for complex NASA rocket science documents for Meridian Aerospace, a midsize aerospace engineering consultancy with 180 employees. Initial scope: 
+- processing 10,000 documents, scalable to 85,000+, including propulsion test reports, safety analyses, failure investigations, specifications, and compliance filings dating back to the 1990s.
 - including scanned tables, formulas, technical jargon, and diagrams. 
 
-
-Raj presents a fictional but realistic use case based on Meridian Aerospace, a midsize aerospace engineering consultancy with 180 employees. 
-
-Over 25 years, accumulated approximately 85,000 documents, including propulsion test reports, safety analyses, failure investigations, specifications, and compliance filings dating back to the 1990s.
 
 #### Domain & User Insights
 Key requirements
