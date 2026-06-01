@@ -77,8 +77,14 @@ Planned future work:
 Phase 1: Document processing foundation (table, formula, image extraction) 
 - using Dockling, tables are detected and extracted as images and text. Due to the complexity and noisiness of tables (e.g., multi-page vertical tables, merged cells, footnotes), send both the image and extracted text to a Visual Language Models (Together AI’s Quen, Alibaba Cloud, and Claude) to generate JSON or markdown representations along with notes on nuances that text alone cannot capture.
 - Dockling’s layout detection is used to locate formulas, cropping them as images and send to VLM for LaTeX or markdown conversion with notes.
-Phase 2: Embedding setup and vector store integration
-Phase 3: Agent and RAG system development
+
+
+Phase 2: Embedding setup and vector store integration.
+
+
+Phase 3: Agent and RAG system development.
+
+
 Raj will initially process 10,000 documents from NASA, pulled via API with rate limits, and stored locally for offline processing.
 
 
